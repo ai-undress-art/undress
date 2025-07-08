@@ -102,7 +102,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-        
+        <meta name="juicyads-site-verification" content="708a3b01853f2ba74b0d50543495e2f2"></meta>
         {/* 安全性头部现在在 next.config.js 中配置 */}
         
         {/* 性能优化 */}
