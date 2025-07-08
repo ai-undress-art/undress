@@ -9,13 +9,13 @@ import { notFound } from 'next/navigation'
 import PerformanceMonitor from '@/components/analytics/PerformanceMonitor'
 import GoogleAnalyticsProvider from '@/components/analytics/GoogleAnalytics'
 import LanguageDetector from '@/components/LanguageDetector'
+import Script from 'next/script'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'metadata' });
-  
+
   return {
     title: t('title'),
     description: t('description'),
@@ -69,7 +69,7 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params;
-  
+
   // 验证locale是否有效
   if (!routing.locales.includes(locale as any)) {
     notFound();
@@ -81,17 +81,76 @@ export default async function RootLayout({
   return (
     <html lang={locale} className="dark">
       <head>
+        <meta name="6a97888e-site-verification" content="bee01f6bb37c65bc7f6112921b8a7cf0" />
+        <meta name="juicyads-site-verification" content="708a3b01853f2ba74b0d50543495e2f2" />
+
+        {/* DNS预解析和预连接 */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://poweredby.jads.co" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://poweredby.jads.co" />
+        <link rel="dns-prefetch" href="https://cdn.jads.co" />
+        <link rel="dns-prefetch" href="https://ads.jads.co" />
+
+        {/* 性能优化 */}
+        <link rel="preload" href="/images/bgLg.webp" as="image" type="image/webp" />
+        <link rel="preload" href="/images/logo.png" as="image" type="image/png" />
+
+
+
+        {/* 结构化数据 - 组织信息 */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Dessi AI",
+              "url": "https://ai-undress.online",
+              "logo": "https://ai-undress.online/images/logo.png",
+              "description": "Advanced AI image processing technology company",
+              "foundingDate": "2024",
+              "industry": "Artificial Intelligence",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "email": "undress.online.ai@gmail.com",
+                "availableLanguage": ["Chinese", "English"]
+              },
+              "sameAs": [
+                "https://twitter.com/DessiiAI",
+                "https://github.com/dessi-ai"
+              ]
+            })
+          }}
+        />
       </head>
-      <body className={`${inter.className} bg-dark-primary text-white`}>
+      <body className='antialiased'>
         <NextIntlClientProvider messages={messages}>
           <Providers>
             <GoogleAnalyticsProvider />
             <LanguageDetector />
             <PerformanceMonitor />
+            <Script
+              src="https://js.juicyads.com/jp.php?c=4464v213q244u4r2o2e43374a4&u=https%3A%2F%2Fwww.juicyads.rocks"
+              strategy="afterInteractive"
+            />
+            <Script
+              src="https://poweredby.jads.co/js/jads.js"
+              data-cfasync="false"
+              async
+              strategy="afterInteractive"
+            />
+
+            <Script id="juicyads-init" strategy="afterInteractive">
+              {`(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1095758});`}
+            </Script>
             {children}
           </Providers>
         </NextIntlClientProvider>

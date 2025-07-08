@@ -43,13 +43,7 @@ export default function PerformanceMonitor() {
         }
 
         // 发送性能数据到分析服务
-        fetch('/api/performance', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(performanceData),
-        }).catch(console.error)
+
       })
 
       // 监控页面可见性变化
@@ -63,10 +57,6 @@ export default function PerformanceMonitor() {
             timestamp: Date.now(),
           }
 
-          // 使用sendBeacon确保数据发送
-          if (navigator.sendBeacon) {
-            navigator.sendBeacon('/api/analytics', JSON.stringify(sessionData))
-          }
         }
       })
 
@@ -83,13 +73,6 @@ export default function PerformanceMonitor() {
           timestamp: Date.now(),
         }
 
-        fetch('/api/errors', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(errorData),
-        }).catch(console.error)
       })
 
       // 监控未处理的Promise拒绝
@@ -101,13 +84,6 @@ export default function PerformanceMonitor() {
           timestamp: Date.now(),
         }
 
-        fetch('/api/errors', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(errorData),
-        }).catch(console.error)
       })
     }
   }, [])
