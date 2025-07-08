@@ -10,25 +10,6 @@ function sendToAnalytics(metric: any) {
       non_interaction: true,
     })
   }
-
-  // 发送到自定义分析端点
-  if (typeof window !== 'undefined') {
-    fetch('/api/analytics', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        name: metric.name,
-        value: metric.value,
-        id: metric.id,
-        delta: metric.delta,
-        entries: metric.entries,
-        url: window.location.href,
-        timestamp: Date.now(),
-      }),
-    }).catch(console.error)
-  }
 }
 
 export function reportWebVitals() {
