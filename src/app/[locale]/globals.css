@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0d0d0d;
+  --foreground: #f5f5f5;
+  --card-bg: #1a1a1a;
+  --border-color: #2a2a2a;
+  --primary-gradient: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+  --secondary-gradient: linear-gradient(135deg, #dc2626 0%, #7c2d12 100%);
+  --accent-gradient: linear-gradient(135deg, #7c3aed 0%, #be185d 100%);
+  --seductive-gradient: linear-gradient(135deg, #991b1b 0%, #450a0a 100%);
+  --dark-gradient: linear-gradient(135deg, #1e1e1e 0%, #0f0f0f 100%);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(236, 72, 153, 0.12) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(124, 58, 237, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 60% 60%, rgba(153, 27, 27, 0.06) 0%, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* 自定义渐变按钮样式 - 暧昧色调 */
+.btn-gradient-primary {
+  background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+.btn-gradient-primary:hover {
+  background: linear-gradient(135deg, #7c3aed 0%, #db2777 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.5);
+}
+
+.btn-gradient-secondary {
+  background: linear-gradient(135deg, #dc2626 0%, #7c2d12 100%);
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+}
+
+.btn-gradient-secondary:hover {
+  background: linear-gradient(135deg, #b91c1c 0%, #6b2316 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(220, 38, 38, 0.5);
+}
+
+.btn-gradient-accent {
+  background: linear-gradient(135deg, #7c3aed 0%, #be185d 100%);
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4);
+}
+
+.btn-gradient-accent:hover {
+  background: linear-gradient(135deg, #6d28d9 0%, #a21caf 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(124, 58, 237, 0.5);
+}
+
+.btn-gradient-seductive {
+  background: linear-gradient(135deg, #991b1b 0%, #450a0a 100%);
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(153, 27, 27, 0.4);
+}
+
+.btn-gradient-seductive:hover {
+  background: linear-gradient(135deg, #7f1d1d 0%, #3a0808 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(153, 27, 27, 0.5);
+}
+
+/* 玻璃效果 - 更暗 */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-effect-dark {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 霓虹效果 - 暧昧色调 */
+.neon-text {
+  text-shadow: 
+    0 0 5px rgba(139, 92, 246, 0.6),
+    0 0 10px rgba(139, 92, 246, 0.4),
+    0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+.neon-text-pink {
+  text-shadow: 
+    0 0 5px rgba(236, 72, 153, 0.6),
+    0 0 10px rgba(236, 72, 153, 0.4),
+    0 0 20px rgba(236, 72, 153, 0.3);
+}
+
+.neon-text-red {
+  text-shadow: 
+    0 0 5px rgba(220, 38, 38, 0.6),
+    0 0 10px rgba(220, 38, 38, 0.4),
+    0 0 20px rgba(220, 38, 38, 0.3);
+}
+
+.neon-border {
+  box-shadow: 
+    0 0 5px rgba(139, 92, 246, 0.4),
+    0 0 10px rgba(139, 92, 246, 0.3),
+    inset 0 0 5px rgba(139, 92, 246, 0.1);
+}
+
+.neon-border-pink {
+  box-shadow: 
+    0 0 5px rgba(236, 72, 153, 0.4),
+    0 0 10px rgba(236, 72, 153, 0.3),
+    inset 0 0 5px rgba(236, 72, 153, 0.1);
+}
+
+/* 动画效果 */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.glow-animation {
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-seductive {
+  0%, 100% { 
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% { 
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.pulse-seductive {
+  animation: pulse-seductive 3s ease-in-out infinite;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} 

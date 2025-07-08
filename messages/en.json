@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "title": "💜Free AI Undress Tool | Remove Clothing from Anyone",
+    "description": "Reveal nudity in any image with just one click. Use AI algorithms to digitally remove clothing from images.",
+    "privacy": {
+      "title": "Privacy Policy | Dessi AI - Protecting Your Privacy",
+      "description": "Learn how Dessi AI collects, uses, and protects your personal information. We are committed to protecting your privacy, all uploaded images are automatically deleted after 24 hours, and no data is shared with third parties.",
+      "keywords": "privacy policy, data protection, AI image processing, personal information security, GDPR compliance, data deletion, privacy protection"
+    },
+    "about": {
+      "title": "About Us | Dessi AI - Advanced AI Image Processing Technology",
+      "description": "Learn about Dessi AI's mission, technical advantages, and team. We are committed to developing cutting-edge AI image processing technology to provide users with safe and efficient AI services.",
+      "keywords": "AI image processing, artificial intelligence technology, deep learning, image recognition, AI services, technical team, innovative technology"
+    },
+    "terms": {
+      "title": "Terms of Service | Dessi AI - Terms and Conditions",
+      "description": "Learn about the terms and conditions for using Dessi AI services. Including user responsibilities, service limitations, intellectual property and other important legal terms.",
+      "keywords": "terms of service, terms of use, user agreement, legal terms, service limitations, intellectual property, user responsibilities"
+    },
+    "contact": {
+      "title": "Contact Us | Dessi AI - Get Help and Support",
+      "description": "Contact the Dessi AI team for technical support, business inquiries, or feedback. We provide 24/7 online support with quick response to your needs.",
+      "keywords": "contact us, technical support, customer service, feedback, business inquiries, online support, help center"
+    }
+  },
+  "navbar": {
+    "language": "Language",
+    "brand": "AI Undress",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "AI Undress Technology",
+    "subtitle": "Advanced AI technology for fast image processing",
+    "cta": "Try Now",
+    "description": "Using cutting-edge artificial intelligence technology",
+    "adTitle": "Advertisement",
+    "adDescription": "Your ad content can be placed here",
+    "adContent": "[Advertisement Area]"
+  },
+  "upload": {
+    "title": "Upload Image",
+    "description": "Select the image you want to process",
+    "button": "Choose File",
+    "processing": "Processing...",
+    "success": "Processing Complete",
+    "dragText": "Drag or",
+    "selectFile": "choose file",
+    "supportedFormats": "Supports JPG, PNG formats",
+    "reset": "Reset",
+    "startProcessing": "Start Processing",
+    "aiProcessing": "AI Processing...",
+    "fileSize": "MB",
+    "pleaseSelectImage": "Please select an image file",
+    "adTitleCompact": "Ad",
+    "adContentCompact": "[Ad Content]",
+    "originalImage": "Original Image",
+    "processedImage": "Processed Result",
+    "downloadResult": "Download Result",
+    "processingNote": "Using AI technology to process your image...",
+    "processingComplete": "Processing complete! Result generated",
+    "previewTitle": "Preview",
+    "uploadImageFirst": "Please upload an image first"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": {
+      "q1": "What is AI undress?",
+      "a1": "AI undress is a tool that uses artificial intelligence to digitally remove clothing from people in images or videos. It employs techniques such as image inpainting algorithms to analyze and manipulate visual data, effectively creating the illusion of undressed subjects.",
+      "q2": "How to use AI undress?",
+      "a2": "Simply upload a photo and then select the clothing areas you want to remove. The more accurately you mark, the better the results.",
+      "q3": "How long does the generation process take?",
+      "a3": "It depends on server load, so anywhere from one second to one minute.",
+      "q4": "Can I use AI undress for free?",
+      "a4": "Yes, you can use our generator for free with no request limits.",
+      "q5": "Is AI undress safe?",
+      "a5": "The safety of AI undress depends on the user's intent. Such tools should be used responsibly, avoiding any harmful purposes. Always obtain explicit consent before manipulating images and use them only for artistic, educational, and non-commercial purposes.",
+      "q6": "Do we store images?",
+      "a6": "All uploaded files are automatically deleted after 24 hours, and generated content is kept for a maximum of 30 days.",
+      "q7": "Are these generation results publicly accessible?",
+      "a7": "No, your generation results are only available to you and are not shared with third parties."
+    }
+  },
+  "footer": {
+    "brand": "Dessi",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "about": "About",
+    "contact": "Contact",
+    "cookieNotice": "This website uses cookies according to our privacy policy to provide you with a better experience."
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Learn about our AI technology and mission",
+    "backToHome": "Back to Home",
+    "breadcrumb": {
+      "home": "Home",
+      "about": "About Us"
+    },
+    "heroTitle": "Pioneer of Innovative AI Technology",
+    "heroDescription": "We are committed to developing cutting-edge artificial intelligence image processing technology, providing users with safe and efficient AI services.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "Through cutting-edge AI technology, we enable everyone to easily experience the powerful capabilities of artificial intelligence. We believe technology should serve humanity and make life better."
+    },
+    "technology": {
+      "title": "Technical Advantages",
+      "description": "Using the latest deep learning algorithms and image processing technologies to ensure high quality and efficiency of processing results.",
+      "features": [
+        {
+          "title": "Advanced Algorithms",
+          "description": "Based on the latest deep learning models, providing precise image processing capabilities"
+        },
+        {
+          "title": "Fast Processing",
+          "description": "Optimized algorithm architecture achieving second-level image processing speed"
+        },
+        {
+          "title": "High Quality Output",
+          "description": "Ensuring processed images maintain high resolution and natural effects"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Protection",
+      "description": "We highly value user privacy and implement strict data protection measures:",
+      "features": [
+        "All uploaded files automatically deleted after 24 hours",
+        "End-to-end encrypted transmission",
+        "No storage or sharing of user data",
+        "Compliant with international privacy protection standards"
+      ]
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "We are a professional team composed of AI research experts, software engineers, and product designers, focusing on the research and application of AI image processing technology."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions or suggestions, please feel free to contact us:",
+      "email": "Email",
+      "support": "Technical Support",
+      "phone": "Hotline",
+      "onlineSupport": "24/7 Online Support",
+      "contactAction": "Contact",
+      "readyTitle": "Ready to Get Started?",
+      "readyDescription": "Experience our AI technology and feel the unprecedented image processing capabilities",
+      "tryNow": "Try Now"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you",
+    "backToHome": "Back to Home",
+    "breadcrumb": {
+      "home": "Home",
+      "contact": "Contact Us"
+    },
+    "heroTitle": "Always here to support you",
+    "heroDescription": "Whether you have questions, suggestions, or need technical support, our professional team will respond promptly and provide you with the best solutions.",
+    "heroSubtitle": "24/7 Professional Support Team",
+    "form": {
+      "title": "Send Message",
+      "description": "Please fill out the following information, and we'll get back to you soon",
+      "name": "Name",
+      "namePlaceholder": "Please enter your name",
+      "email": "Email",
+      "emailPlaceholder": "Please enter your email address",
+      "subject": "Subject",
+      "subjectPlaceholder": "Please enter message subject",
+      "message": "Message",
+      "messagePlaceholder": "Please describe your question or suggestion in detail...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Message sent successfully! We'll get back to you soon.",
+      "error": "Failed to send. Please try again later.",
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "minLength": "At least {min} characters required"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email Contact",
+        "address": "undress.online.ai@gmail.com",
+        "description": "Send email for technical support"
+      },
+      "response": {
+        "title": "Response Time",
+        "time": "Within 24 hours",
+        "description": "We promise to reply within 24 hours"
+      },
+      "support": {
+        "title": "Technical Support",
+        "availability": "24/7 Online",
+        "description": "Round-the-clock technical support service"
+      }
+    },
+    "types": {
+      "title": "How we can help you",
+      "technical": {
+        "title": "Technical Support",
+        "description": "Solve technical issues encountered during use"
+      },
+      "feedback": {
+        "title": "Feedback",
+        "description": "Share your suggestions and improvement ideas"
+      },
+      "business": {
+        "title": "Business Cooperation",
+        "description": "Discuss cooperation opportunities and business partnerships"
+      },
+      "general": {
+        "title": "General Inquiry",
+        "description": "Any other questions or consultations"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 15, 2024",
+    "breadcrumb": {
+      "home": "Home",
+      "privacy": "Privacy Policy"
+    },
+    "introduction": {
+      "title": "Introduction",
+      "content": "This privacy policy describes how we collect, use, and protect the information you provide when using our AI image processing services. We are committed to protecting your privacy and ensuring your personal information is handled securely."
+    },
+    "dataCollection": {
+      "title": "Information Collection",
+      "description": "We may collect the following types of information:",
+      "items": {
+        "uploaded": "Uploaded image files (for processing purposes only)",
+        "technical": "Technical information (IP address, browser type, device information)",
+        "usage": "Usage data (access time, features used)",
+        "device": "Device information (operating system, screen resolution)"
+      }
+    },
+    "dataUsage": {
+      "title": "Information Usage",
+      "description": "We use the collected information for:",
+      "items": {
+        "processing": "Processing your uploaded images and providing AI services",
+        "improvement": "Improving our service quality and user experience",
+        "support": "Providing technical support and customer service",
+        "security": "Maintaining service security and preventing abuse"
+      }
+    },
+    "dataProtection": {
+      "title": "Data Protection",
+      "description": "We take the following measures to protect your data:",
+      "items": {
+        "encryption": "All data transmission uses SSL/TLS encryption",
+        "autoDelete": "Uploaded images are automatically deleted after 24 hours",
+        "accessControl": "Strict access control and permission management",
+        "monitoring": "Regular security audits and monitoring"
+      }
+    },
+    "dataSharing": {
+      "title": "Data Sharing",
+      "description": "We are committed to protecting your privacy:",
+      "noSharing": "We do not share, sell, or disclose your personal information and uploaded images to any third parties."
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "description": "We use cookies to improve your experience:",
+      "items": {
+        "essential": "Essential cookies: Ensure the website functions properly",
+        "analytics": "Analytics cookies: Help us understand website usage",
+        "preferences": "Preference cookies: Remember your language and setting preferences"
+      }
+    },
+    "userRights": {
+      "title": "User Rights",
+      "description": "You have the following rights:",
+      "items": {
+        "access": "Right to access: View information we collect about you",
+        "correction": "Right to correction: Correct inaccurate personal information",
+        "deletion": "Right to deletion: Request deletion of your personal information",
+        "objection": "Right to objection: Object to processing of your personal information"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions about this privacy policy or need to exercise your rights, please contact us:",
+      "email": "Privacy Email",
+      "support": "Technical Support"
+    },
+    "updates": {
+      "title": "Policy Updates",
+      "description": "We may update this privacy policy from time to time. Any significant changes will be posted on the website. Continued use of our services indicates your agreement to the updated policy."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 15, 2024",
+    "breadcrumb": {
+      "home": "Home",
+      "terms": "Terms of Service"
+    },
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing and using Dessi AI services, you agree to comply with these Terms of Service. If you do not agree to these terms, please do not use our services."
+    },
+    "serviceDescription": {
+      "title": "Service Description",
+      "content": "Dessi AI provides artificial intelligence-based image processing services, including but not limited to image editing, content generation, and image analysis functions.",
+      "items": {
+        "processing": "AI image processing and editing services",
+        "generation": "AI-based content generation",
+        "analysis": "Image analysis and recognition services",
+        "api": "API interfaces and developer tools"
+      }
+    },
+    "userResponsibilities": {
+      "title": "User Responsibilities",
+      "description": "When using our services, you agree to:",
+      "items": {
+        "lawful": "Use the service only for lawful purposes",
+        "consent": "Ensure you have the right to upload and process images",
+        "respect": "Respect the privacy and rights of others",
+        "noHarm": "Not use the service for harmful or malicious activities",
+        "compliance": "Comply with all applicable laws and regulations",
+        "accurate": "Provide accurate and truthful information"
+      }
+    },
+    "prohibitedUse": {
+      "title": "Prohibited Use",
+      "description": "You may not use our services for:",
+      "items": {
+        "illegal": "Any illegal activities or purposes",
+        "harassment": "Harassing, threatening, or harming others",
+        "minors": "Inappropriate content involving minors",
+        "copyright": "Infringing on others' intellectual property",
+        "malware": "Spreading malware or viruses",
+        "spam": "Sending spam or unsolicited content"
+      }
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "description": "Our services and related technologies are protected by intellectual property laws:",
+      "items": {
+        "ownership": "Dessi AI owns all rights and ownership of the service",
+        "license": "We grant you a limited, non-exclusive license to use",
+        "userContent": "You retain ownership of uploaded content but grant us processing rights",
+        "generated": "Ownership of AI-generated content is determined according to applicable law"
+      }
+    },
+    "serviceAvailability": {
+      "title": "Service Availability",
+      "description": "Regarding our service availability:",
+      "items": {
+        "uptime": "We strive to maintain high service availability but do not guarantee 100% uptime",
+        "maintenance": "We may perform regular maintenance and updates",
+        "interruption": "Service may be temporarily interrupted due to technical issues",
+        "modification": "We reserve the right to modify or terminate services"
+      }
+    },
+    "dataAndPrivacy": {
+      "title": "Data and Privacy",
+      "description": "Your data processing is governed by our Privacy Policy:",
+      "items": {
+        "processing": "We process your data only to provide services",
+        "retention": "Uploaded images are automatically deleted after 24 hours",
+        "security": "We take reasonable measures to protect your data",
+        "sharing": "We do not share your personal data with third parties"
+      },
+      "privacyNote": "For detailed data processing information, please refer to our",
+      "privacyLink": "Privacy Policy"
+    },
+    "limitation": {
+      "title": "Limitation of Liability",
+      "description": "To the maximum extent permitted by law:",
+      "items": {
+        "asIs": "Services are provided \"as is\" without any express or implied warranties",
+        "damages": "We are not liable for any indirect, special, or consequential damages",
+        "liability": "Our total liability is limited to the fees you paid to us",
+        "force": "We are not liable for losses caused by force majeure events"
+      }
+    },
+    "termination": {
+      "title": "Termination",
+      "description": "Terms related to service termination:",
+      "items": {
+        "userTermination": "You may stop using our services at any time",
+        "ourTermination": "We may terminate your access for violating terms",
+        "effect": "Upon termination, your usage rights will immediately cease",
+        "survival": "Certain terms remain effective after termination"
+      }
+    },
+    "governing": {
+      "title": "Governing Law",
+      "description": "These terms are governed by the following laws:",
+      "items": {
+        "jurisdiction": "This agreement is governed by the laws of the People's Republic of China",
+        "disputes": "Any disputes should be resolved through friendly negotiation",
+        "court": "If negotiation fails, disputes should be submitted to a court with jurisdiction",
+        "language": "The Chinese version of this agreement is the authoritative version"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions about these Terms of Service, please contact us:",
+      "email": "Legal Email",
+      "support": "Technical Support"
+    },
+    "updates": {
+      "title": "Terms Updates",
+      "description": "We may update these Terms of Service from time to time. Significant changes will be posted on the website. Continued use of services indicates your agreement to the updated terms."
+    }
+  }
+} 
