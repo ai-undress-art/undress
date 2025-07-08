@@ -3,23 +3,23 @@
     "title": "💜Free AI Undress Tool | Remove Clothing from Anyone",
     "description": "Reveal nudity in any image with just one click. Use AI algorithms to digitally remove clothing from images.",
     "privacy": {
-      "title": "Privacy Policy | Dessi AI - Protecting Your Privacy",
-      "description": "Learn how Dessi AI collects, uses, and protects your personal information. We are committed to protecting your privacy, all uploaded images are automatically deleted after 24 hours, and no data is shared with third parties.",
+      "title": "Privacy Policy | Undress AI - Protecting Your Privacy",
+      "description": "Learn how Undress AI collects, uses, and protects your personal information. We are committed to protecting your privacy, all uploaded images are automatically deleted after 24 hours, and no data is shared with third parties.",
       "keywords": "privacy policy, data protection, AI image processing, personal information security, GDPR compliance, data deletion, privacy protection"
     },
     "about": {
-      "title": "About Us | Dessi AI - Advanced AI Image Processing Technology",
-      "description": "Learn about Dessi AI's mission, technical advantages, and team. We are committed to developing cutting-edge AI image processing technology to provide users with safe and efficient AI services.",
+      "title": "About Us | Undress AI - Advanced AI Image Processing Technology",
+      "description": "Learn about Undress AI's mission, technical advantages, and team. We are committed to developing cutting-edge AI image processing technology to provide users with safe and efficient AI services.",
       "keywords": "AI image processing, artificial intelligence technology, deep learning, image recognition, AI services, technical team, innovative technology"
     },
     "terms": {
-      "title": "Terms of Service | Dessi AI - Terms and Conditions",
-      "description": "Learn about the terms and conditions for using Dessi AI services. Including user responsibilities, service limitations, intellectual property and other important legal terms.",
+      "title": "Terms of Service | Undress AI - Terms and Conditions",
+      "description": "Learn about the terms and conditions for using Undress AI services. Including user responsibilities, service limitations, intellectual property and other important legal terms.",
       "keywords": "terms of service, terms of use, user agreement, legal terms, service limitations, intellectual property, user responsibilities"
     },
     "contact": {
-      "title": "Contact Us | Dessi AI - Get Help and Support",
-      "description": "Contact the Dessi AI team for technical support, business inquiries, or feedback. We provide 24/7 online support with quick response to your needs.",
+      "title": "Contact Us | Undress AI - Get Help and Support",
+      "description": "Contact the Undress AI team for technical support, business inquiries, or feedback. We provide 24/7 online support with quick response to your needs.",
       "keywords": "contact us, technical support, customer service, feedback, business inquiries, online support, help center"
     }
   },
@@ -86,7 +86,7 @@
     }
   },
   "footer": {
-    "brand": "Dessi",
+    "brand": "Undress",
     "rights": "All rights reserved",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
@@ -310,11 +310,11 @@
     },
     "acceptance": {
       "title": "Acceptance of Terms",
-      "content": "By accessing and using Dessi AI services, you agree to comply with these Terms of Service. If you do not agree to these terms, please do not use our services."
+      "content": "By accessing and using Undress AI services, you agree to comply with these Terms of Service. If you do not agree to these terms, please do not use our services."
     },
     "serviceDescription": {
       "title": "Service Description",
-      "content": "Dessi AI provides artificial intelligence-based image processing services, including but not limited to image editing, content generation, and image analysis functions.",
+      "content": "Undress AI provides artificial intelligence-based image processing services, including but not limited to image editing, content generation, and image analysis functions.",
       "items": {
         "processing": "AI image processing and editing services",
         "generation": "AI-based content generation",
@@ -350,7 +350,7 @@
       "title": "Intellectual Property",
       "description": "Our services and related technologies are protected by intellectual property laws:",
       "items": {
-        "ownership": "Dessi AI owns all rights and ownership of the service",
+        "ownership": "Undress AI owns all rights and ownership of the service",
         "license": "We grant you a limited, non-exclusive license to use",
         "userContent": "You retain ownership of uploaded content but grant us processing rights",
         "generated": "Ownership of AI-generated content is determined according to applicable law"
