@@ -264,8 +264,8 @@ export default function UploadSection() {
             {/* 广告位 - 紧凑版 */}
             <Card className="glass-effect-dark border border-seductive-purple/20 hover:border-seductive-pink/30 transition-all duration-300">
               <CardBody className="p-4">
-                <div className="text-center">
-                  <ins id="1095776" data-width="308" data-height="286" style={{ display: 'block' }}></ins>
+                <div className="text-center w-full flex justify-center">
+                  <ins id="1095776" data-width="308" data-height="286"></ins>
                 </div>
               </CardBody>
             </Card>

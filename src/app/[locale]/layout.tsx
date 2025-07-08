@@ -83,6 +83,8 @@ export default async function RootLayout({
       <head>
         <meta name="6a97888e-site-verification" content="bee01f6bb37c65bc7f6112921b8a7cf0" />
         <meta name="juicyads-site-verification" content="708a3b01853f2ba74b0d50543495e2f2" />
+        <script type='text/javascript' src='//pl27113709.profitableratecpm.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js'></script>
+
 
         {/* DNS预解析和预连接 */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -137,11 +139,17 @@ export default async function RootLayout({
             <GoogleAnalyticsProvider />
             <LanguageDetector />
             <PerformanceMonitor />
-            <Script
+            {/* <Script
               src="//pl27113709.profitableratecpm.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js"
               data-cfasync="false"
               async
               strategy="afterInteractive"
+            /> */}
+            <Script 
+              src="//static.scptpz.com/mnpw3.js"
+              strategy="afterInteractive"
+              async
+              data-cfasync="false"
             />
             <Script
               src="https://js.juicyads.com/jp.php?c=4464v213q244u4r2o2e43374a4&u=https%3A%2F%2Fwww.juicyads.rocks"
@@ -153,9 +161,9 @@ export default async function RootLayout({
               async
               strategy="afterInteractive"
             />
-
             <Script id="juicyads-init" strategy="afterInteractive">
               {`(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1095758},{'adzone':1095776},{'adzone':1095778});`}
+              {`mnpw.add('https://t.ancdu.link/380687/3785/0?bo=2753,2C2754,2C2755,2C2756&target=pops&po=6456&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0005&pud=scptpz', {newTab: true, cookieExpires: 86401});`}
             </Script>
             {children}
           </Providers>
