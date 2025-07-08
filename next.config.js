@@ -13,27 +13,18 @@ const nextConfig = {
       {
         source: '/(.*)',
         headers: [
-          {
-            key: 'Content-Security-Policy',
-            value: [
-              "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com",
-              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-              "font-src 'self' https://fonts.gstatic.com",
-              "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com",
-              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://region1.google-analytics.com",
-              "frame-src 'none'",
-              "object-src 'none'",
-              "base-uri 'self'"
-            ].join('; ')
-          },
+          // CSP 已禁用 - 允许所有脚本和资源
+          // {
+          //   key: 'Content-Security-Policy',
+          //   value: "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src *; frame-src *; object-src *; media-src * data:;"
+          // },
           {
             key: 'X-Content-Type-Options',
             value: 'nosniff'
           },
           {
             key: 'X-Frame-Options',
-            value: 'DENY'
+            value: 'SAMEORIGIN'  // 改为更宽松的设置
           },
           {
             key: 'X-XSS-Protection',

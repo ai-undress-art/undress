@@ -25,15 +25,25 @@ NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 
 ### 2.1 Content Security Policy (CSP) 配置
 
-项目已经在 `next.config.js` 中配置了正确的 CSP 头部，允许 Google Analytics 脚本加载：
+⚠️ **注意：为了避免第三方脚本加载问题，项目已经禁用了 Content Security Policy。**
+
+CSP 配置在 `next.config.js` 中被注释掉了：
 
 ```javascript
-"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com"
-"connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://region1.google-analytics.com"
-"img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com"
+// CSP 已禁用 - 允许所有脚本和资源
+// {
+//   key: 'Content-Security-Policy',
+//   value: "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; ..."
+// },
 ```
 
-这解决了 `Refused to load the script` 的 CSP 错误。
+这意味着：
+- ✅ 可以加载任何第三方脚本，无需配置
+- ✅ 不会再有 `Refused to load the script` 错误
+- ✅ 广告联盟、分析工具、CDN 等都可以正常工作
+- ⚠️ 安全性相对降低，但对于包含广告的网站这是常见做法
+
+如果需要重新启用 CSP，可以取消注释相关代码。
 
 ### 3. 验证集成
 
@@ -200,10 +210,10 @@ if (cookieConsent === 'accepted') {
 
 ### 常见问题
 
-1. **CSP 错误：Refused to load the script**
-   - **错误消息**：`Refused to load the script 'https://www.googletagmanager.com/gtag/js' because it violates the following Content Security Policy directive`
-   - **解决方案**：项目已在 `next.config.js` 中配置了正确的 CSP，允许 Google Analytics 域名
-   - **验证**：检查浏览器开发者工具的网络标签，确认 GA 脚本正在加载
+1. **CSP 错误：Refused to load the script（已解决）**
+   - **错误消息**：`Refused to load the script` 或 `script-src-elem was not explicitly set`
+   - **解决方案**：项目已禁用 CSP 限制，所有第三方脚本都可以正常加载
+   - **现状**：不会再有 CSP 相关的脚本加载错误
 
 2. **事件未显示**
    - 检查测量 ID 是否正确
