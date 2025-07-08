@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'website',
       locale: locale,
       url: `/${locale}/about`,
-      siteName: 'Dessi AI',
+      siteName: 'Ai Undress',
     },
     twitter: {
       card: 'summary_large_image',
@@ -102,7 +102,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
   const organizationData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Dessi AI",
+    "name": "Ai Undress",
     "url": "https://ai-undress.online",
     "description": metaT('description'),
     "foundingDate": "2024",

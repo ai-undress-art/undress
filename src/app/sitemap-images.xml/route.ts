@@ -5,20 +5,20 @@ export async function GET() {
   const images = [
     {
       loc: `${baseUrl}/images/logo.png`,
-      caption: 'Dessi AI Logo - AI图像处理工具标志',
-      title: 'Dessi AI Logo',
+      caption: 'Ai Undress Logo - AI图像处理工具标志',
+      title: 'Ai Undress Logo',
       license: `${baseUrl}/terms`,
     },
     {
       loc: `${baseUrl}/images/bgLg.webp`,
-      caption: 'Dessi AI 背景图片 - 高质量WebP格式',
-      title: 'Dessi AI Background',
+      caption: 'Ai Undress 背景图片 - 高质量WebP格式',
+      title: 'Ai Undress Background',
       license: `${baseUrl}/terms`,
     },
     {
       loc: `${baseUrl}/images/bgSm.webp`,
-      caption: 'Dessi AI 小尺寸背景图片 - 移动端优化',
-      title: 'Dessi AI Mobile Background',
+      caption: 'Ai Undress 小尺寸背景图片 - 移动端优化',
+      title: 'Ai Undress Mobile Background',
       license: `${baseUrl}/terms`,
     },
     {

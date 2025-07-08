@@ -7,6 +7,6 @@ export default function RootPage() {
 
 // 添加元数据
 export const metadata = {
-  title: 'Dessi AI - Advanced AI Image Processing',
+  title: 'Ai Undress - Advanced AI Image Processing',
   description: 'Advanced AI image processing technology',
 }; 

@@ -10,14 +10,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://ai-undress.online'),
   title: {
-    template: '%s | Dessi AI',
-    default: 'Dessi AI - AI Image Processing Tool | Advanced AI Technology'
+    template: '%s | Ai Undress',
+    default: 'Ai Undress AI - AI Image Processing Tool | Advanced AI Technology'
   },
   description: 'Advanced AI technology for image processing, supporting multiple formats, 24-hour automatic deletion, privacy protection. Free to use, no restrictions.',
   keywords: ['AI image processing', 'artificial intelligence', 'image editing', 'deep learning', 'computer vision', 'AI tools', 'free AI'],
-  authors: [{ name: 'Dessi AI Team', url: 'https://ai-undress.online' }],
-  creator: 'Dessi AI',
-  publisher: 'Dessi AI',
+  authors: [{ name: 'Ai Undress AI Team', url: 'https://ai-undress.online' }],
+  creator: 'Ai Undress AI',
+  publisher: 'Ai Undress AI',
   formatDetection: {
     email: false,
     address: false,
@@ -38,25 +38,25 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://ai-undress.online',
-    siteName: 'Dessi AI',
-    title: 'Dessi AI - AI Image Processing Tool | Advanced AI Technology',
+    siteName: 'Ai Undress AI',
+    title: 'Ai Undress AI - AI Image Processing Tool | Advanced AI Technology',
     description: 'Advanced AI technology for image processing, supporting multiple formats, 24-hour automatic deletion, privacy protection.',
     images: [
       {
         url: '/images/logo.png',
         width: 1200,
         height: 630,
-        alt: 'Dessi AI - AI Image Processing Tool',
+        alt: 'Ai Undress AI - AI Image Processing Tool',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dessi AI - AI Image Processing Tool',
+    title: 'Ai Undress AI - AI Image Processing Tool',
     description: 'Advanced AI technology for image processing, free to use, privacy protection.',
     images: ['/images/logo.png'],
-    creator: '@DessiiAI',
-    site: '@DessiiAI',
+    creator: '@Ai UndressiAI',
+    site: '@Ai UndressiAI',
   },
   icons: {
     icon: [

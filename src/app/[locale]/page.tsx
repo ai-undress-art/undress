@@ -27,13 +27,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'website',
       locale: locale,
       url: `/${locale}`,
-      siteName: 'Dessi AI',
+      siteName: 'Ai Undress',
       images: [
         {
           url: '/images/logo.png',
           width: 1200,
           height: 630,
-          alt: 'Dessi AI Logo',
+          alt: 'Ai Undress Logo',
         },
       ],
     },
@@ -54,7 +54,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const websiteData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Dessi AI",
+    "name": "Ai Undress",
     "url": "https://ai-undress.online",
     "description": t('description'),
     "potentialAction": {
@@ -68,14 +68,14 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const softwareData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Dessi AI",
+    "name": "Ai Undress",
     "applicationCategory": "MultimediaApplication",
     "operatingSystem": "Web Browser",
     "description": t('description'),
     "url": "https://ai-undress.online",
     "author": {
       "@type": "Organization",
-      "name": "Dessi AI"
+      "name": "Ai Undress"
     },
     "offers": {
       "@type": "Offer",

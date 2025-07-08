@@ -43,8 +43,8 @@ export const createOrganizationSchema = (name: string, url: string, description:
     "availableLanguage": ["Chinese", "English"]
   },
   "sameAs": [
-    "https://twitter.com/DessiiAI",
-    "https://github.com/dessi-ai"
+    "https://twitter.com/Ai Undress",
+    "https://github.com/Ai Undress"
   ]
 })
 
@@ -58,7 +58,7 @@ export const createSoftwareApplicationSchema = (name: string, description: strin
   "url": url,
   "author": {
     "@type": "Organization",
-    "name": "Dessi AI"
+    "name": "Ai Undress"
   },
   "offers": {
     "@type": "Offer",
@@ -110,7 +110,7 @@ export const createContactPageSchema = (name: string, description: string, url: 
   "url": url,
   "mainEntity": {
     "@type": "Organization",
-    "name": "Dessi AI",
+    "name": "Ai Undress",
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
@@ -128,7 +128,7 @@ export const createAboutPageSchema = (name: string, description: string, url: st
   "url": url,
   "mainEntity": {
     "@type": "Organization",
-    "name": "Dessi AI",
+    "name": "Ai Undress",
     "description": "先进的AI图像处理技术公司",
     "foundingDate": "2024",
     "industry": "Artificial Intelligence"

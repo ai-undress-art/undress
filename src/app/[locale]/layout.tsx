@@ -20,9 +20,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: t('title'),
     description: t('description'),
     robots: 'index, follow',
-    authors: [{ name: 'Dessi AI Team' }],
-    creator: 'Dessi AI',
-    publisher: 'Dessi AI',
+    authors: [{ name: 'Ai Undress Team' }],
+    creator: 'Ai Undress',
+    publisher: 'Ai Undress',
     formatDetection: {
       email: false,
       address: false,
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'website',
       locale: locale,
       url: `/${locale}`,
-      siteName: 'Dessi AI',
+      siteName: 'Ai Undress',
     },
     twitter: {
       card: 'summary_large_image',
@@ -113,7 +113,7 @@ export default async function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Dessi AI",
+              "name": "Ai Undress",
               "url": "https://ai-undress.online",
               "logo": "https://ai-undress.online/images/logo.png",
               "description": "Advanced AI image processing technology company",
@@ -126,8 +126,8 @@ export default async function RootLayout({
                 "availableLanguage": ["Chinese", "English"]
               },
               "sameAs": [
-                "https://twitter.com/DessiiAI",
-                "https://github.com/dessi-ai"
+                "https://twitter.com/Ai Undress",
+                "https://github.com/Ai Undress"
               ]
             })
           }}

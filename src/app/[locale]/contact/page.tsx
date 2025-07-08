@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'website',
       locale: locale,
       url: `/${locale}/contact`,
-      siteName: 'Dessi AI',
+      siteName: 'Ai Undress',
     },
     twitter: {
       card: 'summary_large_image',
@@ -66,7 +66,7 @@ export default function ContactPage() {
     },
     "mainEntity": {
       "@type": "Organization",
-      "name": "Dessi AI",
+      "name": "Ai Undress",
       "url": "https://ai-undress.online",
       "contactPoint": {
         "@type": "ContactPoint",

@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Dessi AI - Advanced AI Image Processing',
-    short_name: 'Dessi AI',
+    name: 'Ai Undress - Advanced AI Image Processing',
+    short_name: 'Ai Undress',
     description: 'Advanced AI image processing technology for removing clothing from images',
     start_url: '/',
     display: 'standalone',

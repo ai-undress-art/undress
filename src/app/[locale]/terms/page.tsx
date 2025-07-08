@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'website',
       locale: locale,
       url: `/${locale}/terms`,
-      siteName: 'Dessi AI',
+      siteName: 'Ai Undress',
     },
     twitter: {
       card: 'summary_large_image',
@@ -70,7 +70,7 @@ export default function TermsPage() {
       "dateModified": "2024-01-15",
       "publisher": {
         "@type": "Organization",
-        "name": "Dessi AI",
+        "name": "Ai Undress",
         "url": "https://ai-undress.online"
       }
     }
