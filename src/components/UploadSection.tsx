@@ -29,7 +29,7 @@ export default function UploadSection() {
     e.preventDefault()
     e.stopPropagation()
     setDragActive(false)
-    
+
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
       handleFileSelect(e.dataTransfer.files[0])
     }
@@ -39,7 +39,7 @@ export default function UploadSection() {
     if (file.type.startsWith('image/')) {
       setSelectedFile(file)
       setProcessedResult(null) // 重置处理结果
-      
+
       // 跟踪图片上传事件
       analytics.imageUpload(file.size, file.type)
     } else {
@@ -69,12 +69,12 @@ export default function UploadSection() {
 
   const handleProcess = async () => {
     if (!selectedFile) return
-    
+
     setIsProcessing(true)
     setProgress(0)
-    
+
     const startTime = Date.now()
-    
+
     try {
       // 模拟处理进度
       const progressInterval = setInterval(() => {
@@ -89,7 +89,7 @@ export default function UploadSection() {
 
       // 将文件转换为base64
       const base64Image = await fileToBase64(selectedFile);
-      
+
       // 发送API请求
       const response = await fetch('/api/process-image', {
         method: 'POST',
@@ -104,19 +104,19 @@ export default function UploadSection() {
       });
 
       const result = await response.json();
-      
+
       // 清除进度条定时器
       clearInterval(progressInterval);
       setProgress(100);
-      
+
       if (result.success && result.processedImage) {
         // 设置处理结果
         setProcessedResult(result.processedImage);
-        
+
         // 跟踪处理成功事件
         const processingTime = Date.now() - startTime
         analytics.imageProcess(processingTime, true)
-        
+
         // 处理完成后滚动到结果区域（仅在移动端）
         setTimeout(() => {
           if (window.innerWidth < 1024) {
@@ -126,24 +126,24 @@ export default function UploadSection() {
             }
           }
         }, 100);
-             } else {
-         // 处理失败
-         console.error('处理失败:', result.error || result.message);
-         alert(`${t('processingFailed')}: ${result.error || t('unknownError')}`);
-         
-         // 跟踪处理失败事件
-         const processingTime = Date.now() - startTime
-         analytics.imageProcess(processingTime, false)
-         analytics.error('image_processing_failed', result.error || 'Unknown error')
-       }
-     } catch (error) {
-       console.error('API调用失败:', error);
-       alert(t('networkError'));
-       
-       // 跟踪网络错误
-       const processingTime = Date.now() - startTime
-       analytics.imageProcess(processingTime, false)
-       analytics.error('api_call_failed', error instanceof Error ? error.message : 'Unknown error');
+      } else {
+        // 处理失败
+        console.error('处理失败:', result.error || result.message);
+        alert(`${t('processingFailed')}: ${result.error || t('unknownError')}`);
+
+        // 跟踪处理失败事件
+        const processingTime = Date.now() - startTime
+        analytics.imageProcess(processingTime, false)
+        analytics.error('image_processing_failed', result.error || 'Unknown error')
+      }
+    } catch (error) {
+      console.error('API调用失败:', error);
+      alert(t('networkError'));
+
+      // 跟踪网络错误
+      const processingTime = Date.now() - startTime
+      analytics.imageProcess(processingTime, false)
+      analytics.error('api_call_failed', error instanceof Error ? error.message : 'Unknown error');
     } finally {
       setIsProcessing(false);
     }
@@ -168,31 +168,30 @@ export default function UploadSection() {
       {/* 背景装饰 - 暧昧色调 */}
       <div className="absolute inset-0 opacity-25">
         <div className="absolute top-10 left-10 w-40 h-40 bg-seductive-purple/30 rounded-full blur-3xl pulse-seductive"></div>
-        <div className="absolute bottom-10 right-10 w-32 h-32 bg-seductive-dark-red/40 rounded-full blur-3xl pulse-seductive" style={{animationDelay: '1.5s'}}></div>
-        <div className="absolute top-1/2 right-1/4 w-24 h-24 bg-seductive-magenta/35 rounded-full blur-3xl pulse-seductive" style={{animationDelay: '0.8s'}}></div>
+        <div className="absolute bottom-10 right-10 w-32 h-32 bg-seductive-dark-red/40 rounded-full blur-3xl pulse-seductive" style={{ animationDelay: '1.5s' }}></div>
+        <div className="absolute top-1/2 right-1/4 w-24 h-24 bg-seductive-magenta/35 rounded-full blur-3xl pulse-seductive" style={{ animationDelay: '0.8s' }}></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto">
-        
+
 
         {/* 单行布局 */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:items-stretch items-start mt-10">
-          
+
           {/* 上传区域 */}
           <div className="space-y-6 flex flex-col h-full">
             <h3 className="text-xl font-bold text-white neon-text mb-4">
               📤 {t('title')}
             </h3>
-            
+
             {/* 拖拽上传区域 */}
-            <Card 
-              className={`border-2 border-dashed transition-all duration-300 glass-effect-dark ${
-                dragActive 
-                  ? 'border-seductive-pink/60 neon-border-pink bg-seductive-purple/15' 
+            <Card
+              className={`border-2 border-dashed transition-all duration-300 glass-effect-dark ${dragActive
+                  ? 'border-seductive-pink/60 neon-border-pink bg-seductive-purple/15'
                   : 'border-seductive-purple/30 hover:border-seductive-pink/50'
-              }`}
+                }`}
             >
-              <CardBody 
+              <CardBody
                 className="p-8 text-center cursor-pointer"
                 onDragEnter={handleDrag}
                 onDragLeave={handleDrag}
@@ -263,16 +262,10 @@ export default function UploadSection() {
             </Button>
 
             {/* 广告位 - 紧凑版 */}
-            <Card  className="glass-effect-dark border border-seductive-purple/20 hover:border-seductive-pink/30 transition-all duration-300">
+            <Card className="glass-effect-dark border border-seductive-purple/20 hover:border-seductive-pink/30 transition-all duration-300">
               <CardBody className="p-4">
                 <div className="text-center">
-                  <p className="text-white/50 text-xs mb-2">{t('adTitleCompact')}</p>
-                  <div className="bg-gradient-to-r from-seductive-purple/10 to-seductive-pink/10 border border-seductive-purple/20 rounded-lg p-3 min-h-[80px] flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="text-2xl mb-1 opacity-70">🎯</div>
-                      <p className="text-white/40 text-sm">{t('adContentCompact')}</p>
-                    </div>
-                  </div>
+                  <ins id="1095776" data-width="308" data-height="286" style={{ display: 'block' }}></ins>
                 </div>
               </CardBody>
             </Card>
@@ -392,7 +385,7 @@ export default function UploadSection() {
                     </div>
                   </CardBody>
                 </Card>
-                
+
                 <div className="flex justify-center gap-4 mt-6">
                   <Button
                     size="lg"
@@ -402,7 +395,7 @@ export default function UploadSection() {
                       link.href = processedResult
                       link.download = `ai-processed-${Date.now()}.jpg`
                       link.click()
-                      
+
                       // 跟踪下载事件
                       analytics.imageDownload()
                     }}

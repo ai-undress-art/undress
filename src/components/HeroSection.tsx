@@ -2,15 +2,9 @@
 
 import { Button } from '@heroui/react'
 import { useTranslations } from 'next-intl'
-import { useState, useEffect } from 'react'
 
 export default function HeroSection() {
   const t = useTranslations('hero');
-
-  const [isClient, setIsClient] = useState(false)
-  useEffect(() => {
-    setIsClient(true)
-  }, [])
 
   const handleCreateClick = () => {
     // 滚动到上传区域
@@ -72,13 +66,7 @@ export default function HeroSection() {
       {/* 广告位区域 - 占1/3高度 */}
       <div className="relative h-1/3 flex items-center justify-center px-4 z-10">
         <div className="w-full max-w-4xl text-center">
-          <ins
-            id="1095758"
-            data-width="908"
-            data-height="258"
-            style={{ display: 'block' }}
-          />
-          {/* {isClient ? <ins id="1095758" data-width="908" data-height="258"></ins> : ''} */}
+          {window.innerWidth < 1024 ? <ins id="1095778" data-width="300" data-height="100" style={{ display: 'block' }}></ins> : <ins id="1095758" data-width="908" data-height="258" style={{ display: 'block' }}></ins>}
         </div>
       </div>
     </section>

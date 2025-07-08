@@ -138,6 +138,12 @@ export default async function RootLayout({
             <LanguageDetector />
             <PerformanceMonitor />
             <Script
+              src="//pl27113709.profitableratecpm.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js"
+              data-cfasync="false"
+              async
+              strategy="afterInteractive"
+            />
+            <Script
               src="https://js.juicyads.com/jp.php?c=4464v213q244u4r2o2e43374a4&u=https%3A%2F%2Fwww.juicyads.rocks"
               strategy="afterInteractive"
             />
@@ -149,7 +155,7 @@ export default async function RootLayout({
             />
 
             <Script id="juicyads-init" strategy="afterInteractive">
-              {`(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1095758});`}
+              {`(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1095758},{'adzone':1095776},{'adzone':1095778});`}
             </Script>
             {children}
           </Providers>
