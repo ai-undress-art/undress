@@ -53,61 +53,93 @@ export default function UploadSection() {
     fileInputRef.current?.click()
   }
 
+  // 将文件转换为base64格式
+  const fileToBase64 = (file: File): Promise<string> => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => resolve(reader.result as string);
+      reader.onerror = error => reject(error);
+    });
+  };
+
   const handleProcess = async () => {
     if (!selectedFile) return
     
     setIsProcessing(true)
     setProgress(0)
     
-    // 模拟处理进度
-    const progressInterval = setInterval(() => {
-      setProgress(prev => {
-        if (prev >= 95) {
-          clearInterval(progressInterval)
-          return 95
-        }
-        return prev + Math.random() * 15
-      })
-    }, 200)
-    
-    // 模拟处理过程
-    setTimeout(() => {
-      clearInterval(progressInterval)
-      setProgress(100)
-      setIsProcessing(false)
-      // 模拟处理结果 - 使用原图作为演示
-      const imageUrl = URL.createObjectURL(selectedFile)
-      setProcessedResult(imageUrl)
-      
-      // 处理完成后滚动到结果区域（仅在移动端）
-      setTimeout(() => {
-        // 检查是否为移动端（屏幕宽度小于1024px，对应Tailwind的lg断点）
-        if (window.innerWidth < 1024) {
-          const resultSection = document.getElementById('result-section')
-          if (resultSection) {
-            resultSection.scrollIntoView({ behavior: 'smooth' })
+    try {
+      // 模拟处理进度
+      const progressInterval = setInterval(() => {
+        setProgress(prev => {
+          if (prev >= 90) {
+            clearInterval(progressInterval)
+            return 90
           }
-        }
-      }, 100)
-    }, 3000)
+          return prev + Math.random() * 15
+        })
+      }, 200)
+
+      // 将文件转换为base64
+      const base64Image = await fileToBase64(selectedFile);
+      
+      // 发送API请求
+      const response = await fetch('/api/process-image', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          image: base64Image,
+          fileName: selectedFile.name,
+          fileSize: selectedFile.size,
+        }),
+      });
+
+      const result = await response.json();
+      
+      // 清除进度条定时器
+      clearInterval(progressInterval);
+      setProgress(100);
+      
+      if (result.success && result.processedImage) {
+        // 设置处理结果
+        setProcessedResult(result.processedImage);
+        
+        // 处理完成后滚动到结果区域（仅在移动端）
+        setTimeout(() => {
+          if (window.innerWidth < 1024) {
+            const resultSection = document.getElementById('result-section')
+            if (resultSection) {
+              resultSection.scrollIntoView({ behavior: 'smooth' })
+            }
+          }
+        }, 100);
+             } else {
+         // 处理失败
+         console.error('处理失败:', result.error || result.message);
+         alert(`${t('processingFailed')}: ${result.error || t('unknownError')}`);
+       }
+     } catch (error) {
+       console.error('API调用失败:', error);
+       alert(t('networkError'));
+    } finally {
+      setIsProcessing(false);
+    }
   }
 
   const handleReset = () => {
-    // 清理 blob URLs 避免内存泄漏
-    if (processedResult && processedResult.startsWith('blob:')) {
-      URL.revokeObjectURL(processedResult)
-    }
+    // 现在processedResult是base64字符串，不需要清理blob URLs
     setSelectedFile(null)
     setProcessedResult(null)
     setProgress(0)
   }
 
-  // 组件卸载时清理 blob URLs
+  // 组件卸载时清理（现在不需要清理blob URLs）
   useEffect(() => {
     return () => {
-      if (processedResult && processedResult.startsWith('blob:')) {
-        URL.revokeObjectURL(processedResult)
-      }
+      // processedResult现在是base64字符串，不需要清理
     }
   }, [processedResult])
 
@@ -348,7 +380,7 @@ export default function UploadSection() {
                     onClick={() => {
                       const link = document.createElement('a')
                       link.href = processedResult
-                      link.download = 'ai-processed-image.jpg'
+                      link.download = `ai-processed-${Date.now()}.jpg`
                       link.click()
                     }}
                   >

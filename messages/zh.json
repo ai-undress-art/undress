@@ -61,7 +61,10 @@
     "processingNote": "正在使用AI技术处理您的图片...",
     "processingComplete": "处理完成！结果已生成",
     "previewTitle": "预览",
-    "uploadImageFirst": "请先上传图片"
+    "uploadImageFirst": "请先上传图片",
+    "processingFailed": "处理失败",
+    "networkError": "网络错误，请稍后重试",
+    "unknownError": "未知错误"
   },
   "faq": {
     "title": "常见问题",

@@ -61,7 +61,10 @@
     "processingNote": "Using AI technology to process your image...",
     "processingComplete": "Processing complete! Result generated",
     "previewTitle": "Preview",
-    "uploadImageFirst": "Please upload an image first"
+    "uploadImageFirst": "Please upload an image first",
+    "processingFailed": "Processing failed",
+    "networkError": "Network error, please try again later",
+    "unknownError": "Unknown error"
   },
   "faq": {
     "title": "Frequently Asked Questions",

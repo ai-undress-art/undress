@@ -7,6 +7,7 @@ import { getMessages, getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
 import { notFound } from 'next/navigation'
 import PerformanceMonitor from '@/components/analytics/PerformanceMonitor'
+import LanguageDetector from '@/components/LanguageDetector'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -87,6 +88,7 @@ export default async function RootLayout({
       <body className={`${inter.className} bg-dark-primary text-white`}>
         <NextIntlClientProvider messages={messages}>
           <Providers>
+            <LanguageDetector />
             <PerformanceMonitor />
             {children}
           </Providers>

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://ai-undress.online'),
   title: {
     template: '%s | Dessi AI',
-    default: 'Dessi AI - 免费AI脱衣工具 | 先进的AI图像处理技术'
+    default: 'Dessi AI - AI Image Processing Tool | Advanced AI Technology'
   },
-  description: '使用最先进的AI技术进行图像处理，支持多种格式，24小时自动删除，保护隐私安全。免费使用，无限制。',
-  keywords: ['AI图像处理', '人工智能', '图像编辑', '深度学习', '计算机视觉', 'AI工具', '免费AI'],
+  description: 'Advanced AI technology for image processing, supporting multiple formats, 24-hour automatic deletion, privacy protection. Free to use, no restrictions.',
+  keywords: ['AI image processing', 'artificial intelligence', 'image editing', 'deep learning', 'computer vision', 'AI tools', 'free AI'],
   authors: [{ name: 'Dessi AI Team', url: 'https://ai-undress.online' }],
   creator: 'Dessi AI',
   publisher: 'Dessi AI',
@@ -36,24 +36,24 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'zh_CN',
+    locale: 'en_US',
     url: 'https://ai-undress.online',
     siteName: 'Dessi AI',
-    title: 'Dessi AI - 免费AI脱衣工具 | 先进的AI图像处理技术',
-    description: '使用最先进的AI技术进行图像处理，支持多种格式，24小时自动删除，保护隐私安全。',
+    title: 'Dessi AI - AI Image Processing Tool | Advanced AI Technology',
+    description: 'Advanced AI technology for image processing, supporting multiple formats, 24-hour automatic deletion, privacy protection.',
     images: [
       {
         url: '/images/logo.png',
         width: 1200,
         height: 630,
-        alt: 'Dessi AI - AI图像处理工具',
+        alt: 'Dessi AI - AI Image Processing Tool',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dessi AI - 免费AI脱衣工具',
-    description: '使用最先进的AI技术进行图像处理，免费使用，保护隐私。',
+    title: 'Dessi AI - AI Image Processing Tool',
+    description: 'Advanced AI technology for image processing, free to use, privacy protection.',
     images: ['/images/logo.png'],
     creator: '@DessiiAI',
     site: '@DessiiAI',
@@ -90,7 +90,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="zh-CN">
+    <html>
       <head>
         <meta name="6a97888e-site-verification" content="bee01f6bb37c65bc7f6112921b8a7cf0" />
         {/* DNS预解析和预连接 */}
@@ -120,7 +120,7 @@ export default function RootLayout({
               "name": "Dessi AI",
               "url": "https://ai-undress.online",
               "logo": "https://ai-undress.online/images/logo.png",
-              "description": "先进的AI图像处理技术公司",
+              "description": "Advanced AI image processing technology company",
               "foundingDate": "2024",
               "industry": "Artificial Intelligence",
               "contactPoint": {
