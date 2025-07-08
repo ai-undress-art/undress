@@ -23,6 +23,18 @@ NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 
 **注意：** 将 `G-XXXXXXXXXX` 替换为您的实际测量 ID。
 
+### 2.1 Content Security Policy (CSP) 配置
+
+项目已经在 `next.config.js` 中配置了正确的 CSP 头部，允许 Google Analytics 脚本加载：
+
+```javascript
+"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com"
+"connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://region1.google-analytics.com"
+"img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com"
+```
+
+这解决了 `Refused to load the script` 的 CSP 错误。
+
 ### 3. 验证集成
 
 1. 启动开发服务器：`npm run dev`
@@ -188,16 +200,21 @@ if (cookieConsent === 'accepted') {
 
 ### 常见问题
 
-1. **事件未显示**
+1. **CSP 错误：Refused to load the script**
+   - **错误消息**：`Refused to load the script 'https://www.googletagmanager.com/gtag/js' because it violates the following Content Security Policy directive`
+   - **解决方案**：项目已在 `next.config.js` 中配置了正确的 CSP，允许 Google Analytics 域名
+   - **验证**：检查浏览器开发者工具的网络标签，确认 GA 脚本正在加载
+
+2. **事件未显示**
    - 检查测量 ID 是否正确
    - 确认在生产环境中运行
    - 验证网络请求是否发送
 
-2. **开发环境中的事件**
+3. **开发环境中的事件**
    - GA 在开发环境中被禁用
    - 使用控制台日志进行调试
 
-3. **实时数据延迟**
+4. **实时数据延迟**
    - GA4 实时数据可能有 5-10 分钟延迟
    - 标准报告可能需要 24-48 小时
 
