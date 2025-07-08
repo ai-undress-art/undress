@@ -4,6 +4,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { Button, Card, CardBody, Progress } from '@heroui/react'
 import { useTranslations } from 'next-intl'
 import OptimizedImage from './ui/OptimizedImage'
+import { analytics } from '@/lib/analytics'
 
 export default function UploadSection() {
   const t = useTranslations('upload');
@@ -38,6 +39,9 @@ export default function UploadSection() {
     if (file.type.startsWith('image/')) {
       setSelectedFile(file)
       setProcessedResult(null) // 重置处理结果
+      
+      // 跟踪图片上传事件
+      analytics.imageUpload(file.size, file.type)
     } else {
       alert(t('pleaseSelectImage'))
     }
@@ -68,6 +72,8 @@ export default function UploadSection() {
     
     setIsProcessing(true)
     setProgress(0)
+    
+    const startTime = Date.now()
     
     try {
       // 模拟处理进度
@@ -107,6 +113,10 @@ export default function UploadSection() {
         // 设置处理结果
         setProcessedResult(result.processedImage);
         
+        // 跟踪处理成功事件
+        const processingTime = Date.now() - startTime
+        analytics.imageProcess(processingTime, true)
+        
         // 处理完成后滚动到结果区域（仅在移动端）
         setTimeout(() => {
           if (window.innerWidth < 1024) {
@@ -120,10 +130,20 @@ export default function UploadSection() {
          // 处理失败
          console.error('处理失败:', result.error || result.message);
          alert(`${t('processingFailed')}: ${result.error || t('unknownError')}`);
+         
+         // 跟踪处理失败事件
+         const processingTime = Date.now() - startTime
+         analytics.imageProcess(processingTime, false)
+         analytics.error('image_processing_failed', result.error || 'Unknown error')
        }
      } catch (error) {
        console.error('API调用失败:', error);
        alert(t('networkError'));
+       
+       // 跟踪网络错误
+       const processingTime = Date.now() - startTime
+       analytics.imageProcess(processingTime, false)
+       analytics.error('api_call_failed', error instanceof Error ? error.message : 'Unknown error');
     } finally {
       setIsProcessing(false);
     }
@@ -382,6 +402,9 @@ export default function UploadSection() {
                       link.href = processedResult
                       link.download = `ai-processed-${Date.now()}.jpg`
                       link.click()
+                      
+                      // 跟踪下载事件
+                      analytics.imageDownload()
                     }}
                   >
                     💾 {t('downloadResult')}

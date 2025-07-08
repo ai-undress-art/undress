@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { Button, Input, Textarea } from '@heroui/react'
 import { ContactFormData, ApiResponse, SubmitStatus } from '@/types/contact'
+import { analytics } from '@/lib/analytics'
 
 export default function ContactForm() {
   const t = useTranslations('contact.form')
@@ -34,13 +35,24 @@ export default function ContactForm() {
       if (response.ok) {
         setSubmitStatus('success')
         setFormData({ name: '', email: '', subject: '', message: '' })
+        
+        // 跟踪表单提交成功事件
+        analytics.contactSubmit(true)
       } else {
         console.error('提交失败:', result.error)
         setSubmitStatus('error')
+        
+        // 跟踪表单提交失败事件
+        analytics.contactSubmit(false)
+        analytics.error('contact_form_failed', result.error || 'Unknown error')
       }
     } catch (error) {
       console.error('网络错误:', error)
       setSubmitStatus('error')
+      
+      // 跟踪网络错误
+      analytics.contactSubmit(false)
+      analytics.error('contact_form_network_error', error instanceof Error ? error.message : 'Network error')
     } finally {
       setIsSubmitting(false)
     }

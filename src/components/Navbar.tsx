@@ -6,6 +6,7 @@ import { useLocale, useTranslations } from 'next-intl'
 import { useRouter, usePathname } from '@/i18n/routing'
 import { Link } from '@/i18n/routing'
 import { Globe } from 'lucide-react'
+import { analytics } from '@/lib/analytics'
 
 const languages = [
   { code: 'zh', name: '中文', flag: '🇨🇳' },
@@ -21,6 +22,9 @@ export default function AppNavbar() {
   const currentLanguage = languages.find(lang => lang.code === locale);
 
   const handleLanguageChange = (newLocale: string) => {
+    // 跟踪语言切换事件
+    analytics.languageChange(locale, newLocale);
+    
     router.push(pathname, { locale: newLocale });
   };
 
