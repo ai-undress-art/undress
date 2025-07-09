@@ -81,24 +81,13 @@ export default async function RootLayout({
   return (
     <html lang={locale} className="dark">
       <head>
-        <meta name="6a97888e-site-verification" content="bee01f6bb37c65bc7f6112921b8a7cf0" />
-        <meta name="juicyads-site-verification" content="708a3b01853f2ba74b0d50543495e2f2" />
         {/* <script type='text/javascript' src='//pl27113709.profitableratecpm.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js'></script> */}
 
-
         {/* DNS预解析和预连接 */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
-        <link rel="preconnect" href="https://poweredby.jads.co" />
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-        <link rel="dns-prefetch" href="https://poweredby.jads.co" />
-        <link rel="dns-prefetch" href="https://cdn.jads.co" />
-        <link rel="dns-prefetch" href="https://ads.jads.co" />
 
         {/* 性能优化 */}
         <link rel="preload" href="/images/bgLg.webp" as="image" type="image/webp" />
