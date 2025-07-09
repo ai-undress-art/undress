@@ -10,6 +10,7 @@ import PerformanceMonitor from '@/components/analytics/PerformanceMonitor'
 import GoogleAnalyticsProvider from '@/components/analytics/GoogleAnalytics'
 import LanguageDetector from '@/components/LanguageDetector'
 import Script from 'next/script'
+import VConsole from 'vconsole';
 
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -78,6 +79,9 @@ export default async function RootLayout({
   // 获取对应语言的翻译文件
   const messages = await getMessages();
 
+  const vConsole = new VConsole({ theme: 'dark' });
+
+  
   return (
     <html lang={locale} className="dark">
       <head>
@@ -139,21 +143,17 @@ export default async function RootLayout({
             <GoogleAnalyticsProvider />
             <LanguageDetector />
             <PerformanceMonitor />
-            <Script
+            {/* <Script
               src="//pl27113709.profitableratecpm.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js"
               data-cfasync="false"
               async
               strategy="afterInteractive"
-            />
+            /> */}
             <Script 
               src="//static.scptpz.com/mnpw3.js"
               strategy="afterInteractive"
               data-cfasync="false"
               async
-            />
-            <Script
-              src="https://js.juicyads.com/jp.php?c=4464v213q244u4r2o2e43374a4&u=https%3A%2F%2Fwww.juicyads.rocks"
-              strategy="afterInteractive"
             />
             <Script
               src="https://poweredby.jads.co/js/jads.js"
@@ -170,6 +170,10 @@ export default async function RootLayout({
                 mnpw.add('https://t.ancdu.link/380687/3785/0?bo=Array&target=pops&file_id=252177&po=6456&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0005&pud=scptpz', {newTab: true, cookieExpires: 86401});
               }, 2000)`}
             </Script>
+            <Script
+              src="https://js.juicyads.com/jp.php?c=4464v213q244u4r2o2e43374a4&u=https%3A%2F%2Fwww.juicyads.rocks"
+              strategy="lazyOnload"
+            />
             {children}
           </Providers>
         </NextIntlClientProvider>

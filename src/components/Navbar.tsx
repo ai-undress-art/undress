@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Button, Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from '@heroui/react'
 import { useLocale, useTranslations } from 'next-intl'
 import { useRouter, usePathname } from '@/i18n/routing'
@@ -27,6 +27,7 @@ export default function AppNavbar() {
     
     router.push(pathname, { locale: newLocale });
   };
+
 
   return (
     <Navbar  position="static" className="glass-effect-dark backdrop-blur-xl border-b border-seductive-purple/20">
