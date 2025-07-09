@@ -1,342 +1,428 @@
-
 {
   "metadata": {
-    "title": "Herramienta gratuita en línea para desnudar con IA | Quita la ropa de cualquier persona",
-    "description": "¡Desviste la ropa con un solo clic! Una herramienta de IA potente y realista que muestra desnudez en cualquier imagen. 100% gratis e ilimitado. ¡Prueba ahora la aplicación web gratuita de IA para desnudar y obtén resultados al instante!",
+    "title": "免费AI脱衣服在线工具 | 从任何人身上去除衣物",
+    "description": "只需轻轻一点，即可脱下衣服！强大而逼真的人工智能工具，可显示任何图片中的裸体。100%免费且无限制。立即尝试免费的脱衣ai网络应用程序，立即获得结果！",
     "privacy": {
-      "title": "Política de privacidad | Undress AI - Protegiendo su privacidad",
-      "description": "Descubra cómo Undress AI recopila, utiliza y protege su información personal. Nos comprometemos a proteger su privacidad. Todas las imágenes cargadas se eliminan automáticamente después de 24 horas y no se comparten datos con terceros.",
-      "keywords": "política de privacidad, protección de datos, procesamiento de imágenes con IA, seguridad de la información personal, cumplimiento del RGPD, eliminación de datos, protección de la privacidad"
+      "title": "隐私政策 | Undress AI - 保护您的隐私安全",
+      "description": "了解 Undress AI如何收集、使用和保护您的个人信息。我们承诺保护您的隐私，所有上传图像24小时后自动删除，不与第三方共享任何数据。",
+      "keywords": "隐私政策, 数据保护, AI图像处理, 个人信息安全, GDPR合规, 数据删除, 隐私保护"
     },
     "about": {
-      "title": "Sobre nosotros | Undress AI - Tecnología avanzada de procesamiento de imágenes con IA",
-      "description": "Conozca la misión, las ventajas tecnológicas y el equipo de Undress AI. Nos dedicamos a desarrollar la tecnología de procesamiento de imágenes con IA más avanzada para ofrecer a los usuarios servicios de IA seguros y eficientes.",
-      "keywords": "procesamiento de imágenes con IA, tecnología de inteligencia artificial, aprendizaje profundo, reconocimiento de imágenes, servicios de IA, equipo técnico, tecnología innovadora"
+      "title": "关于我们 | Undress AI - 先进的AI图像处理技术",
+      "description": "了解 Undress AI的使命、技术优势和团队。我们致力于开发最先进的AI图像处理技术，为用户提供安全、高效的AI服务。",
+      "keywords": "AI图像处理, 人工智能技术, 深度学习, 图像识别, AI服务, 技术团队, 创新科技"
     },
-    "terms": {
-      "title": "Términos de servicio | Undress AI - Términos y condiciones de uso",
-      "description": "Lea los términos y condiciones para usar los servicios de Undress AI. Incluye cláusulas legales importantes como la responsabilidad del usuario, las limitaciones del servicio, la propiedad intelectual, etc.",
-      "keywords": "términos de servicio, condiciones de uso, acuerdo de usuario, cláusulas legales, limitaciones del servicio, propiedad intelectual, responsabilidad del usuario"
-    },
-    "contact": {
-      "title": "Contacto | Undress AI - Obtenga ayuda y soporte",
-      "description": "Póngase en contacto con el equipo de Undress AI para obtener soporte técnico, consultas de asociación o comentarios. Ofrecemos soporte en línea 24/7 y respondemos rápidamente a sus necesidades.",
-      "keywords": "contacto, soporte técnico, servicio al cliente, comentarios, consultas de asociación, soporte en línea, centro de ayuda"
-    }
+      "terms": {
+    "title": "服务条款 | Undress AI - 使用条款和条件",
+    "description": "了解使用Undress AI服务的条款和条件。包括用户责任、服务限制、知识产权等重要法律条款。",
+    "keywords": "服务条款, 使用条款, 用户协议, 法律条款, 服务限制, 知识产权, 用户责任"
+  },
+  "contact": {
+    "title": "联系我们 | Undress AI - 获取帮助与支持",
+    "description": "联系Undress AI团队获取技术支持、合作咨询或意见反馈。我们提供24/7在线支持，快速响应您的需求。",
+    "keywords": "联系我们, 技术支持, 客户服务, 意见反馈, 合作咨询, 在线支持, 帮助中心"
+  }
   },
   "navbar": {
-    "language": "Idioma",
-    "brand": "Desnudar con IA",
-    "features": "Características",
-    "pricing": "Precios",
-    "faq": "Preguntas frecuentes"
+    "language": "语言",
+    "brand": "AI脱衣",
+    "features": "功能特点",
+    "pricing": "价格",
+    "faq": "常见问题"
   },
   "hero": {
-    "title": "Tecnología de desnudo con IA",
-    "subtitle": "Tecnología de IA avanzada para un procesamiento rápido de imágenes",
-    "cta": "Pruébalo ahora",
-    "description": "Uso de la inteligencia artificial más avanzada",
-    "adTitle": "Espacio publicitario",
-    "adDescription": "Puede colocar su contenido publicitario aquí",
-    "adContent": "[Área de contenido publicitario]"
+    "title": "AI脱衣技术",
+    "subtitle": "先进的AI技术，快速处理图像",
+    "cta": "立即体验",
+    "description": "使用最先进的人工智能技术",
+    "adTitle": "广告位",
+    "adDescription": "这里可以放置您的广告内容",
+    "adContent": "[广告内容区域]"
   },
   "upload": {
-    "title": "Subir imagen",
-    "description": "Seleccione la imagen que desea procesar",
-    "button": "Seleccionar archivo",
-    "processing": "Procesando...",
-    "success": "Procesamiento completo",
-    "dragText": "Arrastrar y soltar o",
-    "selectFile": "seleccionar un archivo",
-    "supportedFormats": "Soporta formatos JPG, PNG",
-    "reset": "Restablecer",
-    "startProcessing": "Iniciar procesamiento",
-    "aiProcessing": "Procesando con IA...",
+    "title": "上传图片",
+    "description": "选择您要处理的图片",
+    "button": "选择文件",
+    "processing": "处理中...",
+    "success": "处理完成",
+    "dragText": "拖拽或",
+    "selectFile": "选择文件",
+    "supportedFormats": "支持 JPG, PNG 格式",
+    "reset": "重置",
+    "startProcessing": "开始处理",
+    "aiProcessing": "AI处理中...",
     "fileSize": "MB",
-    "pleaseSelectImage": "Por favor, seleccione un archivo de imagen",
-    "adTitleCompact": "Anuncio",
-    "adContentCompact": "[Contenido del anuncio]",
-    "originalImage": "Imagen original",
-    "processedImage": "Imagen procesada",
-    "downloadResult": "Descargar resultado",
-    "processingNote": "Procesando su imagen con tecnología de IA...",
-    "processingComplete": "¡Procesamiento completo! Resultado generado",
-    "previewTitle": "Vista previa",
-    "uploadImageFirst": "Por favor, suba una imagen primero",
-    "processingFailed": "Error en el procesamiento",
-    "networkError": "Error de red, por favor inténtelo de nuevo más tarde",
-    "unknownError": "Error desconocido"
+    "pleaseSelectImage": "请选择图片文件",
+    "adTitleCompact": "广告",
+    "adContentCompact": "[广告内容]",
+    "originalImage": "原始图片",
+    "processedImage": "处理结果",
+    "downloadResult": "下载结果",
+    "processingNote": "正在使用AI技术处理您的图片...",
+    "processingComplete": "处理完成！结果已生成",
+    "previewTitle": "预览",
+    "uploadImageFirst": "请先上传图片",
+    "processingFailed": "处理失败",
+    "networkError": "网络错误，请稍后重试",
+    "unknownError": "未知错误"
   },
   "faq": {
-    "title": "Preguntas frecuentes",
+    "title": "常见问题",
     "items": {
-      "q1": "¿Qué es el desnudo con IA?",
-      "a1": "El desnudo con IA es una herramienta que utiliza inteligencia artificial para quitar digitalmente la ropa de las personas en imágenes o videos. Emplea técnicas como algoritmos de inpainting de imágenes para analizar y manipular datos visuales, creando efectivamente la ilusión de que la persona está desvestida.",
-      "q2": "¿Cómo usar el desnudo con IA?",
-      "a2": "Simplemente suba una foto y luego seleccione el área de la ropa que desea quitar. Cuanto más preciso marque, mejores serán los resultados.",
-      "q3": "¿Cuánto tiempo lleva el proceso de generación?",
-      "a3": "Depende de la carga del servidor, por lo que puede variar de un segundo a un minuto.",
-      "q4": "¿Puedo usar el desnudo con IA de forma gratuita?",
-      "a4": "Sí, puede usar nuestro generador de forma gratuita sin límite de solicitudes.",
-      "q5": "¿Es seguro el desnudo con IA?",
-      "a5": "La seguridad del desnudo con IA depende de la intención del usuario. Dichas herramientas deben usarse de manera responsable y para evitar cualquier propósito dañino. Siempre obtenga el consentimiento explícito antes de manipular imágenes y úselas solo para fines artísticos, educativos y no comerciales.",
-      "q6": "¿Almacenamos las imágenes?",
-      "a6": "Todos los archivos cargados se eliminan automáticamente después de 24 horas, y el contenido generado se guarda hasta por 30 días.",
-      "q7": "¿Son estos resultados generados de acceso público?",
-      "a7": "No, sus resultados generados solo están disponibles para usted y no se comparten con terceros."
+      "q1": "什么是AI脱衣服？",
+      "a1": "AI脱衣服是一种利用人工智能从图像或视频中数字化去除人物服装的工具。它采用图像修复算法等技术来分析和操纵视觉数据，有效地营造出人物被脱衣的幻觉。",
+      "q2": "如何使用AI脱衣服？",
+      "a2": "只需上传照片，然后选择要去除的服装区域。您标记得越准确，结果就越好。",
+      "q3": "生成过程需要多长时间？",
+      "a3": "这取决于服务器负载，所以从一秒到一分钟不等。",
+      "q4": "我可以免费使用AI脱衣服吗？",
+      "a4": "是的，您可以免费使用我们的生成器，没有任何请求限制。",
+      "q5": "AI脱衣服安全吗？",
+      "a5": "AI脱衣服的安全性取决于用户的意图。此类工具应该负责任地使用，避免任何有害目的。在操作图像之前始终获得明确的同意，并仅将其用于艺术、教育和非商业目的。",
+      "q6": "我们存储图片吗？",
+      "a6": "所有上传的文件将在24小时后自动删除，生成的内容最多保留30天。",
+      "q7": "这些生成结果是公开可访问的吗？",
+      "a7": "不，您的生成结果仅对您可用，并且不会与第三方共享。"
     }
   },
   "footer": {
     "brand": "Undress",
-    "rights": "Todos los derechos reservados",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
-    "about": "Sobre nosotros",
-    "contact": "Contacto",
-    "cookieNotice": "Este sitio web utiliza cookies de acuerdo con nuestra Política de privacidad para brindarle una mejor experiencia."
+    "rights": "版权所有",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "about": "关于",
+    "contact": "联系",
+    "cookieNotice": "本网站根据我们的隐私政策使用Cookie，以为您提供更好的体验。"
   },
   "about": {
-    "title": "Sobre nosotros",
-    "subtitle": "Conozca nuestra tecnología y misión de IA",
-    "backToHome": "Volver al inicio",
+    "title": "关于我们",
+    "subtitle": "了解我们的AI技术和使命",
+    "backToHome": "返回首页",
     "breadcrumb": {
-      "home": "Inicio",
-      "about": "Sobre nosotros"
+      "home": "首页",
+      "about": "关于我们"
     },
-    "heroTitle": "Pioneros en tecnología innovadora de IA",
-    "heroDescription": "Nos dedicamos a desarrollar la tecnología de procesamiento de imágenes con inteligencia artificial más avanzada para ofrecer a los usuarios servicios de IA seguros y eficientes.",
+    "heroTitle": "创新AI技术的先行者",
+    "heroDescription": "我们致力于开发最先进的人工智能图像处理技术，为用户提供安全、高效的AI服务。",
     "mission": {
-      "title": "Nuestra misión",
-      "description": "Permitir que todos experimenten fácilmente las potentes capacidades de la inteligencia artificial a través de tecnología de IA de vanguardia. Creemos que la tecnología debe servir a la humanidad y mejorar la vida."
+      "title": "我们的使命",
+      "description": "通过前沿的AI技术，让每个人都能轻松体验到人工智能的强大能力。我们相信技术应该服务于人类，让生活变得更加美好。"
     },
     "technology": {
-      "title": "Ventajas tecnológicas",
-      "description": "Adoptando los últimos algoritmos de aprendizaje profundo y técnicas de procesamiento de imágenes para garantizar resultados de procesamiento de alta calidad y alta eficiencia.",
+      "title": "技术优势",
+      "description": "采用最新的深度学习算法和图像处理技术，确保处理结果的高质量和高效率。",
       "features": [
         {
-          "title": "Algoritmos avanzados",
-          "description": "Basado en los últimos modelos de aprendizaje profundo, que proporcionan capacidades precisas de procesamiento de imágenes"
+          "title": "先进算法",
+          "description": "基于最新的深度学习模型，提供精确的图像处理能力"
         },
         {
-          "title": "Procesamiento rápido",
-          "description": "Arquitectura de algoritmo optimizada para lograr velocidades de procesamiento de imágenes a nivel de segundo"
+          "title": "快速处理",
+          "description": "优化的算法架构，实现秒级图像处理速度"
         },
         {
-          "title": "Salida de alta calidad",
-          "description": "Garantizar que las imágenes procesadas mantengan una alta resolución y efectos naturales"
+          "title": "高质量输出",
+          "description": "确保处理后的图像保持高分辨率和自然效果"
         }
       ]
     },
     "privacy": {
-      "title": "Protección de la privacidad",
-      "description": "Damos gran importancia a la privacidad del usuario y adoptamos estrictas medidas de protección de datos:",
+      "title": "隐私保护",
+      "description": "我们高度重视用户隐私，采用严格的数据保护措施：",
       "features": [
-        "Todos los archivos cargados se eliminan automáticamente después de 24 horas",
-        "Uso de transmisión encriptada de extremo a extremo",
-        "No almacena ni comparte datos de usuario",
-        "Cumple con los estándares internacionales de protección de la privacidad"
+        "所有上传文件24小时后自动删除",
+        "采用端到端加密传输",
+        "不会存储或分享用户数据",
+        "符合国际隐私保护标准"
       ]
     },
     "team": {
-      "title": "Presentación del equipo",
-      "description": "Somos un equipo profesional compuesto por expertos en investigación de IA, ingenieros de software y diseñadores de productos, enfocados en la investigación, el desarrollo y la aplicación de la tecnología de procesamiento de imágenes con IA.",
+      "title": "团队介绍",
+      "description": "我们是一支由AI研究专家、软件工程师和产品设计师组成的专业团队，专注于AI图像处理技术的研发与应用。",
       "roles": {
-        "aiExpert": "Experto en investigación de IA",
-        "engineer": "Ingeniero de software",
-        "designer": "Diseñador de productos",
-        "techExpert": "Experto en tecnología"
+        "aiExpert": "AI 研究专家",
+        "engineer": "软件工程师",
+        "designer": "产品设计师",
+        "techExpert": "技术专家"
       }
     },
     "contact": {
-      "title": "Contacto",
-      "description": "Si tiene alguna pregunta o sugerencia, no dude en contactarnos:",
-      "email": "Correo electrónico",
-      "support": "Soporte técnico",
-      "phone": "Línea directa",
-      "onlineSupport": "Soporte en línea 24/7",
-      "contactAction": "Contacto",
-      "readyTitle": "¿Listo para comenzar?",
-      "readyDescription": "Experimente nuestra tecnología de IA ahora y sienta la capacidad de procesamiento de imágenes sin precedentes",
-      "tryNow": "Pruébalo ahora"
+      "title": "联系我们",
+      "description": "如有任何问题或建议，欢迎随时联系我们：",
+      "email": "邮箱",
+      "support": "技术支持",
+      "phone": "热线电话",
+      "onlineSupport": "24/7 在线支持",
+      "contactAction": "联系",
+      "readyTitle": "准备好开始了吗？",
+      "readyDescription": "立即体验我们的AI技术，感受前所未有的图像处理能力",
+      "tryNow": "立即体验"
     }
   },
   "contact": {
-    "title": "Contacto",
-    "subtitle": "Siempre estamos aquí para ayudar",
-    "backToHome": "Volver al inicio",
+    "title": "联系我们",
+    "subtitle": "我们随时为您提供帮助",
+    "backToHome": "返回首页",
     "breadcrumb": {
-      "home": "Inicio",
-      "contact": "Contacto"
+      "home": "首页",
+      "contact": "联系我们"
     },
-    "heroTitle": "Siempre aquí para apoyarte",
-    "heroDescription": "Ya sea que tenga preguntas, sugerencias o necesite soporte técnico, nuestro equipo profesional responderá con prontitud y le brindará la mejor solución.",
-    "heroSubtitle": "Equipo de soporte profesional 24/7",
+    "heroTitle": "随时为您提供支持",
+    "heroDescription": "无论您有任何问题、建议或需要技术支持，我们的专业团队都会及时回复并为您提供最佳解决方案。",
+    "heroSubtitle": "24/7 专业支持团队",
     "form": {
-      "title": "Enviar un mensaje",
-      "description": "Complete la siguiente información y le responderemos lo antes posible",
-      "name": "Nombre",
-      "namePlaceholder": "Por favor ingrese su nombre",
-      "email": "Correo electrónico",
-      "emailPlaceholder": "Por favor ingrese su dirección de correo electrónico",
-      "subject": "Asunto",
-      "subjectPlaceholder": "Por favor ingrese el asunto del mensaje",
-      "message": "Mensaje",
-      "messagePlaceholder": "Describa su problema o sugerencia en detalle...",
-      "submit": "Enviar mensaje",
-      "submitting": "Enviando...",
-      "success": "¡Mensaje enviado con éxito! Le responderemos lo antes posible.",
-      "error": "Error al enviar, por favor inténtelo de nuevo más tarde.",
-      "required": "Este campo es obligatorio",
-      "invalidEmail": "Por favor ingrese una dirección de correo electrónico válida",
-      "minLength": "Se requieren al menos {min} caracteres"
+      "title": "发送消息",
+      "description": "请填写以下信息，我们会尽快回复您",
+      "name": "姓名",
+      "namePlaceholder": "请输入您的姓名",
+      "email": "邮箱",
+      "emailPlaceholder": "请输入您的邮箱地址",
+      "subject": "主题",
+      "subjectPlaceholder": "请输入消息主题",
+      "message": "消息内容",
+      "messagePlaceholder": "请详细描述您的问题或建议...",
+      "submit": "发送消息",
+      "submitting": "发送中...",
+      "success": "消息发送成功！我们会尽快回复您。",
+      "error": "发送失败，请稍后重试。",
+      "required": "此字段为必填项",
+      "invalidEmail": "请输入有效的邮箱地址",
+      "minLength": "至少需要 {min} 个字符"
     },
     "info": {
-      "title": "Información de contacto",
+      "title": "联系信息",
       "email": {
-        "title": "Contacto por correo electrónico",
+        "title": "邮箱联系",
         "address": "undress.online.ai@gmail.com",
-        "description": "Envíe un correo electrónico para obtener soporte técnico"
+        "description": "发送邮件获取技术支持"
       },
       "response": {
-        "title": "Tiempo de respuesta",
-        "time": "Dentro de las 24 horas",
-        "description": "Prometemos responder dentro de las 24 horas"
+        "title": "响应时间",
+        "time": "24小时内",
+        "description": "我们承诺在24小时内回复"
       },
       "support": {
-        "title": "Soporte técnico",
-        "availability": "24/7 en línea",
-        "description": "Servicio de soporte técnico durante todo el día"
+        "title": "技术支持",
+        "availability": "24/7 在线",
+        "description": "全天候技术支持服务"
       }
     },
     "types": {
-      "title": "Cómo podemos ayudarlo",
+      "title": "我们可以帮助您",
       "technical": {
-        "title": "Soporte técnico",
-        "description": "Resolución de problemas técnicos encontrados durante el uso"
+        "title": "技术支持",
+        "description": "解决使用过程中遇到的技术问题"
       },
       "feedback": {
-        "title": "Comentarios",
-        "description": "Comparta sus sugerencias e ideas de mejora"
+        "title": "意见反馈",
+        "description": "分享您的建议和改进意见"
       },
       "business": {
-        "title": "Cooperación comercial",
-        "description": "Discusión de oportunidades de cooperación y asociaciones comerciales"
+        "title": "商务合作",
+        "description": "讨论合作机会和商业伙伴关系"
       },
       "general": {
-        "title": "Consultas generales",
-        "description": "Cualquier otra pregunta o consulta"
+        "title": "一般咨询",
+        "description": "其他任何问题或咨询"
       }
     }
   },
   "privacy": {
-    "title": "Política de privacidad",
-    "backToHome": "Volver al inicio",
-    "lastUpdated": "Última actualización",
-    "updateDate": "15 de enero de 2024",
+    "title": "隐私政策",
+    "backToHome": "返回首页",
+    "lastUpdated": "最后更新",
+    "updateDate": "2024年1月15日",
     "breadcrumb": {
-      "home": "Inicio",
-      "privacy": "Política de privacidad"
+      "home": "首页",
+      "privacy": "隐私政策"
     },
     "introduction": {
-      "title": "Introducción",
-      "content": "Esta Política de privacidad describe cómo recopilamos, usamos y protegemos la información que proporciona cuando utiliza nuestros servicios de procesamiento de imágenes con IA. Nos comprometemos a proteger su privacidad y garantizar que su información personal se trate de forma segura."
+      "title": "简介",
+      "content": "本隐私政策描述了我们如何收集、使用和保护您在使用我们的AI图像处理服务时提供的信息。我们致力于保护您的隐私，并确保您的个人信息得到安全处理。"
     },
     "dataCollection": {
-      "title": "Recopilación de información",
-      "description": "Podemos recopilar los siguientes tipos de información:",
+      "title": "信息收集",
+      "description": "我们可能收集以下类型的信息：",
       "items": {
-        "uploaded": "Archivos de imagen cargados (solo para fines de procesamiento)",
-        "technical": "Información técnica (dirección IP, tipo de navegador, información del dispositivo)",
-        "usage": "Datos de uso (tiempos de acceso, funciones utilizadas)",
-        "device": "Información del dispositivo (sistema operativo, resolución de pantalla)"
+        "uploaded": "上传的图像文件（仅用于处理目的）",
+        "technical": "技术信息（IP地址、浏览器类型、设备信息）",
+        "usage": "使用数据（访问时间、使用功能）",
+        "device": "设备信息（操作系统、屏幕分辨率）"
       }
     },
     "dataUsage": {
-      "title": "Uso de la información",
-      "description": "La información recopilada se utiliza para los siguientes fines:",
+      "title": "信息使用",
+      "description": "我们使用收集的信息用于：",
       "items": {
-        "service": "Proporcionar servicios de procesamiento de imágenes con IA",
-        "improve": "Mejorar los servicios y optimizar las funciones",
-        "security": "Mantener la seguridad y prevenir el fraude",
-        "analysis": "Analizar las tendencias de uso"
+        "processing": "处理您上传的图像并提供AI服务",
+        "improvement": "改进我们的服务质量和用户体验",
+        "support": "提供技术支持和客户服务",
+        "security": "维护服务安全和防止滥用"
       }
     },
     "dataProtection": {
-      "title": "Protección de la información",
-      "content": "Utilizamos medidas de seguridad estándar de la industria para proteger su información. Todas las transferencias de datos están encriptadas y el acceso está restringido al personal autorizado."
-    },
-    "dataSharing": {
-      "title": "Intercambio de información",
-      "content": "No compartimos su información personal con terceros, excepto para cumplir con los requisitos legales o para proteger nuestros derechos."
-    },
-    "cookies": {
-      "title": "Cookies",
-      "content": "Utilizamos cookies para mejorar la experiencia del usuario y analizar el tráfico. Puede deshabilitar las cookies en la configuración de su navegador."
-    },
-    "userRights": {
-      "title": "Derechos del usuario",
-      "description": "Usted tiene derecho a:",
+      "title": "数据保护",
+      "description": "我们采取以下措施保护您的数据：",
       "items": {
-        "access": "Acceder a su información personal",
-        "correction": "Corregir información inexacta",
-        "deletion": "Solicitar la eliminación de su información"
+        "encryption": "所有数据传输均采用SSL/TLS加密",
+        "autoDelete": "上传的图像在24小时后自动删除",
+        "accessControl": "严格的访问控制和权限管理",
+        "monitoring": "定期安全审计和监控"
       }
     },
-    "policyChanges": {
-      "title": "Cambios en la política",
-      "content": "Podemos actualizar esta Política de privacidad de vez en cuando. Los cambios se publicarán en esta página."
+    "dataSharing": {
+      "title": "数据共享",
+      "description": "我们承诺保护您的隐私：",
+      "noSharing": "我们不会与任何第三方共享、出售或披露您的个人信息和上传的图像。"
+    },
+    "cookies": {
+      "title": "Cookie政策",
+      "description": "我们使用Cookie来改善您的体验：",
+      "items": {
+        "essential": "必要Cookie：确保网站正常运行",
+        "analytics": "分析Cookie：帮助我们了解网站使用情况",
+        "preferences": "偏好Cookie：记住您的语言和设置偏好"
+      }
+    },
+    "userRights": {
+      "title": "用户权利",
+      "description": "您享有以下权利：",
+      "items": {
+        "access": "访问权：查看我们收集的关于您的信息",
+        "correction": "更正权：更正不准确的个人信息",
+        "deletion": "删除权：要求删除您的个人信息",
+        "objection": "反对权：反对处理您的个人信息"
+      }
     },
     "contact": {
-      "title": "Contacto",
-      "content": "Si tiene alguna pregunta sobre esta Política de privacidad, contáctenos."
+      "title": "联系我们",
+      "description": "如果您对本隐私政策有任何疑问或需要行使您的权利，请联系我们：",
+      "email": "隐私邮箱",
+      "support": "技术支持"
+    },
+    "updates": {
+      "title": "政策更新",
+      "description": "我们可能会不时更新本隐私政策。任何重大变更都会在网站上发布通知。继续使用我们的服务即表示您同意更新后的政策。"
     }
   },
   "terms": {
-    "title": "Términos de servicio",
-    "backToHome": "Volver al inicio",
-    "lastUpdated": "Última actualización",
-    "updateDate": "15 de enero de 2024",
+    "title": "服务条款",
+    "backToHome": "返回首页",
+    "lastUpdated": "最后更新",
+    "updateDate": "2024年1月15日",
     "breadcrumb": {
-      "home": "Inicio",
-      "terms": "Términos de servicio"
+      "home": "首页",
+      "terms": "服务条款"
     },
-    "introduction": {
-      "title": "Introducción",
-      "content": "Bienvenido a los servicios de Undress AI. Estos Términos de servicio rigen su uso de los servicios. Al usar los servicios, usted acepta estos términos."
+    "acceptance": {
+      "title": "条款接受",
+      "content": "通过访问和使用Undress AI服务，您同意遵守本服务条款。如果您不同意这些条款，请不要使用我们的服务。"
     },
-    "userResponsibilities": {
-      "title": "Responsabilidades del usuario",
-      "description": "Usted acepta:",
+    "serviceDescription": {
+      "title": "服务描述",
+      "content": "Undress AI提供基于人工智能的图像处理服务，包括但不限于图像编辑、内容生成和图像分析功能。",
       "items": {
-        "legal": "Cumplir con todas las leyes aplicables.",
-        "noHarmful": "No subir contenido ilegal o dañino.",
-        "respect": "Respetar la privacidad y los derechos de los demás.",
-        "age": "Tener la edad legal para usar los servicios."
+        "processing": "AI图像处理和编辑服务",
+        "generation": "基于AI的内容生成",
+        "analysis": "图像分析和识别服务",
+        "api": "API接口和开发者工具"
       }
     },
-    "serviceLimitations": {
-      "title": "Limitaciones del servicio",
-      "content": "Nos reservamos el derecho de modificar o descontinuar los servicios en cualquier momento. No garantizamos la precisión o confiabilidad de los servicios."
+    "userResponsibilities": {
+      "title": "用户责任",
+      "description": "使用我们的服务时，您同意：",
+      "items": {
+        "lawful": "仅将服务用于合法目的",
+        "consent": "确保您有权上传和处理的图像",
+        "respect": "尊重他人的隐私和权利",
+        "noHarm": "不使用服务进行有害或恶意活动",
+        "compliance": "遵守所有适用的法律法规",
+        "accurate": "提供准确和真实的信息"
+      }
+    },
+    "prohibitedUse": {
+      "title": "禁止使用",
+      "description": "您不得将我们的服务用于：",
+      "items": {
+        "illegal": "任何非法活动或目的",
+        "harassment": "骚扰、威胁或伤害他人",
+        "minors": "涉及未成年人的不当内容",
+        "copyright": "侵犯他人知识产权",
+        "malware": "传播恶意软件或病毒",
+        "spam": "发送垃圾邮件或未经请求的内容"
+      }
     },
     "intellectualProperty": {
-      "title": "Propiedad intelectual",
-      "content": "Los servicios y su contenido están protegidos por derechos de autor y otras leyes. No puede reproducir ni distribuir ninguna parte de los servicios sin nuestro consentimiento previo por escrito."
+      "title": "知识产权",
+      "description": "我们的服务和相关技术受知识产权法保护：",
+      "items": {
+        "ownership": "Undress AI拥有服务的所有权利和所有权",
+        "license": "我们授予您有限的、非排他性的使用许可",
+        "userContent": "您保留对上传内容的所有权，但授予我们处理权限",
+        "generated": "AI生成的内容按照适用法律确定所有权"
+      }
     },
-    "disclaimers": {
-      "title": "Descargos de responsabilidad",
-      "content": "Los servicios se proporcionan 'tal cual'. No ofrecemos garantías de ningún tipo, incluidas las garantías de comerciabilidad o idoneidad para un propósito particular."
+    "serviceAvailability": {
+      "title": "服务可用性",
+      "description": "关于我们的服务可用性：",
+      "items": {
+        "uptime": "我们努力保持服务的高可用性，但不保证100%正常运行时间",
+        "maintenance": "我们可能会进行定期维护和更新",
+        "interruption": "服务可能因技术问题而暂时中断",
+        "modification": "我们保留修改或终止服务的权利"
+      }
     },
-    "limitationOfLiability": {
-      "title": "Limitación de responsabilidad",
-      "content": "No seremos responsables de ningún daño indirecto, incidental o consecuente que surja de su uso de los servicios."
+    "dataAndPrivacy": {
+      "title": "数据和隐私",
+      "description": "您的数据处理受我们隐私政策的约束：",
+      "items": {
+        "processing": "我们仅为提供服务而处理您的数据",
+        "retention": "上传的图像在24小时后自动删除",
+        "security": "我们采取合理措施保护您的数据",
+        "sharing": "我们不会与第三方共享您的个人数据"
+      },
+      "privacyNote": "详细的数据处理信息请参阅我们的",
+      "privacyLink": "隐私政策"
     },
-    "governingLaw": {
-      "title": "Ley aplicable",
-      "content": "Estos términos se regirán e interpretarán de acuerdo con las leyes de [su jurisdicción], sin tener en cuenta sus disposiciones sobre conflictos de leyes."
+    "limitation": {
+      "title": "责任限制",
+      "description": "在法律允许的最大范围内：",
+      "items": {
+        "asIs": "服务按「原样」提供，不提供任何明示或暗示的保证",
+        "damages": "我们不对任何间接、特殊或后果性损害负责",
+        "liability": "我们的总责任限于您支付给我们的费用",
+        "force": "我们不对不可抗力事件造成的损失负责"
+      }
+    },
+    "termination": {
+      "title": "终止",
+      "description": "服务终止的相关条款：",
+      "items": {
+        "userTermination": "您可以随时停止使用我们的服务",
+        "ourTermination": "我们可能因违反条款而终止您的访问权限",
+        "effect": "终止后，您的使用权限将立即停止",
+        "survival": "某些条款在终止后仍然有效"
+      }
+    },
+    "governing": {
+      "title": "适用法律",
+      "description": "本条款受以下法律管辖：",
+      "items": {
+        "jurisdiction": "本协议受中华人民共和国法律管辖",
+        "disputes": "任何争议应通过友好协商解决",
+        "court": "如协商无果，应提交至有管辖权的法院解决",
+        "language": "本协议的中文版本为准确版本"
+      }
     },
     "contact": {
-      "title": "Contacto",
-      "content": "Si tiene alguna pregunta sobre estos Términos de servicio, contáctenos."
+      "title": "联系我们",
+      "description": "如果您对本服务条款有任何疑问，请联系我们：",
+      "email": "法务邮箱",
+      "support": "技术支持"
+    },
+    "updates": {
+      "title": "条款更新",
+      "description": "我们可能会不时更新本服务条款。重大变更将在网站上发布通知。继续使用服务即表示您同意更新后的条款。"
     }
   }
 } 

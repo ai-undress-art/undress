@@ -1,428 +1,428 @@
 {
   "metadata": {
-    "title": "무료 AI 옷 벗기기 온라인 도구 | 누구에게서나 옷 제거",
-    "description": "클릭 한 번으로 옷을 벗기세요! 어떤 이미지에서든 누드를 보여주는 강력하고 사실적인 AI 도구입니다. 100% 무료이며 무제한입니다. 지금 무료 옷 벗기기 AI 웹 앱을 사용해보고 즉시 결과를 얻으세요!",
+    "title": "免费AI脱衣服在线工具 | 从任何人身上去除衣物",
+    "description": "只需轻轻一点，即可脱下衣服！强大而逼真的人工智能工具，可显示任何图片中的裸体。100%免费且无限制。立即尝试免费的脱衣ai网络应用程序，立即获得结果！",
     "privacy": {
-      "title": "개인정보 처리방침 | Undress AI - 개인정보 보호",
-      "description": "Undress AI가 개인정보를 수집, 사용 및 보호하는 방법을 알아보세요. 우리는 귀하의 개인정보를 보호하기 위해 최선을 다하고 있으며, 모든 업로드된 이미지는 24시간 후에 자동으로 삭제되고 제3자와 데이터를 공유하지 않습니다.",
-      "keywords": "개인정보 처리방침, 데이터 보호, AI 이미지 처리, 개인정보 보안, GDPR 준수, 데이터 삭제, 개인정보 보호"
+      "title": "隐私政策 | Undress AI - 保护您的隐私安全",
+      "description": "了解 Undress AI如何收集、使用和保护您的个人信息。我们承诺保护您的隐私，所有上传图像24小时后自动删除，不与第三方共享任何数据。",
+      "keywords": "隐私政策, 数据保护, AI图像处理, 个人信息安全, GDPR合规, 数据删除, 隐私保护"
     },
     "about": {
-      "title": "회사 소개 | Undress AI - 고급 AI 이미지 처리 기술",
-      "description": "Undress AI의 사명, 기술적 이점 및 팀에 대해 알아보세요. 우리는 사용자에게 안전하고 효율적인 AI 서비스를 제공하기 위해 가장 진보된 AI 이미지 처리 기술을 개발하기 위해 최선을 다하고 있습니다.",
-      "keywords": "AI 이미지 처리, 인공지능 기술, 딥러닝, 이미지 인식, AI 서비스, 기술팀, 혁신 기술"
+      "title": "关于我们 | Undress AI - 先进的AI图像处理技术",
+      "description": "了解 Undress AI的使命、技术优势和团队。我们致力于开发最先进的AI图像处理技术，为用户提供安全、高效的AI服务。",
+      "keywords": "AI图像处理, 人工智能技术, 深度学习, 图像识别, AI服务, 技术团队, 创新科技"
     },
-    "terms": {
-      "title": "서비스 약관 | Undress AI - 이용 약관",
-      "description": "Undress AI 서비스 이용 약관에 대해 알아보세요. 사용자 책임, 서비스 제한, 지적 재산권 및 기타 중요한 법적 조항이 포함됩니다.",
-      "keywords": "서비스 약관, 이용 약관, 사용자 계약, 법적 조항, 서비스 제한, 지적 재산권, 사용자 책임"
-    },
-    "contact": {
-      "title": "문의하기 | Undress AI - 도움 및 지원 받기",
-      "description": "기술 지원, 협력 문의 또는 피드백을 위해 Undress AI 팀에 문의하세요. 24/7 온라인 지원을 제공하며 귀하의 요구에 신속하게 대응합니다.",
-      "keywords": "문의하기, 기술 지원, 고객 서비스, 피드백, 협력 문의, 온라인 지원, 도움말 센터"
-    }
+      "terms": {
+    "title": "服务条款 | Undress AI - 使用条款和条件",
+    "description": "了解使用Undress AI服务的条款和条件。包括用户责任、服务限制、知识产权等重要法律条款。",
+    "keywords": "服务条款, 使用条款, 用户协议, 法律条款, 服务限制, 知识产权, 用户责任"
+  },
+  "contact": {
+    "title": "联系我们 | Undress AI - 获取帮助与支持",
+    "description": "联系Undress AI团队获取技术支持、合作咨询或意见反馈。我们提供24/7在线支持，快速响应您的需求。",
+    "keywords": "联系我们, 技术支持, 客户服务, 意见反馈, 合作咨询, 在线支持, 帮助中心"
+  }
   },
   "navbar": {
-    "language": "언어",
-    "brand": "AI 옷 벗기기",
-    "features": "기능",
-    "pricing": "가격",
-    "faq": "자주 묻는 질문"
+    "language": "语言",
+    "brand": "AI脱衣",
+    "features": "功能特点",
+    "pricing": "价格",
+    "faq": "常见问题"
   },
   "hero": {
-    "title": "AI 옷 벗기기 기술",
-    "subtitle": "고급 AI 기술, 빠른 이미지 처리",
-    "cta": "지금 경험해보세요",
-    "description": "가장 진보된 인공지능 기술 사용",
-    "adTitle": "광고 공간",
-    "adDescription": "여기에 광고 콘텐츠를 배치할 수 있습니다.",
-    "adContent": "[광고 콘텐츠 영역]"
+    "title": "AI脱衣技术",
+    "subtitle": "先进的AI技术，快速处理图像",
+    "cta": "立即体验",
+    "description": "使用最先进的人工智能技术",
+    "adTitle": "广告位",
+    "adDescription": "这里可以放置您的广告内容",
+    "adContent": "[广告内容区域]"
   },
   "upload": {
-    "title": "이미지 업로드",
-    "description": "처리할 이미지를 선택하세요.",
-    "button": "파일 선택",
-    "processing": "처리 중...",
-    "success": "처리 완료",
-    "dragText": "드래그 앤 드롭 또는",
-    "selectFile": "파일 선택",
-    "supportedFormats": "JPG, PNG 형식 지원",
-    "reset": "재설정",
-    "startProcessing": "처리 시작",
-    "aiProcessing": "AI 처리 중...",
+    "title": "上传图片",
+    "description": "选择您要处理的图片",
+    "button": "选择文件",
+    "processing": "处理中...",
+    "success": "处理完成",
+    "dragText": "拖拽或",
+    "selectFile": "选择文件",
+    "supportedFormats": "支持 JPG, PNG 格式",
+    "reset": "重置",
+    "startProcessing": "开始处理",
+    "aiProcessing": "AI处理中...",
     "fileSize": "MB",
-    "pleaseSelectImage": "이미지 파일을 선택하세요.",
-    "adTitleCompact": "광고",
-    "adContentCompact": "[광고 콘텐츠]",
-    "originalImage": "원본 이미지",
-    "processedImage": "처리된 결과",
-    "downloadResult": "결과 다운로드",
-    "processingNote": "AI 기술로 이미지를 처리하고 있습니다...",
-    "processingComplete": "처리 완료! 결과가 생성되었습니다.",
-    "previewTitle": "미리보기",
-    "uploadImageFirst": "먼저 이미지를 업로드하세요.",
-    "processingFailed": "처리 실패",
-    "networkError": "네트워크 오류, 나중에 다시 시도하세요.",
-    "unknownError": "알 수 없는 오류"
+    "pleaseSelectImage": "请选择图片文件",
+    "adTitleCompact": "广告",
+    "adContentCompact": "[广告内容]",
+    "originalImage": "原始图片",
+    "processedImage": "处理结果",
+    "downloadResult": "下载结果",
+    "processingNote": "正在使用AI技术处理您的图片...",
+    "processingComplete": "处理完成！结果已生成",
+    "previewTitle": "预览",
+    "uploadImageFirst": "请先上传图片",
+    "processingFailed": "处理失败",
+    "networkError": "网络错误，请稍后重试",
+    "unknownError": "未知错误"
   },
   "faq": {
-    "title": "자주 묻는 질문",
+    "title": "常见问题",
     "items": {
-      "q1": "AI 옷 벗기기란 무엇인가요?",
-      "a1": "AI 옷 벗기기는 인공지능을 사용하여 이미지나 비디오에서 사람의 옷을 디지털 방식으로 제거하는 도구입니다. 이미지 인페인팅 알고리즘과 같은 기술을 사용하여 시각적 데이터를 분석하고 조작하여 사람이 옷을 벗은 듯한 환상을 효과적으로 만들어냅니다.",
-      "q2": "AI 옷 벗기기를 어떻게 사용하나요?",
-      "a2": "사진을 업로드한 다음 제거할 옷 영역을 선택하기만 하면 됩니다. 더 정확하게 표시할수록 결과가 더 좋아집니다.",
-      "q3": "생성 과정은 얼마나 걸리나요?",
-      "a3": "서버 부하에 따라 다르므로 1초에서 1분까지 걸릴 수 있습니다.",
-      "q4": "AI 옷 벗기기를 무료로 사용할 수 있나요?",
-      "a4": "예, 요청 제한 없이 생성기를 무료로 사용할 수 있습니다.",
-      "q5": "AI 옷 벗기기는 안전한가요?",
-      "a5": "AI 옷 벗기기의 안전성은 사용자의 의도에 따라 달라집니다. 이러한 도구는 책임감 있게 사용해야 하며 유해한 목적을 피해야 합니다. 이미지를 조작하기 전에 항상 명시적인 동의를 얻고 예술, 교육 및 비상업적 목적으로만 사용하십시오.",
-      "q6": "이미지를 저장하나요?",
-      "a6": "모든 업로드된 파일은 24시간 후에 자동으로 삭제되며 생성된 콘텐츠는 최대 30일 동안 보관됩니다.",
-      "q7": "생성된 결과물은 공개적으로 액세스할 수 있나요?",
-      "a7": "아니요, 생성된 결과물은 귀하만 사용할 수 있으며 제3자와 공유되지 않습니다."
+      "q1": "什么是AI脱衣服？",
+      "a1": "AI脱衣服是一种利用人工智能从图像或视频中数字化去除人物服装的工具。它采用图像修复算法等技术来分析和操纵视觉数据，有效地营造出人物被脱衣的幻觉。",
+      "q2": "如何使用AI脱衣服？",
+      "a2": "只需上传照片，然后选择要去除的服装区域。您标记得越准确，结果就越好。",
+      "q3": "生成过程需要多长时间？",
+      "a3": "这取决于服务器负载，所以从一秒到一分钟不等。",
+      "q4": "我可以免费使用AI脱衣服吗？",
+      "a4": "是的，您可以免费使用我们的生成器，没有任何请求限制。",
+      "q5": "AI脱衣服安全吗？",
+      "a5": "AI脱衣服的安全性取决于用户的意图。此类工具应该负责任地使用，避免任何有害目的。在操作图像之前始终获得明确的同意，并仅将其用于艺术、教育和非商业目的。",
+      "q6": "我们存储图片吗？",
+      "a6": "所有上传的文件将在24小时后自动删除，生成的内容最多保留30天。",
+      "q7": "这些生成结果是公开可访问的吗？",
+      "a7": "不，您的生成结果仅对您可用，并且不会与第三方共享。"
     }
   },
   "footer": {
     "brand": "Undress",
-    "rights": "판권 소유",
-    "privacy": "개인정보 처리방침",
-    "terms": "서비스 약관",
-    "about": "회사 소개",
-    "contact": "문의하기",
-    "cookieNotice": "이 웹사이트는 더 나은 경험을 제공하기 위해 개인정보 처리방침에 따라 쿠키를 사용합니다."
+    "rights": "版权所有",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "about": "关于",
+    "contact": "联系",
+    "cookieNotice": "本网站根据我们的隐私政策使用Cookie，以为您提供更好的体验。"
   },
   "about": {
-    "title": "회사 소개",
-    "subtitle": "우리의 AI 기술과 사명에 대해 알아보세요.",
-    "backToHome": "홈으로 돌아가기",
+    "title": "关于我们",
+    "subtitle": "了解我们的AI技术和使命",
+    "backToHome": "返回首页",
     "breadcrumb": {
-      "home": "홈",
-      "about": "회사 소개"
+      "home": "首页",
+      "about": "关于我们"
     },
-    "heroTitle": "혁신적인 AI 기술의 선구자",
-    "heroDescription": "우리는 사용자에게 안전하고 효율적인 AI 서비스를 제공하기 위해 가장 진보된 인공지능 이미지 처리 기술을 개발하기 위해 최선을 다하고 있습니다.",
+    "heroTitle": "创新AI技术的先行者",
+    "heroDescription": "我们致力于开发最先进的人工智能图像处理技术，为用户提供安全、高效的AI服务。",
     "mission": {
-      "title": "우리의 사명",
-      "description": "최첨단 AI 기술을 통해 모든 사람이 인공지능의 강력한 기능을 쉽게 경험할 수 있도록 합니다. 우리는 기술이 인류에게 봉사하고 삶을 더 좋게 만들어야 한다고 믿습니다."
+      "title": "我们的使命",
+      "description": "通过前沿的AI技术，让每个人都能轻松体验到人工智能的强大能力。我们相信技术应该服务于人类，让生活变得更加美好。"
     },
     "technology": {
-      "title": "기술적 이점",
-      "description": "최신 딥러닝 알고리즘과 이미지 처리 기술을 채택하여 고품질 및 고효율 처리 결과를 보장합니다.",
+      "title": "技术优势",
+      "description": "采用最新的深度学习算法和图像处理技术，确保处理结果的高质量和高效率。",
       "features": [
         {
-          "title": "고급 알고리즘",
-          "description": "정확한 이미지 처리 능력을 제공하는 최신 딥러닝 모델 기반"
+          "title": "先进算法",
+          "description": "基于最新的深度学习模型，提供精确的图像处理能力"
         },
         {
-          "title": "빠른 처리",
-          "description": "초 단위 이미지 처리 속도를 달성하기 위한 최적화된 알고리즘 아키텍처"
+          "title": "快速处理",
+          "description": "优化的算法架构，实现秒级图像处理速度"
         },
         {
-          "title": "고품질 출력",
-          "description": "처리된 이미지가 고해상도와 자연스러운 효과를 유지하도록 보장"
+          "title": "高质量输出",
+          "description": "确保处理后的图像保持高分辨率和自然效果"
         }
       ]
     },
     "privacy": {
-      "title": "개인정보 보호",
-      "description": "우리는 사용자 개인정보를 매우 중요하게 생각하며 엄격한 데이터 보호 조치를 채택합니다:",
+      "title": "隐私保护",
+      "description": "我们高度重视用户隐私，采用严格的数据保护措施：",
       "features": [
-        "모든 업로드된 파일은 24시간 후에 자동으로 삭제됩니다.",
-        "데이터 전송을 위한 종단 간 암호화 사용",
-        "사용자 데이터를 저장하거나 공유하지 않습니다.",
-        "국제 개인정보 보호 표준 준수"
+        "所有上传文件24小时后自动删除",
+        "采用端到端加密传输",
+        "不会存储或分享用户数据",
+        "符合国际隐私保护标准"
       ]
     },
     "team": {
-      "title": "팀 소개",
-      "description": "우리는 AI 연구 전문가, 소프트웨어 엔지니어 및 제품 디자이너로 구성된 전문 팀으로 AI 이미지 처리 기술의 연구 및 응용에 중점을 둡니다.",
+      "title": "团队介绍",
+      "description": "我们是一支由AI研究专家、软件工程师和产品设计师组成的专业团队，专注于AI图像处理技术的研发与应用。",
       "roles": {
-        "aiExpert": "AI 연구 전문가",
-        "engineer": "소프트웨어 엔지니어",
-        "designer": "제품 디자이너",
-        "techExpert": "기술 전문가"
+        "aiExpert": "AI 研究专家",
+        "engineer": "软件工程师",
+        "designer": "产品设计师",
+        "techExpert": "技术专家"
       }
     },
     "contact": {
-      "title": "문의하기",
-      "description": "질문이나 제안이 있으시면 언제든지 저희에게 연락하십시오:",
-      "email": "이메일",
-      "support": "기술 지원",
-      "phone": "핫라인",
-      "onlineSupport": "24/7 온라인 지원",
-      "contactAction": "문의",
-      "readyTitle": "시작할 준비가 되셨나요?",
-      "readyDescription": "지금 우리의 AI 기술을 경험하고 전례 없는 이미지 처리 능력을 느껴보세요.",
-      "tryNow": "지금 시도해보세요"
+      "title": "联系我们",
+      "description": "如有任何问题或建议，欢迎随时联系我们：",
+      "email": "邮箱",
+      "support": "技术支持",
+      "phone": "热线电话",
+      "onlineSupport": "24/7 在线支持",
+      "contactAction": "联系",
+      "readyTitle": "准备好开始了吗？",
+      "readyDescription": "立即体验我们的AI技术，感受前所未有的图像处理能力",
+      "tryNow": "立即体验"
     }
   },
   "contact": {
-    "title": "문의하기",
-    "subtitle": "언제든지 도와드리겠습니다.",
-    "backToHome": "홈으로 돌아가기",
+    "title": "联系我们",
+    "subtitle": "我们随时为您提供帮助",
+    "backToHome": "返回首页",
     "breadcrumb": {
-      "home": "홈",
-      "contact": "문의하기"
+      "home": "首页",
+      "contact": "联系我们"
     },
-    "heroTitle": "항상 당신을 지원할 준비가 되어 있습니다.",
-    "heroDescription": "질문, 제안 또는 기술 지원이 필요한 경우 전문 팀이 신속하게 응답하고 최상의 솔루션을 제공합니다.",
-    "heroSubtitle": "24/7 전문 지원팀",
+    "heroTitle": "随时为您提供支持",
+    "heroDescription": "无论您有任何问题、建议或需要技术支持，我们的专业团队都会及时回复并为您提供最佳解决方案。",
+    "heroSubtitle": "24/7 专业支持团队",
     "form": {
-      "title": "메시지 보내기",
-      "description": "아래 정보를 입력하시면 최대한 빨리 답변해 드리겠습니다.",
-      "name": "이름",
-      "namePlaceholder": "이름을 입력하세요.",
-      "email": "이메일",
-      "emailPlaceholder": "이메일 주소를 입력하세요.",
-      "subject": "제목",
-      "subjectPlaceholder": "메시지 제목을 입력하세요.",
-      "message": "메시지 내용",
-      "messagePlaceholder": "문제나 제안 사항을 자세히 설명해주세요...",
-      "submit": "메시지 보내기",
-      "submitting": "보내는 중...",
-      "success": "메시지를 성공적으로 보냈습니다! 최대한 빨리 답변해 드리겠습니다.",
-      "error": "보내기 실패, 나중에 다시 시도하세요.",
-      "required": "이 필드는 필수입니다.",
-      "invalidEmail": "유효한 이메일 주소를 입력하세요.",
-      "minLength": "최소 {min}자 이상이어야 합니다."
+      "title": "发送消息",
+      "description": "请填写以下信息，我们会尽快回复您",
+      "name": "姓名",
+      "namePlaceholder": "请输入您的姓名",
+      "email": "邮箱",
+      "emailPlaceholder": "请输入您的邮箱地址",
+      "subject": "主题",
+      "subjectPlaceholder": "请输入消息主题",
+      "message": "消息内容",
+      "messagePlaceholder": "请详细描述您的问题或建议...",
+      "submit": "发送消息",
+      "submitting": "发送中...",
+      "success": "消息发送成功！我们会尽快回复您。",
+      "error": "发送失败，请稍后重试。",
+      "required": "此字段为必填项",
+      "invalidEmail": "请输入有效的邮箱地址",
+      "minLength": "至少需要 {min} 个字符"
     },
     "info": {
-      "title": "연락처 정보",
+      "title": "联系信息",
       "email": {
-        "title": "이메일 문의",
+        "title": "邮箱联系",
         "address": "undress.online.ai@gmail.com",
-        "description": "기술 지원을 받으려면 이메일을 보내세요."
+        "description": "发送邮件获取技术支持"
       },
       "response": {
-        "title": "응답 시간",
-        "time": "24시간 이내",
-        "description": "24시간 이내에 답변을 약속드립니다."
+        "title": "响应时间",
+        "time": "24小时内",
+        "description": "我们承诺在24小时内回复"
       },
       "support": {
-        "title": "기술 지원",
-        "availability": "24/7 온라인",
-        "description": "연중무휴 기술 지원 서비스"
+        "title": "技术支持",
+        "availability": "24/7 在线",
+        "description": "全天候技术支持服务"
       }
     },
     "types": {
-      "title": "우리가 도와드릴 수 있는 것",
+      "title": "我们可以帮助您",
       "technical": {
-        "title": "기술 지원",
-        "description": "사용 중 발생하는 기술적 문제 해결"
+        "title": "技术支持",
+        "description": "解决使用过程中遇到的技术问题"
       },
       "feedback": {
-        "title": "피드백",
-        "description": "개선 제안 및 아이디어 공유"
+        "title": "意见反馈",
+        "description": "分享您的建议和改进意见"
       },
       "business": {
-        "title": "비즈니스 협력",
-        "description": "협력 기회 및 비즈니스 파트너십 논의"
+        "title": "商务合作",
+        "description": "讨论合作机会和商业伙伴关系"
       },
       "general": {
-        "title": "일반 문의",
-        "description": "기타 질문이나 문의"
+        "title": "一般咨询",
+        "description": "其他任何问题或咨询"
       }
     }
   },
   "privacy": {
-    "title": "개인정보 처리방침",
-    "backToHome": "홈으로 돌아가기",
-    "lastUpdated": "최종 업데이트",
-    "updateDate": "2024년 1월 15일",
+    "title": "隐私政策",
+    "backToHome": "返回首页",
+    "lastUpdated": "最后更新",
+    "updateDate": "2024年1月15日",
     "breadcrumb": {
-      "home": "홈",
-      "privacy": "개인정보 처리방침"
+      "home": "首页",
+      "privacy": "隐私政策"
     },
     "introduction": {
-      "title": "소개",
-      "content": "이 개인정보 처리방침은 귀하가 당사의 AI 이미지 처리 서비스를 사용할 때 제공하는 정보를 수집, 사용 및 보호하는 방법을 설명합니다. 우리는 귀하의 개인정보를 보호하고 귀하의 개인정보가 안전하게 처리되도록 최선을 다하고 있습니다."
+      "title": "简介",
+      "content": "本隐私政策描述了我们如何收集、使用和保护您在使用我们的AI图像处理服务时提供的信息。我们致力于保护您的隐私，并确保您的个人信息得到安全处理。"
     },
     "dataCollection": {
-      "title": "정보 수집",
-      "description": "당사는 다음과 같은 유형의 정보를 수집할 수 있습니다:",
+      "title": "信息收集",
+      "description": "我们可能收集以下类型的信息：",
       "items": {
-        "uploaded": "업로드된 이미지 파일(처리 목적으로만 사용)",
-        "technical": "기술 정보(IP 주소, 브라우저 유형, 장치 정보)",
-        "usage": "사용 데이터(액세스 시간, 사용 기능)",
-        "device": "장치 정보(운영 체제, 화면 해상도)"
+        "uploaded": "上传的图像文件（仅用于处理目的）",
+        "technical": "技术信息（IP地址、浏览器类型、设备信息）",
+        "usage": "使用数据（访问时间、使用功能）",
+        "device": "设备信息（操作系统、屏幕分辨率）"
       }
     },
     "dataUsage": {
-      "title": "정보 사용",
-      "description": "당사는 수집된 정보를 다음 목적으로 사용합니다:",
+      "title": "信息使用",
+      "description": "我们使用收集的信息用于：",
       "items": {
-        "processing": "업로드한 이미지를 처리하고 AI 서비스 제공",
-        "improvement": "서비스 품질 및 사용자 경험 개선",
-        "support": "기술 지원 및 고객 서비스 제공",
-        "security": "서비스 보안 유지 및 남용 방지"
+        "processing": "处理您上传的图像并提供AI服务",
+        "improvement": "改进我们的服务质量和用户体验",
+        "support": "提供技术支持和客户服务",
+        "security": "维护服务安全和防止滥用"
       }
     },
     "dataProtection": {
-      "title": "데이터 보호",
-      "description": "당사는 귀하의 데이터를 보호하기 위해 다음 조치를 취합니다:",
+      "title": "数据保护",
+      "description": "我们采取以下措施保护您的数据：",
       "items": {
-        "encryption": "모든 데이터 전송은 SSL/TLS 암호화를 사용합니다.",
-        "autoDelete": "업로드된 이미지는 24시간 후에 자동으로 삭제됩니다.",
-        "accessControl": "엄격한 액세스 제어 및 권한 관리",
-        "monitoring": "정기적인 보안 감사 및 모니터링"
+        "encryption": "所有数据传输均采用SSL/TLS加密",
+        "autoDelete": "上传的图像在24小时后自动删除",
+        "accessControl": "严格的访问控制和权限管理",
+        "monitoring": "定期安全审计和监控"
       }
     },
     "dataSharing": {
-      "title": "데이터 공유",
-      "description": "당사는 귀하의 개인정보를 보호하기 위해 최선을 다합니다:",
-      "noSharing": "당사는 귀하의 개인정보 및 업로드된 이미지를 제3자와 공유, 판매 또는 공개하지 않습니다."
+      "title": "数据共享",
+      "description": "我们承诺保护您的隐私：",
+      "noSharing": "我们不会与任何第三方共享、出售或披露您的个人信息和上传的图像。"
     },
     "cookies": {
-      "title": "쿠키 정책",
-      "description": "당사는 귀하의 경험을 개선하기 위해 쿠키를 사용합니다:",
+      "title": "Cookie政策",
+      "description": "我们使用Cookie来改善您的体验：",
       "items": {
-        "essential": "필수 쿠키: 웹사이트가 제대로 작동하도록 보장",
-        "analytics": "분석 쿠키: 웹사이트 사용 방식을 이해하는 데 도움",
-        "preferences": "환경설정 쿠키: 언어 및 설정 환경설정 기억"
+        "essential": "必要Cookie：确保网站正常运行",
+        "analytics": "分析Cookie：帮助我们了解网站使用情况",
+        "preferences": "偏好Cookie：记住您的语言和设置偏好"
       }
     },
     "userRights": {
-      "title": "사용자 권리",
-      "description": "귀하는 다음과 같은 권리를 가집니다:",
+      "title": "用户权利",
+      "description": "您享有以下权利：",
       "items": {
-        "access": "액세스 권한: 당사가 수집한 귀하에 대한 정보 보기",
-        "correction": "수정 권한: 부정확한 개인정보 수정",
-        "deletion": "삭제 권한: 개인정보 삭제 요청",
-        "objection": "반대 권한: 개인정보 처리에 대한 반대"
+        "access": "访问权：查看我们收集的关于您的信息",
+        "correction": "更正权：更正不准确的个人信息",
+        "deletion": "删除权：要求删除您的个人信息",
+        "objection": "反对权：反对处理您的个人信息"
       }
     },
     "contact": {
-      "title": "문의하기",
-      "description": "이 개인정보 처리방침에 대해 질문이 있거나 권리를 행사하려면 저희에게 연락하십시오:",
-      "email": "개인정보 보호 이메일",
-      "support": "기술 지원"
+      "title": "联系我们",
+      "description": "如果您对本隐私政策有任何疑问或需要行使您的权利，请联系我们：",
+      "email": "隐私邮箱",
+      "support": "技术支持"
     },
     "updates": {
-      "title": "정책 업데이트",
-      "description": "당사는 이 개인정보 처리방침을 수시로 업데이트할 수 있습니다. 중요한 변경 사항은 웹사이트에 공지됩니다. 서비스를 계속 사용하면 업데이트된 정책에 동의하는 것으로 간주됩니다."
+      "title": "政策更新",
+      "description": "我们可能会不时更新本隐私政策。任何重大变更都会在网站上发布通知。继续使用我们的服务即表示您同意更新后的政策。"
     }
   },
   "terms": {
-    "title": "서비스 약관",
-    "backToHome": "홈으로 돌아가기",
-    "lastUpdated": "최종 업데이트",
-    "updateDate": "2024년 1월 15일",
+    "title": "服务条款",
+    "backToHome": "返回首页",
+    "lastUpdated": "最后更新",
+    "updateDate": "2024年1月15日",
     "breadcrumb": {
-      "home": "홈",
-      "terms": "서비스 약관"
+      "home": "首页",
+      "terms": "服务条款"
     },
     "acceptance": {
-      "title": "약관 동의",
-      "content": "Undress AI 서비스에 액세스하고 사용함으로써 귀하는 본 서비스 약관을 준수하는 데 동의합니다. 본 약관에 동의하지 않으면 당사 서비스를 사용하지 마십시오."
+      "title": "条款接受",
+      "content": "通过访问和使用Undress AI服务，您同意遵守本服务条款。如果您不同意这些条款，请不要使用我们的服务。"
     },
     "serviceDescription": {
-      "title": "서비스 설명",
-      "content": "Undress AI는 이미지 편집, 콘텐츠 생성 및 이미지 분석 기능을 포함하되 이에 국한되지 않는 인공지능 기반 이미지 처리 서비스를 제공합니다.",
+      "title": "服务描述",
+      "content": "Undress AI提供基于人工智能的图像处理服务，包括但不限于图像编辑、内容生成和图像分析功能。",
       "items": {
-        "processing": "AI 이미지 처리 및 편집 서비스",
-        "generation": "AI 기반 콘텐츠 생성",
-        "analysis": "이미지 분석 및 인식 서비스",
-        "api": "API 및 개발자 도구"
+        "processing": "AI图像处理和编辑服务",
+        "generation": "基于AI的内容生成",
+        "analysis": "图像分析和识别服务",
+        "api": "API接口和开发者工具"
       }
     },
     "userResponsibilities": {
-      "title": "사용자 책임",
-      "description": "당사 서비스를 사용할 때 귀하는 다음에 동의합니다:",
+      "title": "用户责任",
+      "description": "使用我们的服务时，您同意：",
       "items": {
-        "lawful": "합법적인 목적으로만 서비스 사용",
-        "consent": "업로드하고 처리할 이미지에 대한 권한이 있는지 확인",
-        "respect": "타인의 개인정보 및 권리 존중",
-        "noHarm": "유해하거나 악의적인 활동에 서비스 사용 금지",
-        "compliance": "모든 관련 법률 및 규정 준수",
-        "accurate": "정확하고 사실적인 정보 제공"
+        "lawful": "仅将服务用于合法目的",
+        "consent": "确保您有权上传和处理的图像",
+        "respect": "尊重他人的隐私和权利",
+        "noHarm": "不使用服务进行有害或恶意活动",
+        "compliance": "遵守所有适用的法律法规",
+        "accurate": "提供准确和真实的信息"
       }
     },
     "prohibitedUse": {
-      "title": "금지된 사용",
-      "description": "다음 목적으로 당사 서비스를 사용할 수 없습니다:",
+      "title": "禁止使用",
+      "description": "您不得将我们的服务用于：",
       "items": {
-        "illegal": "불법적인 활동이나 목적",
-        "harassment": "타인에 대한 괴롭힘, 위협 또는 해악",
-        "minors": "미성년자와 관련된 부적절한 콘텐츠",
-        "copyright": "타인의 지적 재산권 침해",
-        "malware": "악성 소프트웨어나 바이러스 유포",
-        "spam": "스팸이나 원치 않는 콘텐츠 전송"
+        "illegal": "任何非法活动或目的",
+        "harassment": "骚扰、威胁或伤害他人",
+        "minors": "涉及未成年人的不当内容",
+        "copyright": "侵犯他人知识产权",
+        "malware": "传播恶意软件或病毒",
+        "spam": "发送垃圾邮件或未经请求的内容"
       }
     },
     "intellectualProperty": {
-      "title": "지적 재산권",
-      "description": "당사의 서비스 및 관련 기술은 지적 재산권법의 보호를 받습니다:",
+      "title": "知识产权",
+      "description": "我们的服务和相关技术受知识产权法保护：",
       "items": {
-        "ownership": "Undress AI는 서비스에 대한 모든 권리와 소유권을 가집니다.",
-        "license": "당사는 귀하에게 제한적이고 비독점적인 사용 라이선스를 부여합니다.",
-        "userContent": "귀하는 업로드한 콘텐츠에 대한 소유권을 보유하지만 당사에 처리 권한을 부여합니다.",
-        "generated": "AI 생성 콘텐츠는 관련 법률에 따라 소유권이 결정됩니다."
+        "ownership": "Undress AI拥有服务的所有权利和所有权",
+        "license": "我们授予您有限的、非排他性的使用许可",
+        "userContent": "您保留对上传内容的所有权，但授予我们处理权限",
+        "generated": "AI生成的内容按照适用法律确定所有权"
       }
     },
     "serviceAvailability": {
-      "title": "서비스 가용성",
-      "description": "당사 서비스 가용성에 관하여:",
+      "title": "服务可用性",
+      "description": "关于我们的服务可用性：",
       "items": {
-        "uptime": "당사는 높은 서비스 가용성을 유지하기 위해 노력하지만 100% 가동 시간을 보장하지는 않습니다.",
-        "maintenance": "정기적인 유지보수 및 업데이트를 수행할 수 있습니다.",
-        "interruption": "기술적인 문제로 인해 서비스가 일시적으로 중단될 수 있습니다.",
-        "modification": "당사는 서비스를 수정하거나 종료할 권리를 보유합니다."
+        "uptime": "我们努力保持服务的高可用性，但不保证100%正常运行时间",
+        "maintenance": "我们可能会进行定期维护和更新",
+        "interruption": "服务可能因技术问题而暂时中断",
+        "modification": "我们保留修改或终止服务的权利"
       }
     },
     "dataAndPrivacy": {
-      "title": "데이터 및 개인정보 보호",
-      "description": "귀하의 데이터 처리는 당사의 개인정보 처리방침에 따릅니다:",
+      "title": "数据和隐私",
+      "description": "您的数据处理受我们隐私政策的约束：",
       "items": {
-        "processing": "당사는 서비스 제공을 위해서만 귀하의 데이터를 처리합니다.",
-        "retention": "업로드된 이미지는 24시간 후에 자동으로 삭제됩니다.",
-        "security": "당사는 귀하의 데이터를 보호하기 위해 합리적인 조치를 취합니다.",
-        "sharing": "당사는 귀하의 개인 데이터를 제3자와 공유하지 않습니다."
+        "processing": "我们仅为提供服务而处理您的数据",
+        "retention": "上传的图像在24小时后自动删除",
+        "security": "我们采取合理措施保护您的数据",
+        "sharing": "我们不会与第三方共享您的个人数据"
       },
-      "privacyNote": "자세한 데이터 처리 정보는 당사의",
-      "privacyLink": "개인정보 처리방침"
+      "privacyNote": "详细的数据处理信息请参阅我们的",
+      "privacyLink": "隐私政策"
     },
     "limitation": {
-      "title": "책임 제한",
-      "description": "법률이 허용하는 최대 범위 내에서:",
+      "title": "责任限制",
+      "description": "在法律允许的最大范围内：",
       "items": {
-        "asIs": "서비스는 명시적이든 묵시적이든 어떠한 보증도 없이 '있는 그대로' 제공됩니다.",
-        "damages": "당사는 간접적, 특별 또는 결과적 손해에 대해 책임을 지지 않습니다.",
-        "liability": "당사의 총 책임은 귀하가 당사에 지불한 수수료로 제한됩니다.",
-        "force": "당사는 불가항력적인 사건으로 인한 손실에 대해 책임을 지지 않습니다."
+        "asIs": "服务按「原样」提供，不提供任何明示或暗示的保证",
+        "damages": "我们不对任何间接、特殊或后果性损害负责",
+        "liability": "我们的总责任限于您支付给我们的费用",
+        "force": "我们不对不可抗力事件造成的损失负责"
       }
     },
     "termination": {
-      "title": "종료",
-      "description": "서비스 종료와 관련된 약관:",
+      "title": "终止",
+      "description": "服务终止的相关条款：",
       "items": {
-        "userTermination": "귀하는 언제든지 당사 서비스 사용을 중단할 수 있습니다.",
-        "ourTermination": "당사는 약관 위반으로 인해 귀하의 액세스를 종료할 수 있습니다.",
-        "effect": "종료 시 귀하의 사용 권한은 즉시 중단됩니다.",
-        "survival": "특정 약관은 종료 후에도 계속 유효합니다."
+        "userTermination": "您可以随时停止使用我们的服务",
+        "ourTermination": "我们可能因违反条款而终止您的访问权限",
+        "effect": "终止后，您的使用权限将立即停止",
+        "survival": "某些条款在终止后仍然有效"
       }
     },
     "governing": {
-      "title": "준거법",
-      "description": "본 약관은 다음 법률의 적용을 받습니다:",
+      "title": "适用法律",
+      "description": "本条款受以下法律管辖：",
       "items": {
-        "jurisdiction": "본 계약은 중화인민공화국 법률의 적용을 받습니다.",
-        "disputes": "모든 분쟁은 우호적인 협상을 통해 해결되어야 합니다.",
-        "court": "협상이 실패할 경우 분쟁은 관할 법원에 제출되어야 합니다.",
-        "language": "본 계약의 중국어 버전이 권위 있는 버전입니다."
+        "jurisdiction": "本协议受中华人民共和国法律管辖",
+        "disputes": "任何争议应通过友好协商解决",
+        "court": "如协商无果，应提交至有管辖权的法院解决",
+        "language": "本协议的中文版本为准确版本"
       }
     },
     "contact": {
-      "title": "문의하기",
-      "description": "본 서비스 약관에 대해 질문이 있으시면 저희에게 연락하십시오:",
-      "email": "법률 이메일",
-      "support": "기술 지원"
+      "title": "联系我们",
+      "description": "如果您对本服务条款有任何疑问，请联系我们：",
+      "email": "法务邮箱",
+      "support": "技术支持"
     },
     "updates": {
-      "title": "약관 업데이트",
-      "description": "당사는 본 서비스 약관을 수시로 업데이트할 수 있습니다. 중요한 변경 사항은 웹사이트에 공지됩니다. 서비스를 계속 사용하면 업데이트된 약관에 동의하는 것으로 간주됩니다."
+      "title": "条款更新",
+      "description": "我们可能会不时更新本服务条款。重大变更将在网站上发布通知。继续使用服务即表示您同意更新后的条款。"
     }
   }
 } 

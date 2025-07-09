@@ -12,16 +12,16 @@
       "description": "了解 Undress AI的使命、技术优势和团队。我们致力于开发最先进的AI图像处理技术，为用户提供安全、高效的AI服务。",
       "keywords": "AI图像处理, 人工智能技术, 深度学习, 图像识别, AI服务, 技术团队, 创新科技"
     },
-    "terms": {
-      "title": "服务条款 | Undress AI - 使用条款和条件",
-      "description": "了解使用Undress AI服务的条款和条件。包括用户责任、服务限制、知识产权等重要法律条款。",
-      "keywords": "服务条款, 使用条款, 用户协议, 法律条款, 服务限制, 知识产权, 用户责任"
-    },
-    "contact": {
-      "title": "联系我们 | Undress AI - 获取帮助与支持",
-      "description": "联系Undress AI团队获取技术支持、合作咨询或意见反馈。我们提供24/7在线支持，快速响应您的需求。",
-      "keywords": "联系我们, 技术支持, 客户服务, 意见反馈, 合作咨询, 在线支持, 帮助中心"
-    }
+      "terms": {
+    "title": "服务条款 | Undress AI - 使用条款和条件",
+    "description": "了解使用Undress AI服务的条款和条件。包括用户责任、服务限制、知识产权等重要法律条款。",
+    "keywords": "服务条款, 使用条款, 用户协议, 法律条款, 服务限制, 知识产权, 用户责任"
+  },
+  "contact": {
+    "title": "联系我们 | Undress AI - 获取帮助与支持",
+    "description": "联系Undress AI团队获取技术支持、合作咨询或意见反馈。我们提供24/7在线支持，快速响应您的需求。",
+    "keywords": "联系我们, 技术支持, 客户服务, 意见反馈, 合作咨询, 在线支持, 帮助中心"
+  }
   },
   "navbar": {
     "language": "语言",
@@ -252,49 +252,57 @@
     },
     "dataUsage": {
       "title": "信息使用",
-      "description": "我们收集的信息将用于以下目的：",
+      "description": "我们使用收集的信息用于：",
       "items": {
-        "service": "提供和维护我们的服务",
-        "improve": "改进和优化用户体验",
-        "security": "安全监控和防止滥用",
-        "communication": "与用户沟通，提供支持"
+        "processing": "处理您上传的图像并提供AI服务",
+        "improvement": "改进我们的服务质量和用户体验",
+        "support": "提供技术支持和客户服务",
+        "security": "维护服务安全和防止滥用"
       }
     },
-    "dataSecurity": {
-      "title": "信息安全",
-      "description": "我们采取多种安全措施保护您的个人信息：",
+    "dataProtection": {
+      "title": "数据保护",
+      "description": "我们采取以下措施保护您的数据：",
       "items": {
-        "encryption": "数据传输加密",
-        "accessControl": "严格的访问控制",
-        "anonymization": "匿名化处理",
-        "regularAudits": "定期安全审计"
+        "encryption": "所有数据传输均采用SSL/TLS加密",
+        "autoDelete": "上传的图像在24小时后自动删除",
+        "accessControl": "严格的访问控制和权限管理",
+        "monitoring": "定期安全审计和监控"
       }
     },
-    "dataRetention": {
-      "title": "数据保留",
-      "content": "上传的图像文件将在处理后24小时内自动删除。我们不会长期存储用户上传的任何敏感个人数据。"
+    "dataSharing": {
+      "title": "数据共享",
+      "description": "我们承诺保护您的隐私：",
+      "noSharing": "我们不会与任何第三方共享、出售或披露您的个人信息和上传的图像。"
     },
-    "thirdParty": {
-      "title": "第三方共享",
-      "content": "我们不会将您的个人信息出售、交易或以其他方式转让给外部方。这不包括协助我们运营网站、开展业务或为您服务的受信任方，只要这些方同意对这些信息保密。"
+    "cookies": {
+      "title": "Cookie政策",
+      "description": "我们使用Cookie来改善您的体验：",
+      "items": {
+        "essential": "必要Cookie：确保网站正常运行",
+        "analytics": "分析Cookie：帮助我们了解网站使用情况",
+        "preferences": "偏好Cookie：记住您的语言和设置偏好"
+      }
     },
     "userRights": {
       "title": "用户权利",
-      "description": "您有权访问、更正或删除您的个人信息。如果您希望行使这些权利，请通过我们的联系页面与我们联系。",
+      "description": "您享有以下权利：",
       "items": {
-        "access": "访问权",
-        "rectification": "更正权",
-        "erasure": "删除权",
-        "objection": "反对权"
+        "access": "访问权：查看我们收集的关于您的信息",
+        "correction": "更正权：更正不准确的个人信息",
+        "deletion": "删除权：要求删除您的个人信息",
+        "objection": "反对权：反对处理您的个人信息"
       }
-    },
-    "policyChanges": {
-      "title": "隐私政策变更",
-      "content": "我们可能会不时更新我们的隐私政策。我们将在本页面上发布新的隐私政策来通知您任何变更。建议您定期查看本隐私政策以了解任何变更。"
     },
     "contact": {
       "title": "联系我们",
-      "content": "如果您对本隐私政策有任何疑问，请联系我们：undress.online.ai@gmail.com"
+      "description": "如果您对本隐私政策有任何疑问或需要行使您的权利，请联系我们：",
+      "email": "隐私邮箱",
+      "support": "技术支持"
+    },
+    "updates": {
+      "title": "政策更新",
+      "description": "我们可能会不时更新本隐私政策。任何重大变更都会在网站上发布通知。继续使用我们的服务即表示您同意更新后的政策。"
     }
   },
   "terms": {
@@ -306,69 +314,115 @@
       "home": "首页",
       "terms": "服务条款"
     },
-    "introduction": {
-      "title": "简介",
-      "content": "欢迎使用 Undress AI。以下条款和条件（“条款”）适用于您对我们网站和AI图像处理服务（统称为“服务”）的所有使用。通过访问或使用我们的服务，即表示您同意遵守这些条款。"
+    "acceptance": {
+      "title": "条款接受",
+      "content": "通过访问和使用Undress AI服务，您同意遵守本服务条款。如果您不同意这些条款，请不要使用我们的服务。"
+    },
+    "serviceDescription": {
+      "title": "服务描述",
+      "content": "Undress AI提供基于人工智能的图像处理服务，包括但不限于图像编辑、内容生成和图像分析功能。",
+      "items": {
+        "processing": "AI图像处理和编辑服务",
+        "generation": "基于AI的内容生成",
+        "analysis": "图像分析和识别服务",
+        "api": "API接口和开发者工具"
+      }
     },
     "userResponsibilities": {
       "title": "用户责任",
-      "description": "您同意负责任地使用我们的服务，并遵守所有适用法律。您不得将我们的服务用于任何非法或未经授权的目的。您对您通过我们服务上传或处理的任何内容负全部责任。",
+      "description": "使用我们的服务时，您同意：",
       "items": {
-        "legal": "不得用于非法目的",
-        "respect": "尊重他人隐私和权利",
-        "noHarm": "不得用于制作有害或冒犯性内容",
-        "age": "用户必须年满18岁"
+        "lawful": "仅将服务用于合法目的",
+        "consent": "确保您有权上传和处理的图像",
+        "respect": "尊重他人的隐私和权利",
+        "noHarm": "不使用服务进行有害或恶意活动",
+        "compliance": "遵守所有适用的法律法规",
+        "accurate": "提供准确和真实的信息"
       }
     },
-    "serviceLimitations": {
-      "title": "服务限制",
-      "description": "我们的服务“按原样”提供，我们不保证其功能或结果。我们保留随时修改或中断服务的权利，恕不另行通知。",
+    "prohibitedUse": {
+      "title": "禁止使用",
+      "description": "您不得将我们的服务用于：",
       "items": {
-        "asIs": "服务按“原样”提供",
-        "noGuarantee": "不保证结果的准确性或质量",
-        "modification": "服务可能随时修改或中断"
+        "illegal": "任何非法活动或目的",
+        "harassment": "骚扰、威胁或伤害他人",
+        "minors": "涉及未成年人的不当内容",
+        "copyright": "侵犯他人知识产权",
+        "malware": "传播恶意软件或病毒",
+        "spam": "发送垃圾邮件或未经请求的内容"
       }
     },
     "intellectualProperty": {
       "title": "知识产权",
-      "content": "我们服务中的所有内容和材料，包括软件、文本、图形和徽标，均为 Undress AI 或其许可方的财产，并受版权和其他知识产权法保护。您不得未经我们事先书面同意复制、分发或创建我们内容的衍生作品。"
+      "description": "我们的服务和相关技术受知识产权法保护：",
+      "items": {
+        "ownership": "Undress AI拥有服务的所有权利和所有权",
+        "license": "我们授予您有限的、非排他性的使用许可",
+        "userContent": "您保留对上传内容的所有权，但授予我们处理权限",
+        "generated": "AI生成的内容按照适用法律确定所有权"
+      }
+    },
+    "serviceAvailability": {
+      "title": "服务可用性",
+      "description": "关于我们的服务可用性：",
+      "items": {
+        "uptime": "我们努力保持服务的高可用性，但不保证100%正常运行时间",
+        "maintenance": "我们可能会进行定期维护和更新",
+        "interruption": "服务可能因技术问题而暂时中断",
+        "modification": "我们保留修改或终止服务的权利"
+      }
+    },
+    "dataAndPrivacy": {
+      "title": "数据和隐私",
+      "description": "您的数据处理受我们隐私政策的约束：",
+      "items": {
+        "processing": "我们仅为提供服务而处理您的数据",
+        "retention": "上传的图像在24小时后自动删除",
+        "security": "我们采取合理措施保护您的数据",
+        "sharing": "我们不会与第三方共享您的个人数据"
+      },
+      "privacyNote": "详细的数据处理信息请参阅我们的",
+      "privacyLink": "隐私政策"
+    },
+    "limitation": {
+      "title": "责任限制",
+      "description": "在法律允许的最大范围内：",
+      "items": {
+        "asIs": "服务按「原样」提供，不提供任何明示或暗示的保证",
+        "damages": "我们不对任何间接、特殊或后果性损害负责",
+        "liability": "我们的总责任限于您支付给我们的费用",
+        "force": "我们不对不可抗力事件造成的损失负责"
+      }
     },
     "termination": {
       "title": "终止",
-      "content": "如果您违反这些条款，我们保留随时终止或暂停您访问我们服务的权利。终止后，您使用服务的权利将立即停止。"
+      "description": "服务终止的相关条款：",
+      "items": {
+        "userTermination": "您可以随时停止使用我们的服务",
+        "ourTermination": "我们可能因违反条款而终止您的访问权限",
+        "effect": "终止后，您的使用权限将立即停止",
+        "survival": "某些条款在终止后仍然有效"
+      }
     },
-    "disclaimer": {
-      "title": "免责声明",
-      "content": "在法律允许的最大范围内，Undress AI 不对因您使用我们的服务而产生的任何直接、间接、偶然、特殊或后果性损害承担责任。"
-    },
-    "governingLaw": {
-      "title": "管辖法律",
-      "content": "这些条款应受[您的管辖区]法律管辖并按其解释，不考虑其法律冲突规定。"
+    "governing": {
+      "title": "适用法律",
+      "description": "本条款受以下法律管辖：",
+      "items": {
+        "jurisdiction": "本协议受中华人民共和国法律管辖",
+        "disputes": "任何争议应通过友好协商解决",
+        "court": "如协商无果，应提交至有管辖权的法院解决",
+        "language": "本协议的中文版本为准确版本"
+      }
     },
     "contact": {
       "title": "联系我们",
-      "content": "如果您对这些条款有任何疑问，请联系我们：undress.online.ai@gmail.com"
+      "description": "如果您对本服务条款有任何疑问，请联系我们：",
+      "email": "法务邮箱",
+      "support": "技术支持"
+    },
+    "updates": {
+      "title": "条款更新",
+      "description": "我们可能会不时更新本服务条款。重大变更将在网站上发布通知。继续使用服务即表示您同意更新后的条款。"
     }
-  },
-  "LanguageSwitcher": {
-    "label": "选择语言",
-    "en": "英语",
-    "zh": "中文",
-    "es": "西班牙语",
-    "hi": "印地语",
-    "ar": "阿拉伯语",
-    "pt": "葡萄牙语",
-    "ru": "俄语",
-    "ja": "日语",
-    "de": "德语",
-    "fr": "法语",
-    "ko": "韩语",
-    "tr": "土耳其语",
-    "vi": "越南语",
-    "it": "意大利语",
-    "th": "泰语",
-    "pl": "波兰语",
-    "nl": "荷兰语",
-    "id": "印尼语"
   }
-}
+} 
