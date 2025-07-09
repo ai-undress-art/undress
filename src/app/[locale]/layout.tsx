@@ -189,7 +189,7 @@ export default async function RootLayout({
     direction: 'up',
     verticalPosition: 'bottom',
     horizontalPosition: 'right',
-    expireDays: 0.041666666666666664,
+    expireDays: 0,
   };console.log('crakPopInParamsIframe',crakPopInParamsIframe)`}
             </Script>
             {children}
