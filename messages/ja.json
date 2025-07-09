@@ -93,5 +93,187 @@
     "about": "会社概要",
     "contact": "お問い合わせ",
     "cookieNotice": "当サイトでは、より良い体験を提供するためにプライバシーポリシーに基づいてCookieを使用しています。"
+  },
+  "about": {
+    "title": "私たちについて",
+    "subtitle": "AI技術とミッションについて学ぶ",
+    "backToHome": "ホームに戻る",
+    "breadcrumb": {
+      "home": "ホーム",
+      "about": "私たちについて"
+    },
+    "heroTitle": "革新的AI技術の先駆者",
+    "heroDescription": "安全で効率的なAIサービスを提供するために最先端のAI画像処理技術を開発しています。",
+    "mission": {
+      "title": "私たちのミッション",
+      "description": "最先端技術を通じて誰もがAIの力を手軽に体験できるように。テクノロジーは人類に奉仕し、より良い生活を創造すべきだと信じています。"
+    },
+    "technology": {
+      "title": "技術的優位性",
+      "description": "最新の深層学習アルゴリズムと画像処理技術を活用し、高品質で効率的な結果を保証します。",
+      "features": [
+        {
+          "title": "高度なアルゴリズム",
+          "description": "最先端の深層学習モデルに基づき、精密な画像処理能力を提供"
+        },
+        {
+          "title": "高速処理",
+          "description": "最適化されたアルゴリズムアーキテクチャにより秒間処理を実現"
+        },
+        {
+          "title": "高品質出力",
+          "description": "高解像度で自然な見た目の画像処理を保証"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "プライバシー保護",
+      "description": "ユーザーのプライバシーを重視し、厳格なデータ保護対策を採用：",
+      "features": [
+        "アップロードされたファイルは24時間後に自動削除",
+        "エンドツーエンドの暗号化通信",
+        "ユーザーデータは保存も共有もしない",
+        "国際的なプライバシー保護基準に準拠"
+      ]
+    },
+    "team": {
+      "title": "チーム紹介",
+      "description": "当社はAI研究専門家、ソフトウェアエンジニア、プロダクトデザイナーから成るチームで、AI画像処理技術の研究・応用に注力しています。",
+      "roles": {
+        "aiExpert": "AI研究専門家",
+        "engineer": "ソフトウェアエンジニア",
+        "designer": "プロダクトデザイナー",
+        "techExpert": "技術専門家"
+      }
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "ご質問やご提案がございましたら、お気軽にお問い合わせください：",
+      "email": "メール",
+      "support": "技術サポート",
+      "phone": "ホットライン",
+      "onlineSupport": "24/7 オンラインサポート",
+      "contactAction": "お問い合わせ",
+      "readyTitle": "始める準備はできましたか？",
+      "readyDescription": "今すぐAI技術を体験し、かつてない画像処理能力をお楽しみください",
+      "tryNow": "今すぐ試す"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "いつでもサポート",
+    "backToHome": "ホームに戻る",
+    "breadcrumb": {
+      "home": "ホーム",
+      "contact": "お問い合わせ"
+    },
+    "heroTitle": "いつでもサポート",
+    "heroDescription": "ご質問、ご提案、技術的なサポートが必要な場合は、専門チームが迅速に対応し、最適なソリューションを提供します。",
+    "heroSubtitle": "24/7 プロフェッショナルサポートチーム",
+    "form": {
+      "title": "メッセージを送信",
+      "description": "以下の情報をご記入いただくと、追ってご連絡いたします",
+      "name": "名前",
+      "namePlaceholder": "お名前を入力してください",
+      "email": "メール",
+      "emailPlaceholder": "メールアドレスを入力してください",
+      "subject": "件名",
+      "subjectPlaceholder": "件名を入力してください",
+      "message": "メッセージ",
+      "messagePlaceholder": "問題やご提案を詳しくご記入ください...",
+      "submit": "送信",
+      "submitting": "送信中...",
+      "success": "メッセージが送信されました！追ってご連絡いたします。",
+      "error": "送信に失敗しました。後ほどお試しください。",
+      "required": "この項目は必須です",
+      "invalidEmail": "有効なメールアドレスを入力してください",
+      "minLength": "{min} 文字以上で入力してください"
+    },
+    "info": {
+      "title": "連絡先情報",
+      "email": {
+        "title": "メールでのお問い合わせ",
+        "address": "undress.online.ai@gmail.com",
+        "description": "技術サポートのためにメールを送信"
+      },
+      "response": {
+        "title": "応答時間",
+        "time": "24時間以内",
+        "description": "24時間以内に返信することをお約束します"
+      },
+      "support": {
+        "title": "技術サポート",
+        "availability": "24/7 オンライン",
+        "description": "24時間体制の技術サポート"
+      }
+    },
+    "types": {
+      "title": "お手伝いできること",
+      "technical": {
+        "title": "技術サポート",
+        "description": "使用中の技術的な問題を解決"
+      },
+      "feedback": {
+        "title": "フィードバック",
+        "description": "ご提案や改善点を共有"
+      },
+      "business": {
+        "title": "ビジネス協力",
+        "description": "パートナーシップやビジネス協力の機会を検討"
+      },
+      "general": {
+        "title": "一般的なお問い合わせ",
+        "description": "その他のご質問やお問い合わせ"
+      }
+    }
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "backToHome": "ホームに戻る",
+    "lastUpdated": "最終更新日",
+    "updateDate": "2024年1月15日",
+    "breadcrumb": {
+      "home": "ホーム",
+      "privacy": "プライバシーポリシー"
+    },
+    "introduction": {
+      "title": "はじめに",
+      "content": "本プライバシーポリシーは、当社のAI画像処理サービスをご利用の際に提供される情報の収集、使用、保護方法について説明します。お客様のプライバシーを尊重し、個人データを安全に取り扱うことをお約束します。"
+    },
+    "dataCollection": {
+      "title": "情報の収集",
+      "description": "当社は以下の種類の情報を収集する場合があります：",
+      "items": {
+        "uploaded": "アップロードされた画像ファイル（処理目的のみ）",
+        "technical": "技術情報（IPアドレス、ブラウザ種類、デバイス情報）",
+        "usage": "利用データ（アクセス時間、機能使用状況）",
+        "device": "デバイス情報（OS、画面解像度）"
+      }
+    },
+    "dataUsage": {
+      "title": "情報の利用",
+      "description": "収集した情報は以下に使用します：",
+      "items": {
+        "processing": "画像を処理し、AIサービスを提供",
+        "improvement": "サービス品質とユーザー体験の向上",
+        "support": "技術サポートとカスタマーサービスの提供",
+        "security": "サービスのセキュリティ維持と不正防止"
+      }
+    },
+    "dataProtection": {
+      "title": "データ保護",
+      "description": "データ保護のために以下の措置を実施しています：",
+      "items": {
+        "encryption": "すべてのデータ通信をSSL/TLSで暗号化",
+        "autoDelete": "アップロードされた画像は24時間後に自動削除",
+        "accessControl": "厳格なアクセス制御と権限管理",
+        "monitoring": "定期的なセキュリティ監査と監視"
+      }
+    },
+    "dataSharing": {
+      "title": "データ共有",
+      "description": "プライバシー保護を約束します：",
+      "noSharing": "個人情報やアップロード画像を第三者と共有、販売、または開示しません。"
+    }
   }
 }
