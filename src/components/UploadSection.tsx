@@ -259,7 +259,7 @@ export default function UploadSection() {
             <Card id="result-section" className="border border-seductive-purple/20  transition-all duration-300">
               <CardBody>
                 <div className="text-center w-full flex justify-center items-center">
-                  <a href="https://t.ancdu.link/380687/6744?bo=2753,2754,2755,2756&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0002"><img src="https://www.imglnkx.com/9456/DAT-480_DESIGN-23859_1_300250.gif" width="300" height="250" border="0" /></a>
+                  <a href="https://t.ancdu.link/380687/6744?bo=2753,2754,2755,2756&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0002"><img src="https://www.imglnkx.com/9456/DAT-480_DESIGN-23859_1_300250.gif" width="300" height="250" /></a>
                 </div>
               </CardBody>
             </Card>

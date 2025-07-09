@@ -55,8 +55,8 @@ export default function HeroSection() {
         <div className="w-full max-w-4xl flex justify-center">
           
           {width != null && (width < 1024 
-            ? <a href="https://t.acrsmartcam.com/380687/7070?bo=2779,2778,2777,2776,2775&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0002"><img src="https://www.imglnkx.com/2676/001753A_LIJA_18_ALL_EN_71_L.gif" width="300" height="250" border="0" /></a> 
-            : <a href="https://t.acrsmartcam.com/380687/7070?bo=2779,2778,2777,2776,2775&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0002"><img src="https://www.imglnkx.com/2676/001754A_LIJA_13_ALL_EN_83_L.gif" width="950" height="250" border="0" /></a>
+            ? <a href="https://t.acrsmartcam.com/380687/7070?bo=2779,2778,2777,2776,2775&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0002"><img src="https://www.imglnkx.com/2676/001753A_LIJA_18_ALL_EN_71_L.gif" width="300" height="250" /></a> 
+            : <a href="https://t.acrsmartcam.com/380687/7070?bo=2779,2778,2777,2776,2775&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0002"><img src="https://www.imglnkx.com/2676/001754A_LIJA_13_ALL_EN_83_L.gif" width="950" height="250" /></a>
           )}
         </div>
       </div>
