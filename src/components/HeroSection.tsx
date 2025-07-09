@@ -53,9 +53,10 @@ export default function HeroSection() {
       {/* 广告位区域 - 占1/3高度 */}
       <div className="relative h-1/3 flex items-center justify-center px-4 z-10">
         <div className="w-full max-w-4xl flex justify-center">
+          
           {width != null && (width < 1024 
-            ? <ins id="1095778" data-width="300" data-height="100"></ins> 
-            : <ins id="1095758" data-width="908" data-height="258"></ins>
+            ? <a href="https://t.acrsmartcam.com/380687/7070?bo=2779,2778,2777,2776,2775&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0002"><img src="https://www.imglnkx.com/2676/001753A_LIJA_18_ALL_EN_71_L.gif" width="300" height="250" border="0" /></a> 
+            : <a href="https://t.acrsmartcam.com/380687/7070?bo=2779,2778,2777,2776,2775&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0002"><img src="https://www.imglnkx.com/2676/001754A_LIJA_13_ALL_EN_83_L.gif" width="950" height="250" border="0" /></a>
           )}
         </div>
       </div>
