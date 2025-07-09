@@ -6,11 +6,10 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
 import { notFound } from 'next/navigation'
-import PerformanceMonitor from '@/components/analytics/PerformanceMonitor'
 import GoogleAnalyticsProvider from '@/components/analytics/GoogleAnalytics'
 import LanguageDetector from '@/components/LanguageDetector'
 import Script from 'next/script'
-import VConsole from 'vconsole';
+import ClientVConsole from '@/components/analytics/ClientVConsole'
 
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -79,9 +78,6 @@ export default async function RootLayout({
   // 获取对应语言的翻译文件
   const messages = await getMessages();
 
-  const vConsole = new VConsole({ theme: 'dark' });
-
-  
   return (
     <html lang={locale} className="dark">
       <head>
@@ -142,14 +138,14 @@ export default async function RootLayout({
           <Providers>
             <GoogleAnalyticsProvider />
             <LanguageDetector />
-            <PerformanceMonitor />
+            <ClientVConsole />
             {/* <Script
               src="//pl27113709.profitableratecpm.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js"
               data-cfasync="false"
               async
               strategy="afterInteractive"
             /> */}
-            <Script 
+            {/* <Script 
               src="//static.scptpz.com/mnpw3.js"
               strategy="afterInteractive"
               data-cfasync="false"
@@ -173,7 +169,7 @@ export default async function RootLayout({
             <Script
               src="https://js.juicyads.com/jp.php?c=4464v213q244u4r2o2e43374a4&u=https%3A%2F%2Fwww.juicyads.rocks"
               strategy="lazyOnload"
-            />
+            /> */}
             {children}
           </Providers>
         </NextIntlClientProvider>
