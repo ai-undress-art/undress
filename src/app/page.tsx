@@ -2,7 +2,7 @@ import { redirect } from 'next/navigation';
 
 export default function RootPage() {
   // 重定向到默认语言
-  redirect('/ch');
+  redirect('/en');
 }
 
 // 添加元数据

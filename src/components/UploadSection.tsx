@@ -180,9 +180,9 @@ export default function UploadSection() {
 
           {/* 上传区域 */}
           <div className="space-y-6 flex flex-col h-full">
-            <h3 className="text-xl font-bold text-white neon-text mb-4">
+            <h2 className="text-xl font-bold text-white neon-text mb-4">
               📤 {t('title')}
-            </h3>
+            </h2>
 
             {/* 拖拽上传区域 */}
             <Card

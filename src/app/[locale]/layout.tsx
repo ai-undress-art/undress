@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 import { Providers } from './providers'
 import { NextIntlClientProvider } from 'next-intl'
@@ -11,10 +10,12 @@ import LanguageDetector from '@/components/LanguageDetector'
 import Script from 'next/script'
 import ClientVConsole from '@/components/analytics/ClientVConsole'
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const { locale } = params;
   const t = await getTranslations({ locale, namespace: 'metadata' });
+  const otherLocales = routing.locales.filter((l) => l !== locale);
 
   return {
     title: t('title'),
@@ -28,12 +29,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       address: false,
       telephone: false,
     },
-    metadataBase: new URL('https://ai-undress.online'),
+    metadataBase: new URL(BASE_URL),
     alternates: {
       canonical: `/${locale}`,
       languages: {
-        'en': '/en',
-        'zh': '/zh',
+        'en': `${BASE_URL}/en`,
+        'zh': `${BASE_URL}/zh`,
+        'x-default': `${BASE_URL}/en`,
       },
     },
     openGraph: {
@@ -41,17 +43,26 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: t('description'),
       type: 'website',
       locale: locale,
-      url: `/${locale}`,
-      siteName: 'Ai Undress',
+      url: `${BASE_URL}/${locale}`,
+      siteName: t('title'),
+      images: [
+        {
+          url: `${BASE_URL}/images/og-image.png`, // 推荐使用专门的OG图片
+          width: 1200,
+          height: 630,
+          alt: t('title'),
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
+      images: [`${BASE_URL}/images/og-image.png`], // Twitter也使用此图片
     },
     icons: {
-      icon: '/images/logo.png',
-      shortcut: '/images/logo.png',
+      icon: '/images/logo.svg', // 建议使用SVG或高质量PNG
+      shortcut: '/images/logo.svg',
       apple: '/images/logo.png',
     },
   }
@@ -102,9 +113,9 @@ export default async function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Ai Undress",
-              "url": "https://ai-undress.online",
-              "logo": "https://ai-undress.online/images/logo.png",
+              "name": "Ai Undress", // 可替换为品牌名
+              "url": BASE_URL,
+              "logo": `${BASE_URL}/images/logo.png`,
               "description": "Advanced AI image processing technology company",
               "foundingDate": "2024",
               "industry": "Artificial Intelligence",
@@ -115,8 +126,8 @@ export default async function RootLayout({
                 "availableLanguage": ["Chinese", "English"]
               },
               "sameAs": [
-                "https://twitter.com/Ai Undress",
-                "https://github.com/Ai Undress"
+                // "https://twitter.com/YourProfile",
+                // "https://github.com/YourProfile"
               ]
             })
           }}

@@ -65,9 +65,9 @@ export default function FAQSection() {
       </div>
 
       <div className="relative max-w-4xl mx-auto">
-        <h3 className="font-bold text-3xl text-transparent bg-clip-text bg-gradient-passion neon-text-pink text-center mb-16">
+        <h2 className="font-bold text-3xl text-transparent bg-clip-text bg-gradient-passion neon-text-pink text-center mb-16">
           {t('title')}
-        </h3>
+        </h2>
         
         <Accordion variant="splitted" className="gap-6">
           {faqData.map((item) => (

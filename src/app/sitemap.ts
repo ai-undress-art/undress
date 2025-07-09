@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://ai-undress.online'
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
   const languages = ['zh', 'en']
   const currentDate = new Date()
   
@@ -38,14 +38,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  const sitemap: MetadataRoute.Sitemap = []
+  const sitemapEntries: MetadataRoute.Sitemap = []
 
   // 为每个语言和路由生成sitemap条目
   languages.forEach(lang => {
     routes.forEach(route => {
       const url = `${baseUrl}/${lang}${route.path}`
       
-      sitemap.push({
+      sitemapEntries.push({
         url,
         lastModified: route.lastModified,
         changeFrequency: route.changeFrequency,
@@ -59,18 +59,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  // 添加根路径重定向
-  sitemap.push({
-    url: baseUrl,
-    lastModified: currentDate,
-    changeFrequency: 'daily',
-    priority: 1.0,
-    alternates: {
-      languages: Object.fromEntries(
-        languages.map(l => [l, `${baseUrl}/${l}`])
-      ),
-    },
-  })
-
-  return sitemap
+  return sitemapEntries
 } 

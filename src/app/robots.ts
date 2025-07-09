@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next'
 
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
@@ -8,61 +10,47 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: [
           '/api/',
-          '/admin/',
           '/_next/',
-          '/private/',
-          '/temp/',
           '/*.json$',
           '/*?*utm_*',
           '/*?*fbclid*',
           '/*?*gclid*',
-          '/search?*',
-          '/filter?*',
         ],
-        crawlDelay: 1,
       },
-      {
-        userAgent: 'Googlebot',
-        allow: '/',
-        disallow: ['/api/', '/admin/', '/private/'],
-        crawlDelay: 0,
-      },
-      {
-        userAgent: 'Bingbot',
-        allow: '/',
-        disallow: ['/api/', '/admin/', '/private/'],
-        crawlDelay: 1,
-      },
-      {
-        userAgent: 'facebookexternalhit',
-        allow: '/',
-        disallow: ['/api/', '/admin/', '/private/'],
-      },
-      {
-        userAgent: 'Twitterbot',
-        allow: '/',
-        disallow: ['/api/', '/admin/', '/private/'],
-      },
-      // 阻止恶意爬虫
+      // 允许主流的SEO分析工具爬虫
       {
         userAgent: [
           'AhrefsBot',
+          'SemrushBot',
+          'Googlebot',
+          'Bingbot',
+        ],
+        allow: '/',
+        // 可以根据需要设置更精细的规则
+        // crawlDelay: 1, // Googlebot 会忽略此指令
+      },
+      // 社交媒体爬虫
+      {
+        userAgent: ['facebookexternalhit', 'Twitterbot'],
+        allow: '/',
+      },
+      // 阻止一些不必要的爬虫
+      {
+        userAgent: [
           'MJ12bot',
           'DotBot',
-          'SemrushBot',
-          'BLEXBot',
           'MegaIndex',
           'spbot',
           'PetalBot',
-          'YandexBot',
+          'YandexBot', // 如果您不需要来自Yandex的流量，可以屏蔽
         ],
         disallow: '/',
       },
     ],
     sitemap: [
-      'https://ai-undress.online/sitemap.xml',
-      'https://ai-undress.online/sitemap-images.xml',
+      `${baseUrl}/sitemap.xml`,
+      `${baseUrl}/sitemap-images.xml`,
     ],
-    host: 'https://ai-undress.online',
+    host: baseUrl,
   }
 } 
