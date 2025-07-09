@@ -152,7 +152,6 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <AboutTechnologySection />
         <AboutPrivacySection />
         <AboutTeamSection />
-        {/* <AboutContactSection /> */}
         <Footer />
       </main>
     </>

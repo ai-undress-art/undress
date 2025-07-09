@@ -164,19 +164,14 @@ export default function UploadSection() {
   }, [processedResult])
 
   return (
-    <section id="upload-section" className="py-20 px-4 bg-gradient-midnight relative overflow-hidden">
-      {/* 背景装饰 - 暧昧色调 - 仅在桌面端显示 */}
-      <div className="absolute inset-0 opacity-25 hidden lg:block">
-        <div className="absolute top-10 left-10 w-40 h-40 bg-seductive-purple/30 rounded-full blur-3xl pulse-seductive"></div>
-        <div className="absolute bottom-10 right-10 w-32 h-32 bg-seductive-dark-red/40 rounded-full blur-3xl pulse-seductive" style={{ animationDelay: '1.5s' }}></div>
-        <div className="absolute top-1/2 right-1/4 w-24 h-24 bg-seductive-magenta/35 rounded-full blur-3xl pulse-seductive" style={{ animationDelay: '0.8s' }}></div>
-      </div>
+    <section id="upload-section" className="px-4  relative overflow-hidden">
+
 
       <div className="relative max-w-7xl mx-auto">
 
 
         {/* 单行布局 */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:items-stretch items-start mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:items-stretch items-start mt-5">
 
           {/* 上传区域 */}
           <div className="space-y-6 flex flex-col h-full">
@@ -187,8 +182,8 @@ export default function UploadSection() {
             {/* 拖拽上传区域 */}
             <Card
               className={`border-2 border-dashed transition-all duration-300 lg:glass-effect-dark ${dragActive
-                  ? 'border-seductive-pink/60 lg:neon-border-pink bg-seductive-purple/15'
-                  : 'border-seductive-purple/30 hover:border-seductive-pink/50'
+                ? 'border-seductive-pink/60 lg:neon-border-pink bg-seductive-purple/15'
+                : 'border-seductive-purple/30 hover:border-seductive-pink/50'
                 }`}
             >
               <CardBody
@@ -252,7 +247,6 @@ export default function UploadSection() {
             {/* 处理按钮 */}
             <Button
               size="lg"
-              id="result-section"
               className={`btn-gradient-primary px-16 py-4 text-xl font-bold rounded-full mx-auto shadow-neon-pink hover:shadow-neon w-full py-4 text-lg font-bold rounded-xl transition-all duration-300`}
               isDisabled={!selectedFile || isProcessing}
               isLoading={isProcessing}
@@ -262,9 +256,9 @@ export default function UploadSection() {
             </Button>
 
             {/* 广告位 - 紧凑版 */}
-            <Card className="glass-effect-dark border border-seductive-purple/20 hover:border-seductive-pink/30 transition-all duration-300">
-              <CardBody className="p-4">
-                <div className="text-center w-full flex justify-center">
+            <Card id="result-section" className="border border-seductive-purple/20  transition-all duration-300">
+              <CardBody>
+                <div className="text-center w-full flex justify-center items-center">
                   <ins id="1095776" data-width="308" data-height="286"></ins>
                 </div>
               </CardBody>
@@ -301,7 +295,7 @@ export default function UploadSection() {
             </h3>
 
             {!selectedFile && !processedResult && (
-              <Card className="glass-effect-dark border border-seductive-purple/30 flex-1 flex">
+              <Card className="border border-seductive-purple/30 flex-1 flex">
                 <CardBody className="p-12 text-center flex items-center justify-center">
                   <div>
                     <div className="text-6xl opacity-60 mb-6">🖼️</div>
@@ -314,10 +308,10 @@ export default function UploadSection() {
             )}
 
             {selectedFile && !processedResult && !isProcessing && (
-              <Card className="glass-effect-dark border border-seductive-purple/30 flex-1 flex">
+              <Card className="border border-seductive-purple/30 flex-1 flex">
                 <CardBody className="p-8 text-center flex items-center justify-center">
                   <div className="w-full max-w-md">
-                    <div className="aspect-square bg-gradient-to-br from-seductive-purple/20 via-seductive-pink/15 to-seductive-dark-red/20 rounded-2xl flex items-center justify-center relative overflow-hidden">
+                    <div className="aspect-square  from-seductive-purple/20 via-seductive-pink/15 to-seductive-dark-red/20 rounded-2xl flex items-center justify-center relative overflow-hidden">
                       <OptimizedImage
                         src={URL.createObjectURL(selectedFile)}
                         alt={t('originalImage')}
@@ -339,10 +333,10 @@ export default function UploadSection() {
             )}
 
             {isProcessing && (
-              <Card className="glass-effect-dark border border-seductive-purple/30 flex-1 flex">
+              <Card className="border border-seductive-purple/30 flex-1 flex">
                 <CardBody className="p-8 text-center flex items-center justify-center">
                   <div className="w-full max-w-md">
-                    <div className="aspect-square bg-gradient-to-br from-seductive-purple/20 via-seductive-pink/15 to-seductive-dark-red/20 rounded-2xl flex items-center justify-center relative overflow-hidden">
+                    <div className="aspect-square  from-seductive-purple/20 via-seductive-pink/15 to-seductive-dark-red/20 rounded-2xl flex items-center justify-center relative overflow-hidden">
                       {selectedFile && (
                         <OptimizedImage
                           src={URL.createObjectURL(selectedFile)}
@@ -368,17 +362,16 @@ export default function UploadSection() {
 
             {processedResult && (
               <div className="flex-1 flex flex-col">
-                <Card className="glass-effect-dark border border-seductive-pink/40 neon-border-pink flex-1 flex">
-                  <CardBody className="p-6 flex flex-col">
-                    <h4 className="text-white font-medium mb-4 text-center neon-text-pink text-lg">{t('processedImage')}</h4>
-                    <div className="flex-1 flex items-center justify-center p-4">
-                      <div className="max-w-lg w-full max-h-96 rounded-xl overflow-hidden bg-gradient-to-br from-seductive-purple/10 via-seductive-pink/5 to-seductive-dark-red/10 p-2 flex items-center justify-center">
+                <Card className="border border-seductive-pink/40 neon-border-pink flex-1 flex">
+                  <CardBody className="flex flex-col">
+                    <div className="flex-1 flex items-center justify-center">
+                      <div className="max-w-lg w-full max-h-96 rounded-xl overflow-hidden via-seductive-pink/5 flex items-center justify-center">
                         <OptimizedImage
                           src={processedResult}
                           alt={t('processedImage')}
                           width={600}
                           height={400}
-                          className="max-w-full max-h-full object-contain rounded-lg"
+                          className="max-w-full max-h-full object-contain"
                           priority={true}
                         />
                       </div>

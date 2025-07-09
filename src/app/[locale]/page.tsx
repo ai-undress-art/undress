@@ -102,7 +102,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
         <AppNavbar />
         <HeroSection />
         <UploadSection />
-        {/* <FAQSection /> */}
+        <FAQSection />
         <Footer />
       </main>
     </>

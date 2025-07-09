@@ -138,7 +138,13 @@
     },
     "team": {
       "title": "团队介绍",
-      "description": "我们是一支由AI研究专家、软件工程师和产品设计师组成的专业团队，专注于AI图像处理技术的研发与应用。"
+      "description": "我们是一支由AI研究专家、软件工程师和产品设计师组成的专业团队，专注于AI图像处理技术的研发与应用。",
+      "roles": {
+        "aiExpert": "AI 研究专家",
+        "engineer": "软件工程师",
+        "designer": "产品设计师",
+        "techExpert": "技术专家"
+      }
     },
     "contact": {
       "title": "联系我们",

@@ -150,7 +150,7 @@ export default async function RootLayout({
               strategy="afterInteractive"
               data-cfasync="false"
               async
-            />
+            /> */}
             <Script
               src="https://poweredby.jads.co/js/jads.js"
               data-cfasync="false"
@@ -160,16 +160,16 @@ export default async function RootLayout({
             <Script id="juicyads-init" strategy="afterInteractive">
               {`(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1095758},{'adzone':1095776},{'adzone':1095778});`}
             </Script>
-            <Script strategy="afterInteractive">
+            {/* <Script strategy="afterInteractive">
               {`setTimeout(() => {
                 console.log('mnpw',mnpw);
                 mnpw.add('https://t.ancdu.link/380687/3785/0?bo=Array&target=pops&file_id=252177&po=6456&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0005&pud=scptpz', {newTab: true, cookieExpires: 86401});
               }, 2000)`}
-            </Script>
+            </Script> */}
             <Script
               src="https://js.juicyads.com/jp.php?c=4464v213q244u4r2o2e43374a4&u=https%3A%2F%2Fwww.juicyads.rocks"
               strategy="lazyOnload"
-            /> */}
+            />
             {children}
           </Providers>
         </NextIntlClientProvider>

@@ -138,7 +138,13 @@
     },
     "team": {
       "title": "Our Team",
-      "description": "We are a professional team composed of AI research experts, software engineers, and product designers, focusing on the research and application of AI image processing technology."
+      "description": "We are a professional team composed of AI research experts, software engineers, and product designers, focusing on the research and application of AI image processing technology.",
+      "roles": {
+        "aiExpert": "AI Research Expert",
+        "engineer": "Software Engineer",
+        "designer": "Product Designer",
+        "techExpert": "Technology Expert"
+      }
     },
     "contact": {
       "title": "Contact Us",
