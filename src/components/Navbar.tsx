@@ -29,7 +29,7 @@ export default function AppNavbar() {
   };
 
   return (
-    <Navbar className="glass-effect-dark backdrop-blur-xl border-b border-seductive-purple/20">
+    <Navbar  position="static" className="glass-effect-dark backdrop-blur-xl border-b border-seductive-purple/20">
       {/* 左侧导航 */}
       <NavbarContent justify="start">
         <NavbarItem>

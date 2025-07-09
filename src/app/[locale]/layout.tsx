@@ -83,7 +83,7 @@ export default async function RootLayout({
       <head>
         <meta name="6a97888e-site-verification" content="bee01f6bb37c65bc7f6112921b8a7cf0" />
         <meta name="juicyads-site-verification" content="708a3b01853f2ba74b0d50543495e2f2" />
-        <script type='text/javascript' src='//pl27113709.profitableratecpm.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js'></script>
+        {/* <script type='text/javascript' src='//pl27113709.profitableratecpm.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js'></script> */}
 
 
         {/* DNS预解析和预连接 */}
@@ -139,12 +139,12 @@ export default async function RootLayout({
             <GoogleAnalyticsProvider />
             <LanguageDetector />
             <PerformanceMonitor />
-            {/* <Script
+            <Script
               src="//pl27113709.profitableratecpm.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js"
               data-cfasync="false"
               async
               strategy="afterInteractive"
-            /> */}
+            />
             <Script 
               src="//static.scptpz.com/mnpw3.js"
               strategy="afterInteractive"
