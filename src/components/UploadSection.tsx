@@ -165,8 +165,8 @@ export default function UploadSection() {
 
   return (
     <section id="upload-section" className="py-20 px-4 bg-gradient-midnight relative overflow-hidden">
-      {/* 背景装饰 - 暧昧色调 */}
-      <div className="absolute inset-0 opacity-25">
+      {/* 背景装饰 - 暧昧色调 - 仅在桌面端显示 */}
+      <div className="absolute inset-0 opacity-25 hidden lg:block">
         <div className="absolute top-10 left-10 w-40 h-40 bg-seductive-purple/30 rounded-full blur-3xl pulse-seductive"></div>
         <div className="absolute bottom-10 right-10 w-32 h-32 bg-seductive-dark-red/40 rounded-full blur-3xl pulse-seductive" style={{ animationDelay: '1.5s' }}></div>
         <div className="absolute top-1/2 right-1/4 w-24 h-24 bg-seductive-magenta/35 rounded-full blur-3xl pulse-seductive" style={{ animationDelay: '0.8s' }}></div>
@@ -186,8 +186,8 @@ export default function UploadSection() {
 
             {/* 拖拽上传区域 */}
             <Card
-              className={`border-2 border-dashed transition-all duration-300 glass-effect-dark ${dragActive
-                  ? 'border-seductive-pink/60 neon-border-pink bg-seductive-purple/15'
+              className={`border-2 border-dashed transition-all duration-300 lg:glass-effect-dark ${dragActive
+                  ? 'border-seductive-pink/60 lg:neon-border-pink bg-seductive-purple/15'
                   : 'border-seductive-purple/30 hover:border-seductive-pink/50'
                 }`}
             >
@@ -227,7 +227,7 @@ export default function UploadSection() {
 
             {/* 选中的文件信息 */}
             {selectedFile && (
-              <Card className="glass-effect-dark border border-seductive-purple/30 shadow-neon">
+              <Card className="border border-seductive-purple/30 lg:glass-effect-dark lg:shadow-neon">
                 <CardBody className="p-4">
                   <div className="flex items-center justify-between">
                     <div>
