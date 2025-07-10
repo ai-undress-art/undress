@@ -61,8 +61,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       images: [`${BASE_URL}/images/og-image.png`], // Twitter也使用此图片
     },
     icons: {
-      icon: '/images/logo.svg', // 建议使用SVG或高质量PNG
-      shortcut: '/images/logo.svg',
+      icon: '/images/logo.png', // 建议使用SVG或高质量PNG
+      shortcut: '/images/logo.png',
       apple: '/images/logo.png',
     },
   }

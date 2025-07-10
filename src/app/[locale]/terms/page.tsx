@@ -293,7 +293,6 @@ export default function TermsPage() {
                   {t('governing.description')}
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-white/80">
-                  <li>{t('governing.items.jurisdiction')}</li>
                   <li>{t('governing.items.disputes')}</li>
                   <li>{t('governing.items.court')}</li>
                   <li>{t('governing.items.language')}</li>
