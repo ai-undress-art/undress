@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://ai-undress.online'),
   title: {
-    template: '%s | Ai Undress',
+    template: '%s',
     default: 'Ai Undress AI - AI Image Processing Tool | Advanced AI Technology'
   },
   description: 'Advanced AI technology for image processing, supporting multiple formats, 24-hour automatic deletion, privacy protection. Free to use, no restrictions.',
