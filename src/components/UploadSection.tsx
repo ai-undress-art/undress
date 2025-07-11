@@ -258,8 +258,8 @@ export default function UploadSection() {
             {/* 广告位 - 紧凑版 */}
             <Card id="result-section" className="border border-seductive-purple/20  transition-all duration-300">
               <CardBody>
-                <div className="text-center w-full flex justify-center items-center">
-                <iframe src="https://sefsdvc.com/en/us/media/dynamic/id?zid=11923&pid=0&custom1=&custom2=60671&custom3=%7Btransaction_id%7D&custom6=&custom7=PUB_380687&cturl=https://t.irtyf.com/ihxg01j1ds?file_id=252622&aff_id=380687&offer_id=3664&aff_sub=&url=" width="300" height="250"  scrolling="no" frameBorder="0"></iframe>
+                <div id="container-0f7dde16e901c333cf6f249cdd8e53c6" className="text-center w-full flex justify-center items-center">
+                {/* <iframe src="https://sefsdvc.com/en/us/media/dynamic/id?zid=11923&pid=0&custom1=&custom2=60671&custom3=%7Btransaction_id%7D&custom6=&custom7=PUB_380687&cturl=https://t.irtyf.com/ihxg01j1ds?file_id=252622&aff_id=380687&offer_id=3664&aff_sub=&url=" width="300" height="250"  scrolling="no" frameBorder="0"></iframe> */}
                   {/* <a href="https://t.ancdu.link/380687/6744?bo=2753,2754,2755,2756&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0002"><img src="https://www.imglnkx.com/9456/DAT-480_DESIGN-23859_1_300250.gif" width="300" height="250" /></a> */}
                 </div>
               </CardBody>

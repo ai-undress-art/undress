@@ -126,6 +126,12 @@ export default async function RootLayout({
               data-cfasync="false"
               async
             />
+            <Script
+              src="//wreckbargaininghers.com/0f7dde16e901c333cf6f249cdd8e53c6/invoke.js"
+              strategy="afterInteractive"
+              data-cfasync="false"
+              async
+            />
             <Script id="popin-init" strategy="afterInteractive">
               {`  var crakPopInParamsIframe = {
     url: '//widget-ext.crxcr1.com/?landing_id=%7Boffer_url_id%7D&genders=f&providersId=673%2C169&skin=3&containerAlignment=center&cols=0&rows=0&number=50&background=transparent&useFeed=1&animateFeed=1&smoothAnimation=1&ratio=1&verticalSpace=10px&horizontalSpace=10px&colorFilter=0&colorFilterStrength=0&AuxiliaryCSS=%0A&lang=en&refererFile=im%2Fjs.ejs&thumbsBorderBottom=58px&thumbsBorderColor=%23343537&fontSize=15px&infoTopLeftContent=name&infoTopRightContent=gender%2Cage&infoBottomLeftContent=-&infoBottomRightContent=room_subject&infoTopWritePos=after&infoTopPos=inside&infoTopBackgroundColor=rgba(0%2C%200%2C%200%2C%20.65)&infoTopTextColor=%23ff4764&infoTopHeight=30px&infoBottomWritePos=after&infoBottomPos=inside&infoBottomBackgroundColor=rgba(0%2C%200%2C%200%2C%20.65)&infoBottomTextColor=%23c5cad4&infoBottomHeight=30px&infoBottomLineHeight=30px&CTAContent=Join%20Chat%20Room&CTABottom=10px&CTABackground=%23ff4764&CTAColor=%23fff&CTAWidth=calc(100%25%20-%2020px)&CTAHeight=38px&CTAFontSize=16px&CTAFontWeight=700&CTABorderRadius=3px&targetResponsiveWidth=350&cardsBorderRadius=0px&token=8b729f60-5ce0-11f0-ac26-7f87dd95b431&api_key=55ca404f309a2ae836592ff2e374d62b3a0db349cfd2d45bd9050dfa6bff269e',
