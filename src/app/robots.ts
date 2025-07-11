@@ -34,18 +34,6 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: ['facebookexternalhit', 'Twitterbot'],
         allow: '/',
       },
-      // 阻止一些不必要的爬虫
-      {
-        userAgent: [
-          'MJ12bot',
-          'DotBot',
-          'MegaIndex',
-          'spbot',
-          'PetalBot',
-          'YandexBot', // 如果您不需要来自Yandex的流量，可以屏蔽
-        ],
-        disallow: '/',
-      },
     ],
     sitemap: [
       `${baseUrl}/sitemap.xml`,

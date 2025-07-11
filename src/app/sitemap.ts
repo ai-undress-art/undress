@@ -1,8 +1,10 @@
 import { MetadataRoute } from 'next'
+import { routing } from '@/i18n/routing';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-  const languages = ['zh', 'en']
+  // 以根目录下的多语言配置为准，保持与 src/i18n/routing.ts 一致
+  const languages = routing.locales;
   const currentDate = new Date()
   
   const routes = [

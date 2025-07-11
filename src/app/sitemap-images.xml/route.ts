@@ -10,6 +10,12 @@ export async function GET() {
       license: `${baseUrl}/terms`,
     },
     {
+      loc: `${baseUrl}/images/og-image.png`,
+      caption: 'Ai Undress - Social sharing image',
+      title: 'Ai Undress Open Graph Image',
+      license: `${baseUrl}/terms`,
+    },
+    {
       loc: `${baseUrl}/images/bgLg.webp`,
       caption: 'Ai Undress 背景图片 - 高质量WebP格式',
       title: 'Ai Undress Background',

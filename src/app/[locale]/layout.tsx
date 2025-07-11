@@ -33,8 +33,10 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     alternates: {
       canonical: `/${locale}`,
       languages: {
-        'en': `${BASE_URL}/en`,
-        'zh': `${BASE_URL}/zh`,
+        ...otherLocales.reduce((acc, l) => {
+          acc[l] = `${BASE_URL}/${l}`;
+          return acc;
+        }, {} as Record<string, string>),
         'x-default': `${BASE_URL}/en`,
       },
     },
@@ -105,33 +107,6 @@ export default async function RootLayout({
         <link rel="preload" href="/images/logo.png" as="image" type="image/png" />
 
         <script data-cfasync="false" type='text/javascript' src='//wreckbargaininghers.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js'></script>
-
-        {/* 结构化数据 - 组织信息 */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Ai Undress", // 可替换为品牌名
-              "url": BASE_URL,
-              "logo": `${BASE_URL}/images/logo.png`,
-              "description": "Advanced AI image processing technology company",
-              "foundingDate": "2024",
-              "industry": "Artificial Intelligence",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "contactType": "customer service",
-                "email": "undress.online.ai@gmail.com",
-                "availableLanguage": ["Chinese", "English"]
-              },
-              "sameAs": [
-                // "https://twitter.com/YourProfile",
-                // "https://github.com/YourProfile"
-              ]
-            })
-          }}
-        />
       </head>
       <body className='antialiased'>
         <NextIntlClientProvider messages={messages}>

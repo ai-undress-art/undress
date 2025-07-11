@@ -9,6 +9,8 @@ import { getTranslations } from 'next-intl/server'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/routing'
 import type { Metadata } from 'next'
+import { createAboutPageSchema, createBreadcrumbSchema, StructuredData } from '@/components/seo/StructuredData'
+
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -21,10 +23,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     robots: 'index, follow',
     alternates: {
       canonical: `/${locale}/about`,
-      languages: {
-        'en': '/en/about',
-        'zh': '/zh/about',
-      },
     },
     openGraph: {
       title: t('title'),
@@ -46,31 +44,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 function BreadcrumbNav({ locale }: { locale: string }) {
   const t = useTranslations('about')
   
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": t('breadcrumb.home'),
-        "item": `/${locale}`
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": t('breadcrumb.about'),
-        "item": `/${locale}/about`
-      }
-    ]
-  }
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: t('breadcrumb.home'), url: `/${locale}` },
+    { name: t('breadcrumb.about'), url: `/${locale}/about` }
+  ]);
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
+      <StructuredData data={breadcrumbSchema} />
       <nav className="container mx-auto px-4 pt-8" aria-label="Breadcrumb">
         <ol className="flex items-center space-x-2 text-sm text-white/60">
           <li>
@@ -98,51 +79,15 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
   const metaT = await getTranslations({ locale, namespace: 'metadata.about' });
 
   // 组织结构化数据
-  const organizationData = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Ai Undress",
-    "url": "https://ai-undress.online",
-    "description": metaT('description'),
-    "foundingDate": "2024",
-    "industry": "Artificial Intelligence",
-    "specialties": [
-      "AI Image Processing",
-      "Deep Learning",
-      "Computer Vision",
-      "Machine Learning"
-    ],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "customer service",
-      "email": "undress.online.ai@gmail.com"
-    }
-  }
-
-  // 网页结构化数据
-  const webPageData = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": t('title'),
-    "description": metaT('description'),
-    "url": `/${locale}/about`,
-    "mainEntity": {
-      "@type": "AboutPage",
-      "name": t('title'),
-      "description": metaT('description')
-    }
-  }
+  const aboutPageSchema = createAboutPageSchema(
+    metaT('title'),
+    metaT('description'),
+    `/${locale}/about`
+  );
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageData) }}
-      />
+      <StructuredData data={aboutPageSchema} />
       
       <main className="min-h-screen">
         <AppNavbar />

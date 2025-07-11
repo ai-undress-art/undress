@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/routing'
 import ContactForm from './ContactForm'
 import type { Metadata } from 'next'
+import { createContactPageSchema, StructuredData } from '@/components/seo/StructuredData'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -15,10 +16,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     robots: 'index, follow',
     alternates: {
       canonical: `/${locale}/contact`,
-      languages: {
-        'en': '/en/contact',
-        'zh': '/zh/contact',
-      },
     },
     openGraph: {
       title: t('title'),
@@ -41,49 +38,15 @@ export default function ContactPage() {
   const metaT = useTranslations('metadata.contact')
 
   // 结构化数据
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "name": t('title'),
-    "description": metaT('description'),
-    "url": typeof window !== 'undefined' ? window.location.href : '',
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": t('breadcrumb.home'),
-          "item": "/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": t('breadcrumb.contact'),
-          "item": "/contact"
-        }
-      ]
-    },
-    "mainEntity": {
-      "@type": "Organization",
-      "name": "Ai Undress",
-      "url": "https://ai-undress.online",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+1-800-DESSI-AI",
-        "contactType": "customer service",
-        "email": "undress.online.ai@gmail.com",
-        "availableLanguage": ["en", "zh"]
-      }
-    }
-  }
+  const contactPageSchema = createContactPageSchema(
+    t('title'),
+    metaT('description'),
+    typeof window !== 'undefined' ? window.location.href : ''
+  );
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
+      <StructuredData data={contactPageSchema} />
 
       <div className="min-h-screen bg-gradient-midnight text-white">
         {/* 面包屑导航 */}

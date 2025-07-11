@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl'
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/routing'
 import type { Metadata } from 'next'
+import { createWebPageSchema, StructuredData } from '@/components/seo/StructuredData'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -14,10 +15,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     robots: 'index, follow',
     alternates: {
       canonical: `/${locale}/terms`,
-      languages: {
-        'en': '/en/terms',
-        'zh': '/zh/terms',
-      },
     },
     openGraph: {
       title: t('title'),
@@ -40,48 +37,29 @@ export default function TermsPage() {
   const metaT = useTranslations('metadata.terms')
 
   // 结构化数据
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": t('title'),
-    "description": metaT('description'),
-    "url": typeof window !== 'undefined' ? window.location.href : '',
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": t('breadcrumb.home'),
-          "item": "/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": t('breadcrumb.terms'),
-          "item": "/terms"
-        }
-      ]
-    },
-    "mainEntity": {
-      "@type": "TermsOfService",
-      "name": t('title'),
-      "description": metaT('description'),
-      "dateModified": "2024-01-15",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Ai Undress",
-        "url": "https://ai-undress.online"
+  const webPageSchema = createWebPageSchema(
+    t('title'),
+    metaT('description'),
+    typeof window !== 'undefined' ? window.location.href : '',
+    [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": t('breadcrumb.home'),
+        "item": "/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": t('breadcrumb.terms'),
+        "item": "/terms"
       }
-    }
-  }
+    ]
+  );
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
+      <StructuredData data={webPageSchema} />
       
       <div className="min-h-screen bg-gradient-midnight text-white">
         {/* 面包屑导航 */}

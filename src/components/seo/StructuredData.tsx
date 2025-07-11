@@ -27,27 +27,6 @@ export const createWebsiteSchema = (name: string, url: string, description: stri
   }
 })
 
-export const createOrganizationSchema = (name: string, url: string, description: string, logo?: string) => ({
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": name,
-  "url": url,
-  "description": description,
-  "logo": logo,
-  "foundingDate": "2024",
-  "industry": "Artificial Intelligence",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer service",
-    "email": "undress.online.ai@gmail.com",
-    "availableLanguage": ["Chinese", "English"]
-  },
-  "sameAs": [
-    "https://twitter.com/Ai Undress",
-    "https://github.com/Ai Undress"
-  ]
-})
-
 export const createSoftwareApplicationSchema = (name: string, description: string, url: string) => ({
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -64,13 +43,6 @@ export const createSoftwareApplicationSchema = (name: string, description: strin
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "USD"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "ratingCount": "1250",
-    "bestRating": "5",
-    "worstRating": "1"
   }
 })
 
