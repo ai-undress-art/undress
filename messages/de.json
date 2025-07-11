@@ -1,182 +1,230 @@
 {
   "metadata": {
-    "title": "Kostenloses KI-Entkleidungstool Online | Entfernen Sie Kleidung aus jedem Bild",
-    "description": "Mit nur einem Klick Kleidung entfernen! Ein leistungsstarkes und realistisches KI-Tool, das Nacktheit in jedem Bild sichtbar macht. 100 % kostenlos und unbegrenzt. Probieren Sie jetzt unsere kostenlose KI-Entkleidungs-Webanwendung für sofortige Ergebnisse aus!",
+    "title": "Kostenloses Online-KI-Entkleidungstool | Kleidung von jeder Person entfernen",
+    "description": "Einfach mit einem Klick Kleidung entfernen! Ein leistungsstarkes und realistisches KI-Tool, um Nacktheit in jedem Bild zu enthüllen. 100% kostenlos und unbegrenzt. Probieren Sie jetzt die kostenlose AI-Entkleidungs-Webanwendung aus und erhalten Sie sofort Ergebnisse!",
     "privacy": {
-      "title": "Datenschutzrichtlinie | Undress AI – Schutz Ihrer Privatsphäre",
-      "description": "Erfahren Sie, wie Undress AI Ihre persönlichen Daten sammelt, verwendet und schützt. Wir verpflichten uns, Ihre Privatsphäre zu wahren: Alle hochgeladenen Bilder werden nach 24 Stunden automatisch gelöscht, und keine Daten werden an Dritte weitergegeben.",
-      "keywords": "Datenschutzrichtlinie, Datenschutz, KI-Bildverarbeitung, Sicherheit persönlicher Daten, GDPR-Konformität, Datenlöschung, Privatsphäre"
+      "title": "Datenschutzrichtlinie | Undress AI - Schützt Ihre Privatsphäre",
+      "description": "Erfahren Sie, wie Undress AI Ihre persönlichen Informationen sammelt, verwendet und schützt. Wir verpflichten uns, Ihre Privatsphäre zu schützen. Alle hochgeladenen Bilder werden nach 24 Stunden automatisch gelöscht und nicht mit Dritten geteilt.",
+      "keywords": "Datenschutzerklärung, Datenschutz, KI-Bildverarbeitung, Sicherheit persönlicher Daten, DSGVO-Konformität, Datenlöschung, Datenschutz"
     },
     "about": {
-      "title": "Über Uns | Undress AI – Fortschrittliche KI-Bildverarbeitungstechnologie",
-      "description": "Erfahren Sie mehr über die Mission, technischen Vorteile und das Team von Undress AI. Wir arbeiten daran, modernste KI-Bildverarbeitungstechnologie bereitzustellen, um sichere und effiziente KI-Dienste anzubieten.",
-      "keywords": "KI-Bildverarbeitung, künstliche Intelligenz, Deep Learning, Bilderkennung, KI-Dienste, technisches Team, Innovation"
+      "title": "Über uns | Undress AI - Fortschrittliche KI-Bildverarbeitungstechnologie",
+      "description": "Erfahren Sie mehr über die Mission, technischen Vorteile und das Team von Undress AI. Wir widmen uns der Entwicklung modernster KI-Bildverarbeitungstechnologien, um den Nutzern sichere und effiziente KI-Dienste bereitzustellen.",
+      "keywords": "KI-Bildverarbeitung, Künstliche Intelligenz, Deep Learning, Bilderkennung, KI-Dienst, Technikteam, innovative Technologie"
     },
     "terms": {
-      "title": "Nutzungsbedingungen | Undress AI – Allgemeine Geschäftsbedingungen",
-      "description": "Lesen Sie die Nutzungsbedingungen für die Verwendung der Undress AI-Dienste, einschließlich Benutzerverantwortlichkeiten, Dienstbeschränkungen, geistige Eigentumsrechte und weitere rechtliche Bestimmungen.",
-      "keywords": "Nutzungsbedingungen, Benutzervereinbarung, rechtliche Bestimmungen, Dienstbeschränkungen, geistiges Eigentum, Benutzerverantwortlichkeiten"
+      "title": "Nutzungsbedingungen | Undress AI - Geschäftsbedingungen",
+      "description": "Erfahren Sie die Geschäftsbedingungen für die Nutzung von Undress AI-Diensten, einschließlich Nutzerverantwortung, Servicebeschränkungen, geistigem Eigentum und weiterer wichtiger rechtlicher Bestimmungen.",
+      "keywords": "Nutzungsbedingungen, Geschäftsbedingungen, Benutzervereinbarung, rechtliche Bestimmungen, Servicebeschränkungen, geistiges Eigentum, Nutzerverantwortung"
     },
     "contact": {
-      "title": "Kontakt | Undress AI – Hilfe & Support",
-      "description": "Kontaktieren Sie das Undress AI-Team für technischen Support, Partnerschaftsanfragen oder Feedback. Wir bieten rund um die Uhr Online-Support und schnelle Reaktionszeiten.",
-      "keywords": "Kontakt, technischer Support, Kundendienst, Feedback, Partnerschaftsanfragen, Online-Support, Hilfezentrum"
+      "title": "Kontakt | Undress AI - Hilfe & Support",
+      "description": "Kontaktieren Sie das Undress AI-Team für technischen Support, Partnerschaftsanfragen oder Feedback. Wir bieten 24/7 Online-Support und reagieren schnell auf Ihre Anfragen.",
+      "keywords": "Kontakt, technischer Support, Kundendienst, Feedback, Partnerschaftsanfragen, Online-Support, Hilfe-Center"
     }
   },
   "navbar": {
     "language": "Sprache",
-    "brand": "AI Entkleidung",
+    "brand": "AI-Entkleidung",
     "features": "Funktionen",
     "pricing": "Preise",
     "faq": "FAQ"
   },
   "hero": {
     "title": "KI-Entkleidungstechnologie",
-    "subtitle": "Fortschrittliche KI-Technologie für schnelles Bildverarbeiten",
-    "cta": "Jetzt Ausprobieren",
-    "description": "Mit modernster KI-Technologie",
-    "adTitle": "Werbefläche",
-    "adDescription": "Ihre Werbung könnte hier stehen",
-    "adContent": "[Werbeinhaltsbereich]"
+    "subtitle": "Fortschrittliche KI für schnelle Bildbearbeitung",
+    "cta": "Jetzt ausprobieren",
+    "description": "Verwendung modernster KI-Technologie",
+    "adTitle": "Anzeigenplatz",
+    "adDescription": "Hier können Sie Ihre Werbung platzieren",
+    "adContent": "[Anzeigeninhalt-Bereich]"
   },
   "upload": {
-    "title": "Bild Hochladen",
-    "description": "Wählen Sie das Bild aus, das Sie verarbeiten möchten",
-    "button": "Datei Auswählen",
-    "processing": "Verarbeite...",
-    "success": "Fertig",
-    "dragText": "Ziehen und Ablegen oder",
-    "selectFile": "Datei Auswählen",
-    "supportedFormats": "Unterstützt JPG, PNG",
+    "title": "Bild hochladen",
+    "description": "Wählen Sie das Bild, das Sie bearbeiten möchten",
+    "button": "Datei auswählen",
+    "processing": "Bearbeitung läuft...",
+    "success": "Bearbeitung abgeschlossen",
+    "dragText": "Ziehen &",
+    "selectFile": "Datei auswählen",
+    "supportedFormats": "Unterstützt JPG-, PNG-Formate",
     "reset": "Zurücksetzen",
-    "startProcessing": "Verarbeitung Starten",
-    "aiProcessing": "KI-Verarbeitung...",
+    "startProcessing": "Bearbeitung starten",
+    "aiProcessing": "KI-Bearbeitung...",
     "fileSize": "MB",
     "pleaseSelectImage": "Bitte wählen Sie eine Bilddatei aus",
-    "adTitleCompact": "Werbung",
-    "adContentCompact": "[Werbeinhalt]",
+    "adTitleCompact": "Anzeige",
+    "adContentCompact": "[Anzeigeninhalt]",
     "originalImage": "Originalbild",
     "processedImage": "Verarbeitetes Bild",
-    "downloadResult": "Ergebnis Herunterladen",
-    "processingNote": "Verarbeite Ihr Bild mit KI...",
-    "processingComplete": "Verarbeitung abgeschlossen! Ergebnis generiert",
+    "downloadResult": "Ergebnis herunterladen",
+    "processingNote": "Ihr Bild wird mit KI-Technologie bearbeitet...",
+    "processingComplete": "Bearbeitung abgeschlossen! Ergebnis generiert",
     "previewTitle": "Vorschau",
     "uploadImageFirst": "Bitte laden Sie zuerst ein Bild hoch",
-    "processingFailed": "Verarbeitung fehlgeschlagen",
+    "processingFailed": "Bearbeitung fehlgeschlagen",
     "networkError": "Netzwerkfehler, bitte später erneut versuchen",
     "unknownError": "Unbekannter Fehler"
   },
   "faq": {
-    "title": "FAQ",
+    "title": "Häufig gestellte Fragen",
     "items": {
-      "q1": "Was ist KI-Entkleidung?",
-      "a1": "KI-Entkleidung ist ein Tool, das KI verwendet, um digital Kleidung aus Bildern oder Videos zu entfernen. Es nutzt Bildreparaturalgorithmen, um visuelle Daten zu analysieren und zu manipulieren, und erzeugt die Illusion von entkleideten Motiven.",
-      "q2": "Wie verwendet man KI-Entkleidung?",
-      "a2": "Laden Sie einfach ein Foto hoch und wählen Sie den Bereich der Kleidung aus, der entfernt werden soll. Je genauer Sie markieren, desto besser das Ergebnis.",
-      "q3": "Wie lange dauert der Generierungsprozess?",
-      "a3": "Das hängt von der Serverauslastung ab und kann von einer Sekunde bis zu einer Minute variieren.",
-      "q4": "Kann ich KI-Entkleidung kostenlos nutzen?",
-      "a4": "Ja, Sie können unseren Generator kostenlos und ohne Anfragerichtlimit verwenden.",
-      "q5": "Ist KI-Entkleidung sicher?",
-      "a5": "Die Sicherheit von KI-Entkleidung hängt von der Absicht des Benutzers ab. Dieses Tool sollte verantwortungsbewusst verwendet werden, mit ausdrücklicher Zustimmung vor der Verarbeitung der Bilder und nur für künstlerische, Bildungs- oder nicht-kommerzielle Zwecke.",
+      "q1": "Was ist AI-Entkleidung?",
+      "a1": "AI-Entkleidung ist ein Tool, das künstliche Intelligenz verwendet, um die Kleidung von Personen in Bildern oder Videos digital zu entfernen. Es nutzt Bild-Inpainting-Algorithmen, um visuelle Daten zu analysieren und zu manipulieren und erzeugt so die Illusion, dass die Person sich auszieht.",
+      "q2": "Wie benutze ich AI-Entkleidung?",
+      "a2": "Laden Sie einfach ein Foto hoch und wählen Sie den Bereich der Kleidung aus, den Sie entfernen möchten. Je präziser Sie markieren, desto besser das Ergebnis.",
+      "q3": "Wie lange dauert der Erstellungsprozess?",
+      "a3": "Das hängt von der Serverauslastung ab und kann von einer Sekunde bis zu einer Minute dauern.",
+      "q4": "Kann ich AI-Entkleidung kostenlos nutzen?",
+      "a4": "Ja, Sie können unseren Generator kostenlos ohne Anfragenbeschränkungen nutzen.",
+      "q5": "Ist AI-Entkleidung sicher?",
+      "a5": "Die Sicherheit von AI-Entkleidung hängt von der Absicht des Nutzers ab. Solche Werkzeuge sollten verantwortungsbewusst verwendet werden, um schädliche Zwecke zu vermeiden. Holen Sie stets eine ausdrückliche Zustimmung ein, bevor Sie Bilder bearbeiten, und verwenden Sie es nur für künstlerische, pädagogische und nicht-kommerzielle Zwecke.",
       "q6": "Speichern wir Bilder?",
-      "a6": "Alle hochgeladenen Dateien werden nach 24 Stunden automatisch gelöscht und generierte Inhalte werden bis zu 30 Tage gespeichert.",
-      "q7": "Sind diese Ergebnisse öffentlich zugänglich?",
-      "a7": "Nein, Ihre Ergebnisse sind nur für Sie verfügbar und werden nicht an Dritte weitergegeben."
+      "a6": "Alle hochgeladenen Dateien werden nach 24 Stunden automatisch gelöscht, und generierte Inhalte werden maximal 30 Tage lang gespeichert.",
+      "q7": "Sind die generierten Ergebnisse öffentlich zugänglich?",
+      "a7": "Nein, Ihre generierten Ergebnisse sind nur für Sie verfügbar und werden nicht mit Dritten geteilt."
     }
   },
   "footer": {
     "brand": "Undress",
     "rights": "Alle Rechte vorbehalten",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
     "about": "Über",
     "contact": "Kontakt",
-    "cookieNotice": "Diese Website verwendet Cookies gemäß unserer Datenschutzrichtlinie, um Ihnen ein besseres Erlebnis zu bieten."
+    "cookieNotice": "Diese Webseite verwendet Cookies gemäß unserer Datenschutzrichtlinie, um Ihnen ein besseres Erlebnis zu bieten."
   },
   "about": {
-    "title": "Über Uns",
+    "title": "Über uns",
     "subtitle": "Erfahren Sie mehr über unsere KI-Technologie und Mission",
     "backToHome": "Zurück zur Startseite",
-    "breadcrumb": { "home": "Startseite", "about": "Über Uns" },
-    "heroTitle": "Pioniere der innovativen KI-Technologie",
-    "heroDescription": "Wir widmen uns der Entwicklung modernster KI-Bildverarbeitungstechnologie, um sichere und effiziente KI-Dienste bereitzustellen.",
+    "breadcrumb": {
+      "home": "Startseite",
+      "about": "Über uns"
+    },
+    "heroTitle": "Pioniere innovativer KI-Technologie",
+    "heroDescription": "Wir widmen uns der Entwicklung modernster KI-Bildverarbeitungstechnologien, um Nutzern sichere und effiziente KI-Dienste zu bieten.",
     "mission": {
       "title": "Unsere Mission",
-      "description": "Dank modernster KI-Technologie möchten wir jedem ermöglichen, die Kraft der KI mühelos zu erleben. Wir glauben, dass Technologie der Menschheit dienen und das Leben verbessern sollte."
+      "description": "Durch modernste KI-Technologie ermöglichen wir es jedem, die Kraft künstlicher Intelligenz einfach zu erleben. Wir glauben, dass Technologie der Menschheit dienen und das Leben verbessern sollte."
     },
     "technology": {
       "title": "Technische Vorteile",
-      "description": "Wir verwenden neueste Deep-Learning-Algorithmen und Bildverarbeitungstechniken, um qualitativ hochwertige und effiziente Ergebnisse zu gewährleisten.",
+      "description": "Nutzen Sie die neuesten Deep-Learning-Algorithmen und Bildverarbeitungstechniken, um hochwertige und effiziente Ergebnisse zu gewährleisten.",
       "features": [
-        { "title": "Fortschrittliche Algorithmen", "description": "Basierend auf modernsten Deep-Learning-Modellen für präzise Bildverarbeitung" },
-        { "title": "Schnelle Verarbeitung", "description": "Optimierte Algorithmenarchitektur für sekundenschnelle Verarbeitung" },
-        { "title": "Hochwertige Ergebnisse", "description": "Gewährleistung von Bildern mit hoher Auflösung und natürlichem Aussehen" }
+        {
+          "title": "Fortschrittliche Algorithmen",
+          "description": "Basierend auf den neuesten Deep-Learning-Modellen für präzise Bildbearbeitungsfähigkeiten"
+        },
+        {
+          "title": "Schnelle Verarbeitung",
+          "description": "Optimierte Architektur für Bildbearbeitung in Sekunden"
+        },
+        {
+          "title": "Hochwertige Ausgabe",
+          "description": "Stellt sicher, dass verarbeitete Bilder hohe Auflösung und natürliche Effekte behalten"
+        }
       ]
     },
     "privacy": {
       "title": "Datenschutz",
-      "description": "Wir legen großen Wert auf Datenschutz und ergreifen strenge Maßnahmen:",
+      "description": "Wir legen größten Wert auf Ihre Privatsphäre und treffen strenge Maßnahmen zum Schutz Ihrer Daten:",
       "features": [
         "Alle hochgeladenen Dateien werden nach 24 Stunden automatisch gelöscht",
-        "Verschlüsselte Ende-zu-Ende-Übertragung",
-        "Keine Speicherung oder Weitergabe von Benutzerdaten",
+        "Ende-zu-Ende verschlüsselte Übertragung",
+        "Keine Speicherung oder Weitergabe von Nutzerdaten",
         "Einhaltung internationaler Datenschutzstandards"
       ]
     },
     "team": {
-      "title": "Teamvorstellung",
-      "description": "Wir sind ein Team aus KI-Forschungsexperten, Softwareingenieuren und Produktdesignern, das sich auf KI-Bildverarbeitungstechnologie konzentriert.",
-      "roles": { "aiExpert": "KI-Forschungsexperte", "engineer": "Softwareingenieur", "designer": "Produktdesigner", "techExpert": "Technikexperte" }
+      "title": "Unser Team",
+      "description": "Wir sind ein professionelles Team aus KI-Forschern, Softwareingenieuren und Produktdesignern, das sich auf Forschung und Anwendung von KI-Bildverarbeitung spezialisiert hat.",
+      "roles": {
+        "aiExpert": "KI-Forschungsexperte",
+        "engineer": "Softwareingenieur",
+        "designer": "Produktdesigner",
+        "techExpert": "Technikspezialist"
+      }
     },
     "contact": {
       "title": "Kontakt",
-      "description": "Bei Fragen oder Anregungen kontaktieren Sie uns gerne:",
+      "description": "Wenn Sie Fragen oder Anregungen haben, kontaktieren Sie uns gerne:",
       "email": "E-Mail",
       "support": "Technischer Support",
       "phone": "Hotline",
-      "onlineSupport": "Online-Support 24/7",
-      "contactAction": "Kontaktieren",
-      "readyTitle": "Bereit zu starten?",
-      "readyDescription": "Erleben Sie jetzt unsere KI-Technologie und genießen Sie beispiellose Bildverarbeitungsfähigkeiten",
-      "tryNow": "Jetzt Ausprobieren"
+      "onlineSupport": "24/7 Online-Support",
+      "contactAction": "Kontakt",
+      "readyTitle": "Bereit loszulegen?",
+      "readyDescription": "Erleben Sie jetzt unsere KI-Technologie und entdecken Sie beispiellose Bildbearbeitungsfähigkeiten",
+      "tryNow": "Jetzt ausprobieren"
     }
   },
   "contact": {
     "title": "Kontakt",
-    "subtitle": "Immer für Sie da",
+    "subtitle": "Wir sind für Sie da",
     "backToHome": "Zurück zur Startseite",
-    "breadcrumb": { "home": "Startseite", "contact": "Kontakt" },
-    "heroTitle": "Immer für Sie da",
-    "heroDescription": "Wenn Sie Fragen, Anregungen oder technischen Support benötigen, steht Ihnen unser Expertenteam prompt zur Verfügung und bietet die besten Lösungen.",
-    "heroSubtitle": "Professionelles Support-Team 24/7",
+    "breadcrumb": {
+      "home": "Startseite",
+      "contact": "Kontakt"
+    },
+    "heroTitle": "Wir unterstützen Sie",
+    "heroDescription": "Ob Fragen, Anregungen oder technischer Support – unser professionelles Team antwortet prompt mit den besten Lösungen.",
+    "heroSubtitle": "24/7 professionelles Support-Team",
     "form": {
       "title": "Nachricht senden",
-      "description": "Bitte füllen Sie die folgenden Informationen aus, wir antworten Ihnen schnellstmöglich",
+      "description": "Bitte füllen Sie die folgenden Informationen aus, und wir melden uns baldmöglichst bei Ihnen",
       "name": "Name",
-      "namePlaceholder": "Geben Sie Ihren Namen ein",
+      "namePlaceholder": "Bitte geben Sie Ihren Namen ein",
       "email": "E-Mail",
-      "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "emailPlaceholder": "Bitte geben Sie Ihre E-Mail-Adresse ein",
       "subject": "Betreff",
-      "subjectPlaceholder": "Geben Sie den Betreff Ihrer Nachricht ein",
+      "subjectPlaceholder": "Bitte geben Sie den Betreff ein",
       "message": "Nachricht",
-      "messagePlaceholder": "Bitte beschreiben Sie Ihr Anliegen oder Ihre Anregung...",
-      "submit": "Senden",
-      "submitting": "Wird gesendet...",
-      "success": "Nachricht gesendet! Wir melden uns bald bei Ihnen.",
-      "error": "Fehler beim Senden, bitte versuchen Sie es später erneut.",
+      "messagePlaceholder": "Bitte beschreiben Sie Ihre Frage oder Anregung ausführlich...",
+      "submit": "Nachricht senden",
+      "submitting": "Senden...",
+      "success": "Nachricht erfolgreich gesendet! Wir melden uns bald.",
+      "error": "Senden fehlgeschlagen, bitte später erneut versuchen.",
       "required": "Dieses Feld ist erforderlich",
       "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
       "minLength": "Mindestens {min} Zeichen erforderlich"
     },
     "info": {
       "title": "Kontaktinformationen",
-      "email": { "title": "Kontakt per E-Mail", "address": "undress.online.ai@gmail.com", "description": "Senden Sie uns eine E-Mail für technischen Support" },
-      "response": { "title": "Antwortzeit", "time": "Innerhalb von 24 Stunden", "description": "Wir antworten innerhalb von 24 Stunden" },
-      "support": { "title": "Technischer Support", "availability": "24/7", "description": "Rund-um-die-Uhr-Technik-Support" }
+      "email": {
+        "title": "E-Mail-Kontakt",
+        "address": "undress.online.ai@gmail.com",
+        "description": "Senden Sie uns eine E-Mail für technischen Support"
+      },
+      "response": {
+        "title": "Reaktionszeit",
+        "time": "Innerhalb von 24 Stunden",
+        "description": "Wir versprechen, innerhalb von 24 Stunden zu antworten"
+      },
+      "support": {
+        "title": "Technischer Support",
+        "availability": "24/7 Online",
+        "description": "Rund um die Uhr technischer Support"
+      }
     },
     "types": {
-      "title": "Wir können Ihnen helfen mit", "technical": { "title": "Technischer Support", "description": "Behebung technischer Probleme während der Nutzung" }, "feedback": { "title": "Feedback", "description": "Teilen Sie uns Ihre Vorschläge und Verbesserungen mit" }, "business": { "title": "Geschäftliche Zusammenarbeit", "description": "Diskussion über Partnerschaften und Geschäftsbeziehungen" }, "general": { "title": "Allgemeine Anfragen", "description": "Andere Fragen oder Anfragen" }
+      "title": "Wobei wir helfen können",
+      "technical": {
+        "title": "Technischer Support",
+        "description": "Behebung technischer Probleme bei der Nutzung"
+      },
+      "feedback": {
+        "title": "Feedback",
+        "description": "Teilen Sie uns Ihre Vorschläge und Ideen mit"
+      },
+      "business": {
+        "title": "Geschäftspartnerschaften",
+        "description": "Diskussion von Partnerschaftsmöglichkeiten und Geschäftsbeziehungen"
+      },
+      "general": {
+        "title": "Allgemeine Anfragen",
+        "description": "Andere Fragen oder Anfragen"
+      }
     }
   },
   "privacy": {
@@ -184,34 +232,197 @@
     "backToHome": "Zurück zur Startseite",
     "lastUpdated": "Zuletzt aktualisiert",
     "updateDate": "15. Januar 2024",
-    "breadcrumb": { "home": "Startseite", "privacy": "Datenschutzrichtlinie" },
-    "introduction": { "title": "Einleitung", "content": "Diese Datenschutzrichtlinie beschreibt, wie wir Informationen sammeln, verwenden und schützen, die Sie bei der Nutzung unserer KI-Bildverarbeitungsdienste bereitstellen. Wir verpflichten uns, Ihre Privatsphäre zu schützen und Ihre persönlichen Daten sicher zu behandeln." },
-    "dataCollection": { "title": "Informationserfassung", "description": "Wir können die folgenden Arten von Informationen sammeln:", "items": { "uploaded": "Hochgeladene Bilddateien (nur zu Verarbeitungszwecken)", "technical": "Technische Informationen (IP-Adresse, Browsertyp, Geräteinformationen)", "usage": "Nutzungsdaten (Zugriffszeiten, verwendete Funktionen)", "device": "Geräteinformationen (Betriebssystem, Bildschirmauflösung)" } },
-    "dataUsage": { "title": "Informationen verwenden", "description": "Wir verwenden die gesammelten Informationen, um:", "items": { "processing": "Ihre Bilder zu verarbeiten und KI-Dienste bereitzustellen", "improvement": "Die Qualität unserer Dienste und die Benutzererfahrung zu verbessern", "support": "Technischen Support und Kundendienst bereitzustellen", "security": "Die Sicherheit des Dienstes aufrechtzuerhalten und Missbrauch zu verhindern" } },
-    "dataProtection": { "title": "Datenschutz", "description": "Wir ergreifen folgende Maßnahmen, um Ihre Daten zu schützen:", "items": { "encryption": "Alle Datenübertragungen werden mit SSL/TLS verschlüsselt", "autoDelete": "Hochgeladene Bilder werden nach 24 Stunden automatisch gelöscht", "accessControl": "Strikte Zugriffskontrollen und Berechtigungsverwaltung", "monitoring": "Regelmäßige Sicherheitsprüfungen und Überwachung" } },
-    "dataSharing": { "title": "Datenweitergabe", "description": "Wir verpflichten uns, Ihre Privatsphäre zu schützen:", "noSharing": "Wir geben Ihre persönlichen Daten oder hochgeladenen Bilder nicht an Dritte weiter, verkaufen oder veröffentlichen sie nicht." },
-    "cookies": { "title": "Cookie-Richtlinie", "description": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern:", "items": { "essential": "Essentielle Cookies: Stellen die Funktionalität der Website sicher", "analytics": "Analyse-Cookies: Helfen uns, die Nutzung der Website zu verstehen", "preferences": "Präferenz-Cookies: Merken sich Ihre Sprache und Einstellungen" } },
-    "userRights": { "title": "Benutzerrechte", "description": "Sie haben die folgenden Rechte:", "items": { "access": "Recht auf Auskunft: Einsicht in die über Sie gespeicherten Daten", "correction": "Recht auf Berichtigung: Korrektur unrichtiger personenbezogener Daten", "deletion": "Recht auf Löschung: Nachfrage zur Löschung Ihrer personenbezogenen Daten", "objection": "Recht auf Widerspruch: Widerspruch gegen die Verarbeitung Ihrer Daten" } },
-    "contact": { "title": "Kontakt", "description": "Bei Fragen oder der Ausübung Ihrer Rechte kontaktieren Sie uns bitte:", "email": "Datenschutz-E-Mail", "support": "Technischer Support" },
-    "updates": { "title": "Aktualisierungen der Richtlinie", "description": "Wir können diese Datenschutzrichtlinie gelegentlich aktualisieren. Wesentliche Änderungen werden auf der Website bekannt gegeben. Die fortgesetzte Nutzung unserer Dienste gilt als Zustimmung zur aktualisierten Richtlinie." }
+    "breadcrumb": {
+      "home": "Startseite",
+      "privacy": "Datenschutzrichtlinie"
+    },
+    "introduction": {
+      "title": "Einführung",
+      "content": "Diese Datenschutzrichtlinie beschreibt, wie wir die Informationen sammeln, verwenden und schützen, die Sie bei der Nutzung unserer KI-Bildverarbeitungsdienste bereitstellen. Wir verpflichten uns, Ihre Privatsphäre zu schützen und Ihre persönlichen Daten sicher zu verarbeiten."
+    },
+    "dataCollection": {
+      "title": "Datenerhebung",
+      "description": "Wir können folgende Arten von Informationen sammeln:",
+      "items": {
+        "uploaded": "Hochgeladene Bilddateien (nur zur Verarbeitung)",
+        "technical": "Technische Informationen (IP-Adresse, Browser-Typ, Geräteinformationen)",
+        "usage": "Nutzungsdaten (Zugriffszeiten, Funktionsnutzung)",
+        "device": "Geräteinformationen (Betriebssystem, Bildschirmauflösung)"
+      }
+    },
+    "dataUsage": {
+      "title": "Datennutzung",
+      "description": "Wir verwenden die gesammelten Informationen für:",
+      "items": {
+        "processing": "Verarbeitung der hochgeladenen Bilder zur Bereitstellung von KI-Diensten",
+        "improvement": "Verbesserung unserer Dienstqualität und Nutzererfahrung",
+        "support": "Bereitstellung von technischem Support und Kundendienst",
+        "security": "Gewährleistung der Dienstsicherheit und Verhinderung von Missbrauch"
+      }
+    },
+    "dataProtection": {
+      "title": "Datenschutzmaßnahmen",
+      "description": "Wir ergreifen folgende Maßnahmen, um Ihre Daten zu schützen:",
+      "items": {
+        "encryption": "Alle Datenübertragungen sind mit SSL/TLS verschlüsselt",
+        "autoDelete": "Hochgeladene Bilder werden nach 24 Stunden automatisch gelöscht",
+        "accessControl": "Strikte Zugriffskontrolle und Berechtigungsmanagement",
+        "monitoring": "Regelmäßige Sicherheitsprüfungen und Überwachung"
+      }
+    },
+    "dataSharing": {
+      "title": "Weitergabe von Daten",
+      "description": "Wir verpflichten uns, Ihre Privatsphäre zu schützen:",
+      "noSharing": "Wir teilen, verkaufen oder geben Ihre persönlichen Daten oder hochgeladenen Bilder nicht an Dritte weiter."
+    },
+    "cookies": {
+      "title": "Cookie-Richtlinie",
+      "description": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern:",
+      "items": {
+        "essential": "Essentielle Cookies: Stellen die ordnungsgemäße Funktion der Website sicher",
+        "analytics": "Analyse-Cookies: Helfen uns, die Websitenutzung zu verstehen",
+        "preferences": "Präferenz-Cookies: Merken Ihre Sprach- und Einstellungsvorlieben"
+      }
+    },
+    "userRights": {
+      "title": "Rechte der Nutzer",
+      "description": "Sie haben folgende Rechte:",
+      "items": {
+        "access": "Recht auf Auskunft: Anzeige der von uns gesammelten Informationen",
+        "correction": "Recht auf Berichtigung: Korrektur ungenauer persönlicher Daten",
+        "deletion": "Recht auf Löschung: Antrag auf Löschung Ihrer persönlichen Daten",
+        "objection": "Widerspruchsrecht: Widerspruch gegen die Verarbeitung Ihrer persönlichen Daten"
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Wenn Sie Fragen zur Datenschutzerklärung haben oder Ihre Rechte ausüben möchten, kontaktieren Sie uns bitte:",
+      "email": "Datenschutz-E-Mail",
+      "support": "Technischer Support"
+    },
+    "updates": {
+      "title": "Aktualisierungen der Richtlinie",
+      "description": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wesentliche Änderungen werden auf der Website bekannt gegeben. Die weitere Nutzung unserer Dienste stellt die Zustimmung zur aktualisierten Richtlinie dar."
+    }
   },
   "terms": {
     "title": "Nutzungsbedingungen",
     "backToHome": "Zurück zur Startseite",
     "lastUpdated": "Zuletzt aktualisiert",
     "updateDate": "15. Januar 2024",
-    "breadcrumb": { "home": "Startseite", "terms": "Nutzungsbedingungen" },
-    "acceptance": { "title": "Akzeptanz der Bedingungen", "content": "Durch den Zugriff auf und die Nutzung der Undress AI-Dienste erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, verwenden Sie die Dienste bitte nicht." },
-    "serviceDescription": { "title": "Dienstbeschreibung", "content": "Undress AI bietet KI-basierte Bildverarbeitungsdienste an, einschließlich, aber nicht beschränkt auf Bildbearbeitung, Inhaltserstellung und Bilderkennungsfunktionen.", "items": { "processing": "KI-Bildverarbeitungs- und Bearbeitungsdienste", "generation": "KI-gestützte Inhaltserstellung", "analysis": "Bildanalyse- und Erkennungsdienste", "api": "API-Endpunkte und Entwicklerwerkzeuge" } },
-    "userResponsibilities": { "title": "Verantwortlichkeiten des Benutzers", "description": "Bei der Nutzung unserer Dienste verpflichten Sie sich:", "items": { "lawful": "Die Dienste nur für legitime Zwecke zu nutzen", "consent": "Sicherzustellen, dass Sie berechtigt sind, die hochgeladenen Bilder zu verarbeiten", "respect": "Die Privatsphäre und Rechte anderer zu respektieren", "noHarm": "Den Dienst nicht für schädliche oder böswillige Aktivitäten zu verwenden", "compliance": "Alle anwendbaren Gesetze und Vorschriften einzuhalten", "accurate": "Genaue und wahrheitsgemäße Informationen bereitzustellen" } },
-    "prohibitedUse": { "title": "Untersagter Gebrauch", "description": "Sie dürfen unsere Dienste nicht für Folgendes verwenden:", "items": { "illegal": "Jegliche illegale Aktivitäten oder Zwecke", "harassment": "Belästigung, Bedrohung oder Verletzung Dritter", "minors": "Unangemessene Inhalte mit Minderjährigen", "copyright": "Verletzung von Urheberrechten", "malware": "Verteilung von Malware oder Viren", "spam": "Versand von Spam oder unerwünschten Inhalten" } },
-    "intellectualProperty": { "title": "Geistiges Eigentum", "description": "Unsere Dienste und zugehörigen Technologien sind durch das Urheberrecht geschützt:", "items": { "ownership": "Undress AI hält alle Rechte und Eigentum an den Diensten", "license": "Wir gewähren Ihnen eine eingeschränkte, nicht-exklusive Lizenz zur Nutzung der Dienste", "userContent": "Sie behalten das Eigentum an Ihren hochgeladenen Inhalten, gewähren uns jedoch das Recht zur Verarbeitung", "generated": "Das Eigentum an von KI generierten Inhalten wird gemäß geltendem Recht bestimmt" } },
-    "serviceAvailability": { "title": "Verfügbarkeit der Dienste", "description": "Zur Verfügbarkeit unserer Dienste:", "items": { "uptime": "Wir bemühen uns um hohe Verfügbarkeit, garantieren jedoch keine 100 % Betriebszeit", "maintenance": "Wir können geplante Wartungsarbeiten und Updates durchführen", "interruption": "Der Dienst kann vorübergehend aufgrund technischer Probleme unterbrochen werden", "modification": "Wir behalten uns das Recht vor, den Dienst zu ändern oder einzustellen" } },
-    "dataAndPrivacy": { "title": "Daten und Privatsphäre", "description": "Ihre Datenverarbeitung unterliegt unserer Datenschutzrichtlinie:", "items": { "processing": "Wir verarbeiten Ihre Daten nur, um die Dienste bereitzustellen", "retention": "Hochgeladene Bilder werden nach 24 Stunden automatisch gelöscht", "security": "Wir treffen angemessene Maßnahmen zum Schutz Ihrer Daten", "sharing": "Wir teilen Ihre personenbezogenen Daten nicht mit Dritten" } },
-    "limitation": { "title": "Haftungsbeschränkung", "description": "Soweit gesetzlich zulässig:", "items": { "asIs": "Die Dienste werden in dem Zustand bereitgestellt, in dem sie sich befinden, ohne jegliche Gewährleistung", "damages": "Wir haften nicht für indirekte, besondere oder Folgeschäden", "liability": "Unsere Gesamtverantwortung ist auf den von Ihnen an uns gezahlten Betrag begrenzt", "force": "Wir haften nicht für Verluste aufgrund von höherer Gewalt" } },
-    "termination": { "title": "Beendigung", "description": "Bedingungen für die Beendigung des Dienstes:", "items": { "userTermination": "Sie können die Nutzung unserer Dienste jederzeit einstellen", "ourTermination": "Wir können Ihren Zugriff bei Verstoß gegen die Bedingungen beenden", "effect": "Nach Beendigung endet Ihr Zugriff sofort", "survival": "Einige Bestimmungen bleiben nach Beendigung weiterhin in Kraft" } },
-    "governing": { "title": "Anwendbares Recht", "description": "Diese Bedingungen unterliegen dem Recht:", "items": { "jurisdiction": "Diese Bedingungen unterliegen der Gerichtsbarkeit der Volksrepublik China", "disputes": "Streitigkeiten sollen durch gütliche Verhandlungen beigelegt werden", "court": "Sollte keine Einigung erzielt werden, ist ein zuständiges Gericht zuständig", "language": "Die chinesische Version dieser Bedingungen ist maßgeblich" } },
-    "contact": { "title": "Kontakt", "description": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte:", "email": "Rechtsabteilung E-Mail", "support": "Technischer Support" },
-    "updates": { "title": "Aktualisierungen der Bedingungen", "description": "Wir können diese Nutzungsbedingungen gelegentlich aktualisieren. Wesentliche Änderungen werden auf der Website bekannt gegeben. Die fortgesetzte Nutzung unserer Dienste gilt als Zustimmung zu den aktualisierten Bedingungen." }
+    "breadcrumb": {
+      "home": "Startseite",
+      "terms": "Nutzungsbedingungen"
+    },
+    "acceptance": {
+      "title": "Zustimmung zu den Bedingungen",
+      "content": "Durch den Zugriff auf und die Nutzung des Undress AI-Dienstes erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie nicht zustimmen, nutzen Sie bitte nicht unsere Dienste."
+    },
+    "serviceDescription": {
+      "title": "Dienstbeschreibung",
+      "content": "Undress AI bietet KI-gestützte Bildverarbeitungsdienste an, einschließlich, aber nicht beschränkt auf Bildbearbeitung, Inhaltserstellung und Bildanalyse.",
+      "items": {
+        "processing": "KI-Bildverarbeitung und Bearbeitung",
+        "generation": "KI-gestützte Inhaltserstellung",
+        "analysis": "Bildanalyse und Erkennungsdienste",
+        "api": "API-Schnittstellen und Entwickler-Tools"
+      }
+    },
+    "userResponsibilities": {
+      "title": "Verantwortlichkeiten der Nutzer",
+      "description": "Bei der Nutzung unserer Dienste erklären Sie sich damit einverstanden,:",
+      "items": {
+        "lawful": "die Dienste nur für legale Zwecke zu nutzen",
+        "consent": "sicherzustellen, dass Sie die Rechte haben, die Bilder hochzuladen und zu verarbeiten",
+        "respect": "die Privatsphäre und Rechte anderer zu respektieren",
+        "noHarm": "die Dienste nicht für schädliche oder böswillige Aktivitäten zu verwenden",
+        "compliance": "alle geltenden Gesetze und Vorschriften einzuhalten",
+        "accurate": "genaue und wahrheitsgemäße Informationen bereitzustellen"
+      }
+    },
+    "prohibitedUse": {
+      "title": "Verbotene Nutzung",
+      "description": "Sie dürfen unsere Dienste nicht nutzen für:",
+      "items": {
+        "illegal": "illegale Aktivitäten oder Zwecke",
+        "harassment": "Belästigung, Bedrohung oder Schädigung anderer",
+        "minors": "unangemessene Inhalte mit Minderjährigen",
+        "copyright": "Verletzung von Urheberrechten",
+        "malware": "Verbreitung von Malware oder Viren",
+        "spam": "Versand von Spam oder unerwünschten Inhalten"
+      }
+    },
+    "intellectualProperty": {
+      "title": "Geistiges Eigentum",
+      "description": "Unsere Dienste und zugehörige Technologien sind durch geistige Eigentumsgesetze geschützt:",
+      "items": {
+        "ownership": "Alle Rechte und Eigentum am Dienst liegen bei Undress AI",
+        "license": "Wir gewähren Ihnen eine eingeschränkte, nicht-exklusive Lizenz zur Nutzung des Dienstes",
+        "userContent": "Sie behalten das Eigentum an Ihren hochgeladenen Inhalten, gewähren uns jedoch die Erlaubnis, diese zu verarbeiten",
+        "generated": "Das Eigentum an KI-generierten Inhalten wird durch geltende Gesetze bestimmt"
+      }
+    },
+    "serviceAvailability": {
+      "title": "Verfügbarkeit des Dienstes",
+      "description": "Bezüglich der Verfügbarkeit unserer Dienste:",
+      "items": {
+        "uptime": "Wir bemühen uns, eine hohe Verfügbarkeit zu gewährleisten, garantieren jedoch keine 100%ige Betriebszeit",
+        "maintenance": "Wir können geplante Wartungen und Updates durchführen",
+        "interruption": "Die Dienste können aufgrund technischer Probleme vorübergehend unterbrochen werden",
+        "modification": "Wir behalten uns das Recht vor, den Dienst zu ändern oder einzustellen"
+      }
+    },
+    "dataAndPrivacy": {
+      "title": "Daten und Datenschutz",
+      "description": "Ihre Datenverarbeitung unterliegt unserer Datenschutzerklärung:",
+      "items": {
+        "processing": "Wir verarbeiten Ihre Daten nur zur Bereitstellung der Dienste",
+        "retention": "Hochgeladene Bilder werden nach 24 Stunden automatisch gelöscht",
+        "security": "Wir ergreifen angemessene Maßnahmen zum Schutz Ihrer Daten",
+        "sharing": "Wir teilen Ihre persönlichen Daten nicht mit Dritten"
+      },
+      "privacyNote": "Weitere Informationen zur Datenverarbeitung entnehmen Sie bitte unserer",
+      "privacyLink": "Datenschutzrichtlinie"
+    },
+    "limitation": {
+      "title": "Haftungsbeschränkung",
+      "description": "Soweit gesetzlich zulässig:",
+      "items": {
+        "asIs": "Die Dienste werden ohne jegliche Zusicherungen bereitgestellt",
+        "damages": "Wir haften nicht für indirekte, spezielle oder Folgeschäden",
+        "liability": "Unsere Gesamtverantwortung ist auf den Betrag beschränkt, den Sie uns gezahlt haben",
+        "force": "Wir haften nicht für Verluste aufgrund höherer Gewalt"
+      }
+    },
+    "termination": {
+      "title": "Kündigung",
+      "description": "Regeln zur Beendigung des Dienstes:",
+      "items": {
+        "userTermination": "Sie können die Nutzung unserer Dienste jederzeit einstellen",
+        "ourTermination": "Wir können Ihren Zugriff bei Verstoß gegen die Bedingungen beenden",
+        "effect": "Nach der Kündigung endet Ihr Zugriff sofort",
+        "survival": "Bestimmte Bestimmungen bleiben nach der Kündigung in Kraft"
+      }
+    },
+    "governing": {
+      "title": "Anwendbares Recht",
+      "description": "Diese Bedingungen unterliegen folgenden Gesetzen:",
+      "items": {
+        "jurisdiction": "Diese Bedingungen unterliegen dem Recht der Volksrepublik China",
+        "disputes": "Streitigkeiten sollten durch gütliche Verhandlung beigelegt werden",
+        "court": "Wenn Verhandlungen fehlschlagen, werden Streitigkeiten einem zuständigen Gericht vorgelegt",
+        "language": "Die chinesische Version dieser Bedingungen ist maßgeblich"
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns bitte:",
+      "email": "Rechts-E-Mail",
+      "support": "Technischer Support"
+    },
+    "updates": {
+      "title": "Aktualisierungen der Bedingungen",
+      "description": "Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Wesentliche Änderungen werden auf der Website bekannt gegeben. Die fortgesetzte Nutzung des Dienstes stellt die Zustimmung zu den aktualisierten Bedingungen dar."
+    }
   }
 }

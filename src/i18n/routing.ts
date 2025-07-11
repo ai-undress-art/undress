@@ -2,7 +2,7 @@ import {defineRouting} from 'next-intl/routing';
 import {createNavigation} from 'next-intl/navigation';
 
 export const routing = defineRouting({
-  locales: ['en', 'zh'],
+  locales: ['en', 'zh', 'ja', 'ko', 'ar', 'id', 'vi', 'es', 'fr', 'de', 'it', 'ru', 'pt', 'nl', 'pl', 'tr', 'th', 'hi','fa','ar'],
   defaultLocale: 'en',
   // 启用基于 Accept-Language 头的语言检测
   localeDetection: true,

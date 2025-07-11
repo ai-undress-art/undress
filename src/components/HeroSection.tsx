@@ -27,7 +27,7 @@ export default function HeroSection() {
         {/* 背景蒙层 - 毛玻璃效果 */}
         <div className="absolute inset-0 bg-black/55"></div>
 
-        <div className="max-w-4xl mx-auto text-center relative z-10">
+        <div className="w-full mx-auto text-center relative z-10">
           {/* 主标题 */}
           <h1 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-passion mb-6 float-animation lg:neon-text-pink">
             {t('title')}

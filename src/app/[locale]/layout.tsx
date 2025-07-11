@@ -101,6 +101,7 @@ export default async function RootLayout({
 
         {/* 性能优化 */}
         <link rel="preload" href="/images/bgLg.webp" as="image" type="image/webp" />
+        <link rel="preload" href="/images/bgSm.webp" as="image" type="image/webp" />
         <link rel="preload" href="/images/logo.png" as="image" type="image/png" />
 
         <script data-cfasync="false" type='text/javascript' src='//wreckbargaininghers.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js'></script>
@@ -138,12 +139,6 @@ export default async function RootLayout({
             <GoogleAnalyticsProvider />
             <LanguageDetector />
             <ClientVConsole />
-            {/* <Script
-              src="//pl27113709.profitableratecpm.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js"
-              data-cfasync="false"
-              async
-              strategy="afterInteractive"
-            /> */}
             <Script 
               src="https://crxcr1.com/popin/latest/popin-min.js"
               strategy="afterInteractive"
