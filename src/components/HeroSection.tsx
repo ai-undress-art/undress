@@ -3,6 +3,7 @@
 import { Button } from '@heroui/react'
 import { useTranslations } from 'next-intl'
 import { useWindowSize } from '@/hooks/useWindowSize'
+import Image from 'next/image'
 
 export default function HeroSection() {
   const t = useTranslations('hero');
@@ -17,13 +18,36 @@ export default function HeroSection() {
   }
 
   return (
-    <section className="relative h-[calc(100vh-64px)]  overflow-hidden">
+    <section className="relative h-[calc(100vh-64px)] overflow-hidden">
+
 
       {/* 额外的暗色渐变覆盖 */}
       <div className="absolute inset-0 via-transparent to-black/40"></div>
 
       {/* 英雄位区域 - 占2/3高度 */}
-      <div className="relative h-2/3 flex flex-col justify-center px-4 z-10 bg-cover bg-center bg-no-repeat bg-[url('/images/bgSm.webp')] lg:bg-[url('/images/bgLg.webp')]">
+      <div className="relative h-2/3 flex flex-col justify-center px-4 z-10">
+
+
+      {/* 背景图片 */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/bgLg.webp"
+          alt="AI Image Processing Background"
+          fill
+          style={{ objectFit: 'cover' }}
+          className="hidden lg:block" // 仅在 lg 及以上尺寸显示
+          priority // 优先加载
+        />
+        <Image
+          src="/images/bgSm.webp"
+          alt="AI Image Processing Background"
+          fill
+          style={{ objectFit: 'cover' }}
+          className="block lg:hidden" // 在 lg 以下尺寸显示
+          priority // 优先加载
+        />
+      </div>
+
         {/* 背景蒙层 - 毛玻璃效果 */}
         <div className="absolute inset-0 bg-black/55"></div>
 
