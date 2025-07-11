@@ -1,142 +1,230 @@
 {
   "metadata": {
-    "title": "Tool AI Undress Online Gratis | Hapus Pakaian dari Siapa Saja",
-    "description": "Hapus pakaian hanya dengan satu klik! Tool AI yang kuat dan realistis untuk menampilkan ketelanjangan di gambar mana pun. 100% gratis dan tanpa batas. Coba aplikasi web undress AI gratis sekarang dan dapatkan hasil instan!",
+    "title": "Alat AI Penghilang Pakaian Online Gratis | Hapus Pakaian dari Siapa Saja",
+    "description": "Hilangkan pakaian hanya dengan satu klik! Alat AI canggih dan realistis yang dapat menampilkan tubuh telanjang dalam gambar apa pun. 100% gratis tanpa batasan. Coba sekarang aplikasi web AI penghilang pakaian gratis dan dapatkan hasil instan!",
     "privacy": {
-      "title": "Kebijakan Privasi | Undress AI - Melindungi Privasi Anda dengan Aman",
-      "description": "Pelajari bagaimana Undress AI mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda.",
-      "keywords": "kebijakan privasi, perlindungan data, pemrosesan gambar AI, keamanan informasi pribadi"
+      "title": "Kebijakan Privasi | Undress AI - Melindungi Keamanan Privasi Anda",
+      "description": "Pelajari bagaimana Undress AI mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda. Kami berkomitmen melindungi privasi Anda, semua gambar yang diunggah akan dihapus otomatis setelah 24 jam, tidak membagikan data dengan pihak ketiga.",
+      "keywords": "kebijakan privasi, perlindungan data, pemrosesan gambar AI, keamanan informasi pribadi, kepatuhan GDPR, penghapusan data, perlindungan privasi"
     },
     "about": {
       "title": "Tentang Kami | Undress AI - Teknologi Pemrosesan Gambar AI Canggih",
-      "description": "Pelajari tentang misi, keunggulan teknis, dan tim Undress AI.",
-      "keywords": "pemrosesan gambar AI, teknologi kecerdasan buatan, deep learning"
+      "description": "Pelajari misi, keunggulan teknologi, dan tim Undress AI. Kami berdedikasi mengembangkan teknologi pemrosesan gambar AI tercanggih, menyediakan layanan AI yang aman dan efisien.",
+      "keywords": "pemrosesan gambar AI, teknologi kecerdasan buatan, pembelajaran mendalam, pengenalan gambar, layanan AI, tim teknologi, inovasi teknologi"
     },
     "terms": {
-      "title": "Syarat Layanan | Undress AI - Syarat dan Ketentuan Penggunaan",
-      "description": "Pelajari tentang syarat dan ketentuan untuk menggunakan layanan Undress AI.",
-      "keywords": "syarat layanan, syarat penggunaan, perjanjian pengguna"
+      "title": "Syarat Layanan | Undress AI - Ketentuan Penggunaan",
+      "description": "Pelajari syarat dan ketentuan penggunaan layanan Undress AI. Termasuk tanggung jawab pengguna, batasan layanan, hak kekayaan intelektual, dan ketentuan hukum penting lainnya.",
+      "keywords": "syarat layanan, ketentuan penggunaan, perjanjian pengguna, klausul hukum, batasan layanan, hak kekayaan intelektual, tanggung jawab pengguna"
     },
     "contact": {
       "title": "Hubungi Kami | Undress AI - Dapatkan Bantuan & Dukungan",
-      "description": "Hubungi tim Undress AI untuk dukungan teknis, pertanyaan kemitraan, atau umpan balik.",
-      "keywords": "hubungi kami, dukungan teknis, layanan pelanggan"
+      "description": "Hubungi tim Undress AI untuk dukungan teknis, konsultasi kerjasama, atau masukan. Kami menyediakan dukungan online 24/7 dengan respons cepat.",
+      "keywords": "hubungi kami, dukungan teknis, layanan pelanggan, masukan, konsultasi kerjasama, dukungan online, pusat bantuan"
     }
   },
   "navbar": {
     "language": "Bahasa",
-    "brand": "AI Undress",
+    "brand": "AI Penghilang Pakaian",
     "features": "Fitur",
     "pricing": "Harga",
     "faq": "FAQ"
   },
   "hero": {
-    "title": "Teknologi AI Undress",
-    "subtitle": "Teknologi AI canggih untuk pemrosesan gambar yang cepat",
+    "title": "Teknologi Penghilang Pakaian AI",
+    "subtitle": "Teknologi AI canggih untuk pemrosesan gambar cepat",
     "cta": "Coba Sekarang",
-    "description": "Menggunakan teknologi kecerdasan buatan paling canggih",
-    "adTitle": "Iklan",
-    "adDescription": "Konten iklan Anda dapat ditempatkan di sini",
-    "adContent": "[Area Konten Iklan]"
+    "description": "Menggunakan teknologi kecerdasan buatan tercanggih",
+    "adTitle": "Ruang Iklan",
+    "adDescription": "Anda dapat menempatkan konten iklan di sini",
+    "adContent": "[Konten Iklan]"
   },
   "upload": {
-    "title": "Upload Gambar",
-    "description": "Pilih gambar yang ingin Anda proses",
+    "title": "Unggah Gambar",
+    "description": "Pilih gambar yang ingin diproses",
     "button": "Pilih File",
     "processing": "Memproses...",
-    "success": "Pemrosesan Selesai",
-    "dragText": "Seret & lepas atau",
-    "selectFile": "pilih file",
+    "success": "Proses Selesai",
+    "dragText": "Seret atau",
+    "selectFile": "Pilih File",
     "supportedFormats": "Mendukung format JPG, PNG",
-    "reset": "Reset",
-    "startProcessing": "Mulai Pemrosesan",
-    "aiProcessing": "Pemrosesan AI...",
+    "reset": "Atur Ulang",
+    "startProcessing": "Mulai Proses",
+    "aiProcessing": "Sedang Diproses AI...",
     "fileSize": "MB",
     "pleaseSelectImage": "Silakan pilih file gambar",
     "adTitleCompact": "Iklan",
-    "adContentCompact": "[Konten Iklan]",
+    "adContentCompact": "[Iklan]",
     "originalImage": "Gambar Asli",
-    "processedImage": "Hasil Pemrosesan",
+    "processedImage": "Hasil Proses",
     "downloadResult": "Unduh Hasil",
-    "processingNote": "Menggunakan teknologi AI untuk memproses gambar Anda...",
-    "processingComplete": "Pemrosesan selesai! Hasil telah dibuat",
+    "processingNote": "Memproses gambar Anda dengan teknologi AI...",
+    "processingComplete": "Proses selesai! Hasil telah dibuat",
     "previewTitle": "Pratinjau",
-    "uploadImageFirst": "Silakan upload gambar terlebih dahulu",
-    "processingFailed": "Pemrosesan gagal",
+    "uploadImageFirst": "Silakan unggah gambar terlebih dahulu",
+    "processingFailed": "Proses Gagal",
     "networkError": "Kesalahan jaringan, silakan coba lagi nanti",
     "unknownError": "Kesalahan tidak diketahui"
   },
   "faq": {
-    "title": "Pertanyaan yang Sering Diajukan",
+    "title": "Pertanyaan Umum",
     "items": {
-      "q1": "Apa itu AI undressing?",
-      "a1": "AI undressing adalah alat yang menggunakan kecerdasan buatan untuk menghapus pakaian secara digital dari orang-orang dalam gambar atau video.",
-      "q2": "Bagaimana cara menggunakan AI undressing?",
-      "a2": "Cukup upload foto dan pilih area pakaian yang ingin Anda hapus. Semakin akurat Anda menandai, semakin baik hasilnya.",
+      "q1": "Apa itu penghilang pakaian AI?",
+      "a1": "Penghilang pakaian AI adalah alat yang menggunakan kecerdasan buatan untuk menghilangkan pakaian secara digital dari gambar atau video. Ini menggunakan algoritma pemulihan gambar dan teknologi lain untuk menganalisis dan memanipulasi data visual, menciptakan ilusi orang yang telanjang.",
+      "q2": "Bagaimana cara menggunakan penghilang pakaian AI?",
+      "a2": "Cukup unggah foto, lalu pilih area pakaian yang ingin dihilangkan. Semakin akurat Anda menandai, semakin baik hasilnya.",
       "q3": "Berapa lama proses pembuatan?",
-      "a3": "Tergantung pada beban server, jadi bisa dari satu detik hingga satu menit.",
-      "q4": "Bisakah saya menggunakan AI undressing secara gratis?",
-      "a4": "Ya, Anda dapat menggunakan generator kami secara gratis tanpa batas permintaan.",
-      "q5": "Apakah AI undressing aman?",
-      "a5": "Keamanan AI undressing tergantung pada niat pengguna. Alat seperti ini harus digunakan secara bertanggung jawab.",
+      "a3": "Tergantung beban server, berkisar dari satu detik hingga satu menit.",
+      "q4": "Apakah saya bisa menggunakan penghilang pakaian AI secara gratis?",
+      "a4": "Ya, Anda dapat menggunakan generator kami secara gratis tanpa batasan permintaan.",
+      "q5": "Apakah penghilang pakaian AI aman?",
+      "a5": "Keamanan penghilang pakaian AI tergantung pada niat pengguna. Alat seperti ini harus digunakan secara bertanggung jawab, hindari tujuan berbahaya. Selalu dapatkan persetujuan sebelum memproses gambar, dan gunakan hanya untuk tujuan seni, pendidikan, dan non-komersial.",
       "q6": "Apakah kami menyimpan gambar?",
-      "a6": "Semua file yang diupload akan dihapus secara otomatis setelah 24 jam.",
-      "q7": "Apakah hasil yang dibuat ini dapat diakses publik?",
-      "a7": "Tidak, hasil yang Anda buat hanya tersedia untuk Anda dan tidak dibagikan dengan pihak ketiga."
+      "a6": "Semua file yang diunggah akan dihapus otomatis setelah 24 jam, konten yang dibuat disimpan maksimal 30 hari.",
+      "q7": "Apakah hasil pembuatan dapat diakses publik?",
+      "a7": "Tidak, hasil pembuatan hanya tersedia untuk Anda dan tidak dibagikan ke pihak ketiga."
     }
   },
   "footer": {
     "brand": "Undress",
-    "rights": "Semua hak dilindungi",
+    "rights": "Hak Cipta Dilindungi",
     "privacy": "Kebijakan Privasi",
     "terms": "Syarat Layanan",
     "about": "Tentang",
-    "contact": "Kontak",
-    "cookieNotice": "Situs web ini menggunakan cookie sesuai dengan kebijakan privasi kami untuk memberikan pengalaman yang lebih baik."
+    "contact": "Hubungi",
+    "cookieNotice": "Situs ini menggunakan cookie sesuai kebijakan privasi kami untuk memberikan pengalaman yang lebih baik."
   },
   "about": {
     "title": "Tentang Kami",
-    "subtitle": "Pelajari tentang teknologi AI dan misi kami",
+    "subtitle": "Pelajari teknologi AI dan misi kami",
     "backToHome": "Kembali ke Beranda",
     "breadcrumb": {
       "home": "Beranda",
       "about": "Tentang Kami"
     },
-    "heroTitle": "Pelopor Teknologi AI Inovatif",
-    "heroDescription": "Kami berkomitmen untuk mengembangkan teknologi pemrosesan gambar AI paling canggih untuk memberikan layanan AI yang aman dan efisien kepada pengguna.",
+    "heroTitle": "Pelopor Inovasi Teknologi AI",
+    "heroDescription": "Kami berdedikasi mengembangkan teknologi pemrosesan gambar AI tercanggih, menyediakan layanan AI yang aman dan efisien.",
     "mission": {
       "title": "Misi Kami",
-      "description": "Melalui teknologi AI terdepan, kami memungkinkan setiap orang untuk dengan mudah merasakan kemampuan kuat kecerdasan buatan."
+      "description": "Melalui teknologi AI terdepan, kami memungkinkan setiap orang merasakan kekuatan kecerdasan buatan dengan mudah. Kami percaya teknologi harus melayani manusia, membuat hidup lebih baik."
+    },
+    "technology": {
+      "title": "Keunggulan Teknologi",
+      "description": "Menggunakan algoritma pembelajaran mendalam dan teknologi pemrosesan gambar terbaru untuk memastikan hasil berkualitas tinggi dan efisien.",
+      "features": [
+        {
+          "title": "Algoritma Canggih",
+          "description": "Berdasarkan model pembelajaran mendalam terbaru, menyediakan kemampuan pemrosesan gambar yang presisi"
+        },
+        {
+          "title": "Proses Cepat",
+          "description": "Arsitektur algoritma yang dioptimalkan, mencapai kecepatan pemrosesan gambar dalam hitungan detik"
+        },
+        {
+          "title": "Output Berkualitas Tinggi",
+          "description": "Memastikan gambar yang diproses mempertahankan resolusi tinggi dan efek alami"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Perlindungan Privasi",
+      "description": "Kami sangat memprioritaskan privasi pengguna dengan langkah-langkah perlindungan data ketat:",
+      "features": [
+        "Semua file yang diunggah dihapus otomatis setelah 24 jam",
+        "Menggunakan enkripsi ujung ke ujung",
+        "Tidak menyimpan atau membagikan data pengguna",
+        "Memenuhi standar perlindungan privasi internasional"
+      ]
+    },
+    "team": {
+      "title": "Tim Kami",
+      "description": "Kami adalah tim profesional yang terdiri dari ahli penelitian AI, insinyur perangkat lunak, dan desainer produk, fokus pada pengembangan dan penerapan teknologi pemrosesan gambar AI.",
+      "roles": {
+        "aiExpert": "Ahli Penelitian AI",
+        "engineer": "Insinyur Perangkat Lunak",
+        "designer": "Desainer Produk",
+        "techExpert": "Ahli Teknologi"
+      }
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "description": "Jika ada pertanyaan atau saran, jangan ragu menghubungi kami:",
+      "email": "Email",
+      "support": "Dukungan Teknis",
+      "phone": "Telepon",
+      "onlineSupport": "Dukungan Online 24/7",
+      "contactAction": "Hubungi",
+      "readyTitle": "Siap Memulai?",
+      "readyDescription": "Rasakan teknologi AI kami sekarang, alami kemampuan pemrosesan gambar yang belum pernah ada sebelumnya",
+      "tryNow": "Coba Sekarang"
     }
   },
   "contact": {
     "title": "Hubungi Kami",
-    "subtitle": "Kami di sini untuk membantu Anda kapan saja",
+    "subtitle": "Kami siap membantu Anda",
     "backToHome": "Kembali ke Beranda",
     "breadcrumb": {
       "home": "Beranda",
       "contact": "Hubungi Kami"
     },
-    "heroTitle": "Selalu Di Sini untuk Mendukung Anda",
-    "heroDescription": "Apakah Anda memiliki pertanyaan, saran, atau memerlukan dukungan teknis, tim profesional kami akan merespons dengan cepat.",
+    "heroTitle": "Dukungan Kapan Saja",
+    "heroDescription": "Apapun pertanyaan, saran, atau kebutuhan dukungan teknis Anda, tim profesional kami akan merespons dengan cepat dan memberikan solusi terbaik.",
+    "heroSubtitle": "Tim Dukungan Profesional 24/7",
     "form": {
       "title": "Kirim Pesan",
-      "description": "Silakan isi informasi berikut, dan kami akan membalas Anda sesegera mungkin",
+      "description": "Silakan isi informasi berikut, kami akan segera merespons",
       "name": "Nama",
-      "namePlaceholder": "Silakan masukkan nama Anda",
+      "namePlaceholder": "Masukkan nama Anda",
       "email": "Email",
-      "emailPlaceholder": "Silakan masukkan alamat email Anda",
+      "emailPlaceholder": "Masukkan alamat email Anda",
       "subject": "Subjek",
-      "subjectPlaceholder": "Silakan masukkan subjek pesan",
+      "subjectPlaceholder": "Masukkan subjek pesan",
       "message": "Isi Pesan",
-      "messagePlaceholder": "Silakan jelaskan pertanyaan atau saran Anda secara detail...",
+      "messagePlaceholder": "Jelaskan detail pertanyaan atau saran Anda...",
       "submit": "Kirim Pesan",
       "submitting": "Mengirim...",
-      "success": "Pesan berhasil dikirim! Kami akan membalas Anda sesegera mungkin.",
+      "success": "Pesan terkirim! Kami akan segera merespons.",
       "error": "Gagal mengirim, silakan coba lagi nanti.",
       "required": "Bidang ini wajib diisi",
-      "invalidEmail": "Silakan masukkan alamat email yang valid",
-      "minLength": "Diperlukan minimal {min} karakter"
+      "invalidEmail": "Masukkan alamat email yang valid",
+      "minLength": "Minimal {min} karakter"
+    },
+    "info": {
+      "title": "Informasi Kontak",
+      "email": {
+        "title": "Email",
+        "address": "undress.online.ai@gmail.com",
+        "description": "Kirim email untuk dukungan teknis"
+      },
+      "response": {
+        "title": "Waktu Respons",
+        "time": "Dalam 24 jam",
+        "description": "Kami berjanji merespons dalam 24 jam"
+      },
+      "support": {
+        "title": "Dukungan Teknis",
+        "availability": "Tersedia 24/7",
+        "description": "Layanan dukungan teknis sepanjang waktu"
+      }
+    },
+    "types": {
+      "title": "Kami Dapat Membantu Anda",
+      "technical": {
+        "title": "Dukungan Teknis",
+        "description": "Menyelesaikan masalah teknis saat menggunakan layanan"
+      },
+      "feedback": {
+        "title": "Masukan",
+        "description": "Bagikan saran dan ide perbaikan Anda"
+      },
+      "business": {
+        "title": "Kerjasama Bisnis",
+        "description": "Diskusikan peluang kerjasama dan kemitraan bisnis"
+      },
+      "general": {
+        "title": "Pertanyaan Umum",
+        "description": "Pertanyaan atau konsultasi lainnya"
+      }
     }
   },
   "privacy": {
@@ -149,8 +237,72 @@
       "privacy": "Kebijakan Privasi"
     },
     "introduction": {
-      "title": "Pendahuluan",
-      "content": "Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi yang Anda berikan saat menggunakan layanan pemrosesan gambar AI kami."
+      "title": "Pengantar",
+      "content": "Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi yang Anda berikan saat menggunakan layanan pemrosesan gambar AI kami. Kami berkomitmen melindungi privasi Anda dan memastikan informasi pribadi Anda diproses dengan aman."
+    },
+    "dataCollection": {
+      "title": "Pengumpulan Data",
+      "description": "Kami mungkin mengumpulkan jenis informasi berikut:",
+      "items": {
+        "uploaded": "File gambar yang diunggah (hanya untuk tujuan pemrosesan)",
+        "technical": "Informasi teknis (alamat IP, jenis browser, informasi perangkat)",
+        "usage": "Data penggunaan (waktu akses, fitur yang digunakan)",
+        "device": "Informasi perangkat (sistem operasi, resolusi layar)"
+      }
+    },
+    "dataUsage": {
+      "title": "Penggunaan Data",
+      "description": "Kami menggunakan informasi yang dikumpulkan untuk:",
+      "items": {
+        "processing": "Memproses gambar yang Anda unggah dan menyediakan layanan AI",
+        "improvement": "Meningkatkan kualitas layanan dan pengalaman pengguna",
+        "support": "Memberikan dukungan teknis dan layanan pelanggan",
+        "security": "Menjaga keamanan layanan dan mencegah penyalahgunaan"
+      }
+    },
+    "dataProtection": {
+      "title": "Perlindungan Data",
+      "description": "Kami mengambil langkah-langkah berikut untuk melindungi data Anda:",
+      "items": {
+        "encryption": "Semua transfer data dienkripsi dengan SSL/TLS",
+        "autoDelete": "Gambar yang diunggah dihapus otomatis setelah 24 jam",
+        "accessControl": "Kontrol akses dan manajemen izin yang ketat",
+        "monitoring": "Audit dan pemantauan keamanan rutin"
+      }
+    },
+    "dataSharing": {
+      "title": "Berbagi Data",
+      "description": "Kami berkomitmen melindungi privasi Anda:",
+      "noSharing": "Kami tidak akan berbagi, menjual, atau mengungkapkan informasi pribadi dan gambar yang diunggah kepada pihak ketiga mana pun."
+    },
+    "cookies": {
+      "title": "Kebijakan Cookie",
+      "description": "Kami menggunakan cookie untuk meningkatkan pengalaman Anda:",
+      "items": {
+        "essential": "Cookie esensial: Memastikan situs berfungsi normal",
+        "analytics": "Cookie analitik: Membantu kami memahami penggunaan situs",
+        "preferences": "Cookie preferensi: Mengingat preferensi bahasa dan pengaturan Anda"
+      }
+    },
+    "userRights": {
+      "title": "Hak Pengguna",
+      "description": "Anda memiliki hak berikut:",
+      "items": {
+        "access": "Hak akses: Melihat informasi tentang Anda yang kami kumpulkan",
+        "correction": "Hak koreksi: Memperbaiki informasi pribadi yang tidak akurat",
+        "deletion": "Hak penghapusan: Meminta penghapusan informasi pribadi Anda",
+        "objection": "Hak keberatan: Menolak pemrosesan informasi pribadi Anda"
+      }
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "description": "Jika Anda memiliki pertanyaan tentang kebijakan privasi ini atau perlu menggunakan hak Anda, hubungi kami:",
+      "email": "Email Privasi",
+      "support": "Dukungan Teknis"
+    },
+    "updates": {
+      "title": "Pembaruan Kebijakan",
+      "description": "Kami mungkin memperbarui kebijakan privasi ini dari waktu ke waktu. Perubahan signifikan akan diberitahukan di situs. Terus menggunakan layanan kami berarti Anda menyetujui kebijakan yang diperbarui."
     }
   },
   "terms": {
@@ -164,7 +316,113 @@
     },
     "acceptance": {
       "title": "Penerimaan Syarat",
-      "content": "Dengan mengakses dan menggunakan layanan Undress AI, Anda setuju untuk mematuhi Syarat Layanan ini."
+      "content": "Dengan mengakses dan menggunakan layanan Undress AI, Anda setuju untuk mematuhi syarat layanan ini. Jika Anda tidak setuju dengan syarat ini, jangan gunakan layanan kami."
+    },
+    "serviceDescription": {
+      "title": "Deskripsi Layanan",
+      "content": "Undress AI menyediakan layanan pemrosesan gambar berbasis kecerdasan buatan, termasuk namun tidak terbatas pada fungsi pengeditan gambar, pembuatan konten, dan analisis gambar.",
+      "items": {
+        "processing": "Layanan pemrosesan dan pengeditan gambar AI",
+        "generation": "Pembuatan konten berbasis AI",
+        "analysis": "Layanan analisis dan pengenalan gambar",
+        "api": "Antarmuka API dan alat pengembang"
+      }
+    },
+    "userResponsibilities": {
+      "title": "Tanggung Jawab Pengguna",
+      "description": "Saat menggunakan layanan kami, Anda setuju untuk:",
+      "items": {
+        "lawful": "Hanya menggunakan layanan untuk tujuan yang sah",
+        "consent": "Memastikan Anda memiliki hak untuk mengunggah dan memproses gambar",
+        "respect": "Menghormati privasi dan hak orang lain",
+        "noHarm": "Tidak menggunakan layanan untuk aktivitas berbahaya atau jahat",
+        "compliance": "Mematuhi semua hukum dan peraturan yang berlaku",
+        "accurate": "Memberikan informasi yang akurat dan benar"
+      }
+    },
+    "prohibitedUse": {
+      "title": "Penggunaan yang Dilarang",
+      "description": "Anda tidak boleh menggunakan layanan kami untuk:",
+      "items": {
+        "illegal": "Aktivitas atau tujuan ilegal apa pun",
+        "harassment": "Melecehkan, mengancam, atau melukai orang lain",
+        "minors": "Konten tidak pantas yang melibatkan anak di bawah umur",
+        "copyright": "Melanggar hak kekayaan intelektual orang lain",
+        "malware": "Menyebarkan malware atau virus",
+        "spam": "Mengirim spam atau konten yang tidak diminta"
+      }
+    },
+    "intellectualProperty": {
+      "title": "Kekayaan Intelektual",
+      "description": "Layanan dan teknologi terkait kami dilindungi oleh hukum kekayaan intelektual:",
+      "items": {
+        "ownership": "Undress AI memiliki semua hak dan kepemilikan atas layanan",
+        "license": "Kami memberikan lisensi penggunaan terbatas dan non-eksklusif",
+        "userContent": "Anda mempertahankan kepemilikan atas konten yang diunggah, tetapi memberikan izin pemrosesan kepada kami",
+        "generated": "Kepemilikan konten yang dihasilkan AI ditentukan sesuai hukum yang berlaku"
+      }
+    },
+    "serviceAvailability": {
+      "title": "Ketersediaan Layanan",
+      "description": "Tentang ketersediaan layanan kami:",
+      "items": {
+        "uptime": "Kami berusaha menjaga ketersediaan layanan tinggi, tetapi tidak menjamin 100% waktu aktif",
+        "maintenance": "Kami mungkin melakukan pemeliharaan dan pembaruan rutin",
+        "interruption": "Layanan mungkin terganggu sementara karena masalah teknis",
+        "modification": "Kami berhak memodifikasi atau menghentikan layanan"
+      }
+    },
+    "dataAndPrivacy": {
+      "title": "Data dan Privasi",
+      "description": "Pemrosesan data Anda tunduk pada kebijakan privasi kami:",
+      "items": {
+        "processing": "Kami hanya memproses data Anda untuk menyediakan layanan",
+        "retention": "Gambar yang diunggah dihapus otomatis setelah 24 jam",
+        "security": "Kami mengambil langkah-langkah yang wajar untuk melindungi data Anda",
+        "sharing": "Kami tidak membagikan data pribadi Anda dengan pihak ketiga"
+      },
+      "privacyNote": "Informasi detail pemrosesan data lihat",
+      "privacyLink": "Kebijakan Privasi"
+    },
+    "limitation": {
+      "title": "Pembatasan Tanggung Jawab",
+      "description": "Dalam batas maksimum yang diizinkan hukum:",
+      "items": {
+        "asIs": "Layanan disediakan 'sebagaimana adanya', tanpa jaminan apa pun",
+        "damages": "Kami tidak bertanggung jawab atas kerusakan tidak langsung, khusus, atau konsekuensial",
+        "liability": "Tanggung jawab total kami terbatas pada biaya yang Anda bayarkan kepada kami",
+        "force": "Kami tidak bertanggung jawab atas kerugian akibat kejadian di luar kendali"
+      }
+    },
+    "termination": {
+      "title": "Pengakhiran",
+      "description": "Syarat terkait pengakhiran layanan:",
+      "items": {
+        "userTermination": "Anda dapat berhenti menggunakan layanan kami kapan saja",
+        "ourTermination": "Kami dapat mengakhiri akses Anda jika melanggar syarat",
+        "effect": "Setelah pengakhiran, hak penggunaan Anda akan segera berhenti",
+        "survival": "Beberapa syarat tetap berlaku setelah pengakhiran"
+      }
+    },
+    "governing": {
+      "title": "Hukum yang Berlaku",
+      "description": "Syarat ini diatur oleh hukum berikut:",
+      "items": {
+        "jurisdiction": "Perjanjian ini tunduk pada hukum Republik Rakyat Tiongkok",
+        "disputes": "Setiap sengketa harus diselesaikan melalui konsultasi persahabatan",
+        "court": "Jika konsultasi gagal, akan diajukan ke pengadilan yang berwenang",
+        "language": "Versi bahasa Tionghoa dari perjanjian ini adalah versi yang mengikat"
+      }
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "description": "Jika Anda memiliki pertanyaan tentang syarat layanan ini, hubungi kami:",
+      "email": "Email Legal",
+      "support": "Dukungan Teknis"
+    },
+    "updates": {
+      "title": "Pembaruan Syarat",
+      "description": "Kami mungkin memperbarui syarat layanan ini dari waktu ke waktu. Perubahan signifikan akan diberitahukan di situs. Terus menggunakan layanan berarti Anda menyetujui syarat yang diperbarui."
     }
   }
-} 
+}

@@ -1,37 +1,428 @@
 {
   "metadata": {
-    "title": "Ücretsiz AI Soyunma Çevrimiçi Araç | Herkesten Kıyafet Çıkar",
-    "description": "Tek tıkla kıyafet çıkar! Her görüntüde çıplaklık gösteren güçlü ve gerçekçi AI aracı. %100 ücretsiz ve sınırsız!"
+    "title": "Ücretsiz AI Kıyafet Çıkarma Çevrimiçi Aracı | Herhangi Birinin Kıyafetlerini Çıkarın",
+    "description": "Tek bir tıklamayla kıyafetleri çıkarın! Herhangi bir fotoğraftaki çıplaklığı göstermek için güçlü ve gerçekçi AI aracı. %100 ücretsiz ve sınırsız. Ücretsiz kıyafet çıkarma AI web uygulamasını hemen deneyin ve anında sonuç alın!",
+    "privacy": {
+      "title": "Gizlilik Politikası | Undress AI - Gizliliğinizi Koruyoruz",
+      "description": "Undress AI'nin kişisel bilgilerinizi nasıl topladığını, kullandığını ve koruduğunu öğrenin. Gizliliğinizi korumayı taahhüt ediyoruz, tüm yüklenen görüntüler 24 saat sonra otomatik olarak siliniyor ve hiçbir veri üçüncü taraflarla paylaşılmıyor.",
+      "keywords": "gizlilik politikası, veri koruma, AI görüntü işleme, kişisel bilgi güvenliği, GDPR uyumlu, veri silme, gizlilik koruması"
+    },
+    "about": {
+      "title": "Hakkımızda | Undress AI - Gelişmiş AI Görüntü İşleme Teknolojisi",
+      "description": "Undress AI'nin misyonunu, teknolojik avantajlarını ve ekibini tanıyın. En gelişmiş AI görüntü işleme teknolojisini geliştirmeye ve kullanıcılara güvenli, verimli AI hizmetleri sunmaya adanmış durumdayız.",
+      "keywords": "AI görüntü işleme, yapay zeka teknolojisi, derin öğrenme, görüntü tanıma, AI hizmetleri, teknik ekip, yenilikçi teknoloji"
+    },
+    "terms": {
+      "title": "Kullanım Koşulları | Undress AI - Hizmet Şartları ve Koşulları",
+      "description": "Undress AI hizmetlerini kullanmanın şartlarını ve koşullarını öğrenin. Kullanıcı sorumlulukları, hizmet sınırlamaları, fikri mülkiyet ve diğer önemli yasal hükümleri içerir.",
+      "keywords": "kullanım koşulları, hizmet şartları, kullanıcı sözleşmesi, yasal hükümler, hizmet sınırlamaları, fikri mülkiyet, kullanıcı sorumlulukları"
+    },
+    "contact": {
+      "title": "İletişim | Undress AI - Yardım ve Destek Alın",
+      "description": "Teknik destek, işbirliği danışmanlığı veya geri bildirim için Undress AI ekibiyle iletişime geçin. 7/24 çevrimiçi destek sunuyoruz ve ihtiyaçlarınıza hızlı yanıt veriyoruz.",
+      "keywords": "iletişim, teknik destek, müşteri hizmetleri, geri bildirim, işbirliği danışmanlığı, çevrimiçi destek, yardım merkezi"
+    }
   },
   "navbar": {
     "language": "Dil",
-    "brand": "AI Soyunma",
+    "brand": "AI Kıyafet Çıkarma",
     "features": "Özellikler",
+    "pricing": "Fiyatlandırma",
     "faq": "SSS"
   },
   "hero": {
-    "title": "AI Soyunma Teknolojisi",
-    "subtitle": "Hızlı görüntü işleme için gelişmiş AI teknolojisi",
-    "cta": "Şimdi Dene"
+    "title": "AI Kıyafet Çıkarma Teknolojisi",
+    "subtitle": "Gelişmiş AI teknolojisi ile hızlı görüntü işleme",
+    "cta": "Hemen Deneyin",
+    "description": "En gelişmiş yapay zeka teknolojisini kullanın",
+    "adTitle": "Reklam Alanı",
+    "adDescription": "Burada reklamınız yer alabilir",
+    "adContent": "[Reklam İçeriği]"
   },
   "upload": {
     "title": "Görüntü Yükle",
     "description": "İşlemek istediğiniz görüntüyü seçin",
     "button": "Dosya Seç",
     "processing": "İşleniyor...",
-    "success": "İşlem Tamamlandı"
+    "success": "İşlem Tamamlandı",
+    "dragText": "Sürükle veya",
+    "selectFile": "Dosya Seç",
+    "supportedFormats": "JPG, PNG formatları desteklenir",
+    "reset": "Sıfırla",
+    "startProcessing": "İşlemeyi Başlat",
+    "aiProcessing": "AI İşliyor...",
+    "fileSize": "MB",
+    "pleaseSelectImage": "Lütfen bir görüntü dosyası seçin",
+    "adTitleCompact": "Reklam",
+    "adContentCompact": "[Reklam İçeriği]",
+    "originalImage": "Orijinal Görüntü",
+    "processedImage": "İşlenmiş Sonuç",
+    "downloadResult": "Sonucu İndir",
+    "processingNote": "Görüntünüz AI teknolojisi ile işleniyor...",
+    "processingComplete": "İşlem tamamlandı! Sonuç oluşturuldu",
+    "previewTitle": "Önizleme",
+    "uploadImageFirst": "Lütfen önce bir görüntü yükleyin",
+    "processingFailed": "İşlem başarısız",
+    "networkError": "Ağ hatası, lütfen daha sonra tekrar deneyin",
+    "unknownError": "Bilinmeyen hata"
   },
   "faq": {
-    "title": "Sık Sorulan Sorular",
+    "title": "Sıkça Sorulan Sorular",
     "items": {
-      "q1": "AI soyunma nedir?",
-      "a1": "AI soyunma, yapay zeka kullanarak görüntülerden kıyafetleri dijital olarak çıkaran bir araçtır.",
-      "q2": "AI soyunma nasıl kullanılır?",
-      "a2": "Basitçe bir fotoğraf yükleyin ve çıkarmak istediğiniz kıyafet alanlarını seçin."
+      "q1": "AI Kıyafet Çıkarma nedir?",
+      "a1": "AI Kıyafet Çıkarma, yapay zeka kullanarak görüntü veya videolardaki kişilerin kıyafetlerini dijital olarak kaldıran bir araçtır. Görsel verileri analiz etmek ve manipüle etmek için görüntü onarım algoritmaları gibi teknolojiler kullanarak, kişilerin kıyafetlerinin çıkarıldığı yanılsamasını etkili bir şekilde yaratır.",
+      "q2": "AI Kıyafet Çıkarma nasıl kullanılır?",
+      "a2": "Sadece bir fotoğraf yükleyin ve kaldırmak istediğiniz kıyafet bölgesini seçin. İşaretlemeniz ne kadar doğru olursa, sonuç o kadar iyi olur.",
+      "q3": "Oluşturma süreci ne kadar sürer?",
+      "a3": "Bu, sunucu yüküne bağlıdır, bu nedenle bir saniyeden bir dakikaya kadar değişebilir.",
+      "q4": "AI Kıyafet Çıkarma'yı ücretsiz kullanabilir miyim?",
+      "a4": "Evet, jeneratörümüzü herhangi bir istek sınırlaması olmadan ücretsiz kullanabilirsiniz.",
+      "q5": "AI Kıyafet Çıkarma güvenli mi?",
+      "a5": "AI Kıyafet Çıkarma'nın güvenliği kullanıcının niyetine bağlıdır. Bu tür araçlar sorumlu bir şekilde kullanılmalı ve zararlı amaçlardan kaçınılmalıdır. Görüntüleri işlemeden önce her zaman açık izin alın ve sadece sanatsal, eğitimsel ve ticari olmayan amaçlar için kullanın.",
+      "q6": "Görüntüleri saklıyor musunuz?",
+      "a6": "Tüm yüklenen dosyalar 24 saat sonra otomatik olarak silinir ve oluşturulan içerik en fazla 30 gün saklanır.",
+      "q7": "Bu oluşturulan sonuçlar herkese açık mı?",
+      "a7": "Hayır, oluşturulan sonuçlar sadece size özeldir ve üçüncü taraflarla paylaşılmaz."
     }
   },
   "footer": {
     "brand": "Undress",
-    "rights": "Tüm hakları saklıdır"
+    "rights": "Tüm hakları saklıdır",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "cookieNotice": "Bu web sitesi, size daha iyi bir deneyim sunmak için gizlilik politikamız doğrultusunda çerezler kullanır."
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "AI teknolojimizi ve misyonumuzu tanıyın",
+    "backToHome": "Ana Sayfaya Dön",
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda"
+    },
+    "heroTitle": "Yenilikçi AI Teknolojisinin Öncüsü",
+    "heroDescription": "En gelişmiş AI görüntü işleme teknolojisini geliştirmeye ve kullanıcılara güvenli, verimli AI hizmetleri sunmaya adanmış durumdayız.",
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Öncü AI teknolojisi ile herkesin yapay zekanın güçlü yeteneklerini kolayca deneyimlemesini sağlamak. Teknolojinin insanlığa hizmet etmesi ve hayatı daha iyi hale getirmesi gerektiğine inanıyoruz."
+    },
+    "technology": {
+      "title": "Teknolojik Avantajlarımız",
+      "description": "İşlem sonuçlarının yüksek kalitesini ve verimliliğini sağlamak için en yeni derin öğrenme algoritmaları ve görüntü işleme teknolojilerini kullanıyoruz.",
+      "features": [
+        {
+          "title": "Gelişmiş Algoritmalar",
+          "description": "En yeni derin öğrenme modellerine dayalı hassas görüntü işleme yetenekleri"
+        },
+        {
+          "title": "Hızlı İşlem",
+          "description": "Optimize edilmiş algoritma mimarisi ile saniyeler içinde görüntü işleme"
+        },
+        {
+          "title": "Yüksek Kaliteli Çıktı",
+          "description": "İşlenmiş görüntülerde yüksek çözünürlük ve doğal efekt garantisi"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Gizlilik Koruması",
+      "description": "Kullanıcı gizliliğine büyük önem veriyoruz ve sıkı veri koruma önlemleri uyguluyoruz:",
+      "features": [
+        "Tüm yüklenen dosyalar 24 saat sonra otomatik silinir",
+        "Uçtan uca şifreli iletim kullanılır",
+        "Kullanıcı verilerini saklamaz veya paylaşmayız",
+        "Uluslararası gizlilik koruma standartlarına uygunluk"
+      ]
+    },
+    "team": {
+      "title": "Ekip Tanıtımı",
+      "description": "AI görüntü işleme teknolojisinin araştırma ve geliştirmesine odaklanan AI araştırma uzmanları, yazılım mühendisleri ve ürün tasarımcılarından oluşan profesyonel bir ekibiz.",
+      "roles": {
+        "aiExpert": "AI Araştırma Uzmanı",
+        "engineer": "Yazılım Mühendisi",
+        "designer": "Ürün Tasarımcısı",
+        "techExpert": "Teknoloji Uzmanı"
+      }
+    },
+    "contact": {
+      "title": "İletişime Geçin",
+      "description": "Herhangi bir soru veya öneriniz varsa, bizimle iletişime geçmekten çekinmeyin:",
+      "email": "E-posta",
+      "support": "Teknik Destek",
+      "phone": "Yardım Hattı",
+      "onlineSupport": "7/24 Çevrimiçi Destek",
+      "contactAction": "İletişim",
+      "readyTitle": "Başlamaya Hazır mısınız?",
+      "readyDescription": "AI teknolojimizi hemen deneyimleyin ve benzersiz görüntü işleme yeteneklerini keşfedin",
+      "tryNow": "Hemen Deneyin"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Size her zaman yardımcı olmaya hazırız",
+    "backToHome": "Ana Sayfaya Dön",
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "contact": "İletişim"
+    },
+    "heroTitle": "Size Her Zaman Destek Vermeye Hazırız",
+    "heroDescription": "Herhangi bir sorunuz, öneriniz veya teknik destek ihtiyacınız olduğunda, profesyonel ekibimiz hızlıca yanıt verecek ve size en iyi çözümü sunacaktır.",
+    "heroSubtitle": "7/24 Profesyonel Destek Ekibi",
+    "form": {
+      "title": "Mesaj Gönder",
+      "description": "Lütfen aşağıdaki bilgileri doldurun, size en kısa sürede yanıt vereceğiz",
+      "name": "Ad",
+      "namePlaceholder": "Adınızı girin",
+      "email": "E-posta",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "subject": "Konu",
+      "subjectPlaceholder": "Mesaj konusunu girin",
+      "message": "Mesaj",
+      "messagePlaceholder": "Sorun veya önerinizi detaylı olarak açıklayın...",
+      "submit": "Mesaj Gönder",
+      "submitting": "Gönderiliyor...",
+      "success": "Mesaj başarıyla gönderildi! En kısa sürede size yanıt vereceğiz.",
+      "error": "Gönderme başarısız, lütfen daha sonra tekrar deneyin.",
+      "required": "Bu alan zorunludur",
+      "invalidEmail": "Geçerli bir e-posta adresi girin",
+      "minLength": "En az {min} karakter gereklidir"
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "email": {
+        "title": "E-posta İletişimi",
+        "address": "undress.online.ai@gmail.com",
+        "description": "Teknik destek için e-posta gönderin"
+      },
+      "response": {
+        "title": "Yanıt Süresi",
+        "time": "24 saat içinde",
+        "description": "24 saat içinde yanıt vermeyi taahhüt ediyoruz"
+      },
+      "support": {
+        "title": "Teknik Destek",
+        "availability": "7/24 Çevrimiçi",
+        "description": "Kesintisiz teknik destek hizmeti"
+      }
+    },
+    "types": {
+      "title": "Size Nasıl Yardımcı Olabiliriz",
+      "technical": {
+        "title": "Teknik Destek",
+        "description": "Kullanım sırasında karşılaştığınız teknik sorunları çözün"
+      },
+      "feedback": {
+        "title": "Geri Bildirim",
+        "description": "Öneri ve geliştirme fikirlerinizi paylaşın"
+      },
+      "business": {
+        "title": "İş Ortaklığı",
+        "description": "İşbirliği fırsatları ve iş ortaklıkları hakkında görüşün"
+      },
+      "general": {
+        "title": "Genel Sorular",
+        "description": "Diğer her türlü soru veya danışmanlık"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "backToHome": "Ana Sayfaya Dön",
+    "lastUpdated": "Son Güncelleme",
+    "updateDate": "15 Ocak 2024",
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "privacy": "Gizlilik Politikası"
+    },
+    "introduction": {
+      "title": "Giriş",
+      "content": "Bu gizlilik politikası, AI görüntü işleme hizmetlerimizi kullanırken sağladığınız bilgileri nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar. Gizliliğinizi korumaya ve kişisel bilgilerinizin güvenli bir şekilde işlenmesini sağlamaya kararlıyız."
+    },
+    "dataCollection": {
+      "title": "Bilgi Toplama",
+      "description": "Aşağıdaki türde bilgileri toplayabiliriz:",
+      "items": {
+        "uploaded": "Yüklenen görüntü dosyaları (sadece işleme amaçlı)",
+        "technical": "Teknik bilgiler (IP adresi, tarayıcı türü, cihaz bilgileri)",
+        "usage": "Kullanım verileri (erişim zamanı, kullanılan özellikler)",
+        "device": "Cihaz bilgileri (işletim sistemi, ekran çözünürlüğü)"
+      }
+    },
+    "dataUsage": {
+      "title": "Bilgi Kullanımı",
+      "description": "Topladığımız bilgileri şu amaçlarla kullanırız:",
+      "items": {
+        "processing": "Yüklediğiniz görüntüleri işlemek ve AI hizmetleri sunmak",
+        "improvement": "Hizmet kalitemizi ve kullanıcı deneyimini iyileştirmek",
+        "support": "Teknik destek ve müşteri hizmetleri sağlamak",
+        "security": "Hizmet güvenliğini sağlamak ve kötüye kullanımı önlemek"
+      }
+    },
+    "dataProtection": {
+      "title": "Veri Koruma",
+      "description": "Verilerinizi korumak için aşağıdaki önlemleri alıyoruz:",
+      "items": {
+        "encryption": "Tüm veri iletimi SSL/TLS şifreleme kullanır",
+        "autoDelete": "Yüklenen görüntüler 24 saat sonra otomatik silinir",
+        "accessControl": "Sıkı erişim kontrolü ve yetki yönetimi",
+        "monitoring": "Düzenli güvenlik denetimi ve izleme"
+      }
+    },
+    "dataSharing": {
+      "title": "Veri Paylaşımı",
+      "description": "Gizliliğinizi korumayı taahhüt ediyoruz:",
+      "noSharing": "Kişisel bilgilerinizi ve yüklediğiniz görüntüleri hiçbir üçüncü tarafla paylaşmaz, satmaz veya ifşa etmeyiz."
+    },
+    "cookies": {
+      "title": "Çerez Politikası",
+      "description": "Deneyiminizi iyileştirmek için çerezler kullanıyoruz:",
+      "items": {
+        "essential": "Gerekli Çerezler: Web sitesinin düzgün çalışmasını sağlar",
+        "analytics": "Analitik Çerezler: Web sitesi kullanımını anlamamıza yardımcı olur",
+        "preferences": "Tercih Çerezleri: Dil ve ayar tercihlerinizi hatırlar"
+      }
+    },
+    "userRights": {
+      "title": "Kullanıcı Hakları",
+      "description": "Aşağıdaki haklara sahipsiniz:",
+      "items": {
+        "access": "Erişim Hakkı: Hakkınızda topladığımız bilgileri görüntüleme",
+        "correction": "Düzeltme Hakkı: Yanlış kişisel bilgileri düzeltme",
+        "deletion": "Silme Hakkı: Kişisel bilgilerinizin silinmesini talep etme",
+        "objection": "İtiraz Hakkı: Kişisel bilgilerinizin işlenmesine itiraz etme"
+      }
+    },
+    "contact": {
+      "title": "Bizimle İletişime Geçin",
+      "description": "Bu gizlilik politikası hakkında sorularınız varsa veya haklarınızı kullanmak istiyorsanız, lütfen bizimle iletişime geçin:",
+      "email": "Gizlilik E-postası",
+      "support": "Teknik Destek"
+    },
+    "updates": {
+      "title": "Politika Güncellemeleri",
+      "description": "Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler web sitesinde duyurulacaktır. Hizmetlerimizi kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir."
+    }
+  },
+  "terms": {
+    "title": "Kullanım Koşulları",
+    "backToHome": "Ana Sayfaya Dön",
+    "lastUpdated": "Son Güncelleme",
+    "updateDate": "15 Ocak 2024",
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "terms": "Kullanım Koşulları"
+    },
+    "acceptance": {
+      "title": "Koşulların Kabulü",
+      "content": "Undress AI hizmetlerine erişerek ve kullanarak, bu kullanım koşullarını kabul etmiş olursunuz. Bu koşulları kabul etmiyorsanız, lütfen hizmetlerimizi kullanmayın."
+    },
+    "serviceDescription": {
+      "title": "Hizmet Açıklaması",
+      "content": "Undress AI, görüntü düzenleme, içerik oluşturma ve görüntü analizi işlevleri dahil olmak üzere yapay zeka tabanlı görüntü işleme hizmetleri sunar.",
+      "items": {
+        "processing": "AI görüntü işleme ve düzenleme hizmetleri",
+        "generation": "AI tabanlı içerik oluşturma",
+        "analysis": "Görüntü analizi ve tanıma hizmetleri",
+        "api": "API arayüzü ve geliştirici araçları"
+      }
+    },
+    "userResponsibilities": {
+      "title": "Kullanıcı Sorumlulukları",
+      "description": "Hizmetlerimizi kullanırken şunları kabul edersiniz:",
+      "items": {
+        "lawful": "Hizmetleri yalnızca yasal amaçlar için kullanmak",
+        "consent": "Yükleme ve işleme hakkına sahip olduğunuz görüntüleri kullanmak",
+        "respect": "Başkalarının gizliliğine ve haklarına saygı göstermek",
+        "noHarm": "Hizmetleri zararlı veya kötü niyetli faaliyetler için kullanmamak",
+        "compliance": "Tüm geçerli yasa ve düzenlemelere uymak",
+        "accurate": "Doğru ve gerçek bilgiler sağlamak"
+      }
+    },
+    "prohibitedUse": {
+      "title": "Yasaklı Kullanım",
+      "description": "Hizmetlerimizi şunlar için kullanamazsınız:",
+      "items": {
+        "illegal": "Herhangi bir yasa dışı faaliyet veya amaç",
+        "harassment": "Başkalarını taciz etmek, tehdit etmek veya zarar vermek",
+        "minors": "Reşit olmayanlarla ilgili uygunsuz içerik",
+        "copyright": "Başkalarının fikri mülkiyet haklarını ihlal etmek",
+        "malware": "Kötü amaçlı yazılım veya virüs yaymak",
+        "spam": "İstenmeyen e-posta veya içerik göndermek"
+      }
+    },
+    "intellectualProperty": {
+      "title": "Fikri Mülkiyet",
+      "description": "Hizmetlerimiz ve ilgili teknolojiler fikri mülkiyet yasaları tarafından korunmaktadır:",
+      "items": {
+        "ownership": "Undress AI hizmetin tüm haklarına ve mülkiyetine sahiptir",
+        "license": "Size sınırlı, münhasır olmayan bir kullanım lisansı veriyoruz",
+        "userContent": "Yüklenen içeriğin mülkiyetini korursunuz ancak işleme izni verirsiniz",
+        "generated": "AI tarafından oluşturulan içeriğin mülkiyeti geçerli yasalara göre belirlenir"
+      }
+    },
+    "serviceAvailability": {
+      "title": "Hizmet Kullanılabilirliği",
+      "description": "Hizmet kullanılabilirliği hakkında:",
+      "items": {
+        "uptime": "Hizmetin yüksek kullanılabilirliğini sağlamaya çalışıyoruz ancak %100 çalışma süresi garantisi vermiyoruz",
+        "maintenance": "Düzenli bakım ve güncellemeler yapabiliriz",
+        "interruption": "Hizmet teknik sorunlar nedeniyle geçici olarak kesilebilir",
+        "modification": "Hizmeti değiştirme veya sonlandırma hakkını saklı tutarız"
+      }
+    },
+    "dataAndPrivacy": {
+      "title": "Veri ve Gizlilik",
+      "description": "Verilerinizin işlenmesi gizlilik politikamıza tabidir:",
+      "items": {
+        "processing": "Verilerinizi yalnızca hizmet sağlamak için işleriz",
+        "retention": "Yüklenen görüntüler 24 saat sonra otomatik silinir",
+        "security": "Verilerinizi korumak için makul önlemler alırız",
+        "sharing": "Kişisel verilerinizi üçüncü taraflarla paylaşmayız"
+      },
+      "privacyNote": "Detaylı veri işleme bilgileri için bakınız",
+      "privacyLink": "Gizlilik Politikası"
+    },
+    "limitation": {
+      "title": "Sorumluluk Sınırlaması",
+      "description": "Yasaların izin verdiği en geniş ölçüde:",
+      "items": {
+        "asIs": "Hizmet 'olduğu gibi' sunulur, açık veya zımni hiçbir garanti verilmez",
+        "damages": "Dolaylı, özel veya sonuç olarak ortaya çıkan zararlardan sorumlu değiliz",
+        "liability": "Toplam sorumluluğumuz bize ödediğiniz ücretlerle sınırlıdır",
+        "force": "Mücbir sebep olaylarından kaynaklanan kayıplardan sorumlu değiliz"
+      }
+    },
+    "termination": {
+      "title": "Sonlandırma",
+      "description": "Hizmet sonlandırma ile ilgili koşullar:",
+      "items": {
+        "userTermination": "Hizmetlerimizi kullanmayı istediğiniz zaman durdurabilirsiniz",
+        "ourTermination": "Koşulların ihlali durumunda erişiminizi sonlandırabiliriz",
+        "effect": "Sonlandırma sonrası kullanım yetkiniz derhal sona erer",
+        "survival": "Bazı hükümler sonlandırma sonrasında da geçerli kalır"
+      }
+    },
+    "governing": {
+      "title": "Geçerli Hukuk",
+      "description": "Bu koşullar aşağıdaki yasalara tabidir:",
+      "items": {
+        "jurisdiction": "Bu anlaşma Türkiye Cumhuriyeti yasalarına tabidir",
+        "disputes": "Herhangi bir anlaşmazlık dostane bir şekilde çözülmelidir",
+        "court": "Anlaşmazlık çözülemezse yetkili mahkemelere başvurulmalıdır",
+        "language": "Bu anlaşmanın Türkçe versiyonu geçerli versiyondur"
+      }
+    },
+    "contact": {
+      "title": "Bizimle İletişime Geçin",
+      "description": "Bu kullanım koşulları hakkında sorularınız varsa, lütfen bizimle iletişime geçin:",
+      "email": "Hukuk E-postası",
+      "support": "Teknik Destek"
+    },
+    "updates": {
+      "title": "Koşul Güncellemeleri",
+      "description": "Bu kullanım koşullarını zaman zaman güncelleyebiliriz. Önemli değişiklikler web sitesinde duyurulacaktır. Hizmetleri kullanmaya devam etmeniz, güncellenmiş koşulları kabul ettiğiniz anlamına gelir."
+    }
   }
-} 
+}

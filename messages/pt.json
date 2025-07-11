@@ -1,88 +1,88 @@
 {
   "metadata": {
-    "title": "Ferramenta Online Gratuita de IA para Despir | Remover Roupas de Qualquer Pessoa",
-    "description": "Remova roupas com apenas um clique! Ferramenta de IA poderosa e realista para mostrar nudez em qualquer imagem. 100% gratuito e ilimitado. Experimente o aplicativo web de IA para despir gratuito agora e obtenha resultados instantâneos!",
+    "title": "Ferramenta Online Gratuita de Remoção de Roupas por IA | Remova roupas de qualquer pessoa",
+    "description": "Remova roupas com apenas um clique! Ferramenta poderosa e realista de IA que revela nudez em qualquer imagem. 100% gratuito e sem limites. Experimente agora nosso aplicativo web gratuito e obtenha resultados instantâneos!",
     "privacy": {
-      "title": "Política de Privacidade | Undress AI - Protegendo Sua Privacidade com Segurança",
-      "description": "Saiba como o Undress AI coleta, usa e protege suas informações pessoais.",
-      "keywords": "política de privacidade, proteção de dados, processamento de imagens IA, segurança de informações pessoais"
+      "title": "Política de Privacidade | Undress AI - Protegendo sua segurança e privacidade",
+      "description": "Saiba como o Undress AI coleta, usa e protege suas informações pessoais. Comprometemo-nos a proteger sua privacidade: todas as imagens enviadas são excluídas automaticamente após 24 horas, sem compartilhamento com terceiros.",
+      "keywords": "Política de Privacidade, Proteção de dados, Processamento de imagens por IA, Segurança de informações, Conformidade com GDPR, Exclusão de dados, Privacidade"
     },
     "about": {
-      "title": "Sobre Nós | Undress AI - Tecnologia Avançada de Processamento de Imagens IA",
-      "description": "Conheça a missão, vantagens técnicas e equipe do Undress AI.",
-      "keywords": "processamento de imagens IA, tecnologia de inteligência artificial, deep learning"
+      "title": "Sobre Nós | Undress AI - Tecnologia Avançada de Processamento de Imagens por IA",
+      "description": "Conheça a missão, vantagens tecnológicas e equipe do Undress AI. Desenvolvemos tecnologia de ponta em processamento de imagens por IA, oferecendo serviços seguros e eficientes.",
+      "keywords": "Processamento de imagens por IA, Tecnologia de IA, Aprendizado profundo, Reconhecimento de imagens, Serviços de IA, Equipe técnica, Inovação tecnológica"
     },
     "terms": {
       "title": "Termos de Serviço | Undress AI - Termos e Condições de Uso",
-      "description": "Conheça os termos e condições para usar os serviços do Undress AI.",
-      "keywords": "termos de serviço, termos de uso, acordo do usuário"
+      "description": "Leia os termos e condições para usar o Undress AI, incluindo responsabilidades do usuário, limitações do serviço e direitos de propriedade intelectual.",
+      "keywords": "Termos de serviço, Contrato de uso, Acordo legal, Limitações de serviço, Propriedade intelectual, Responsabilidade do usuário"
     },
     "contact": {
-      "title": "Contate-nos | Undress AI - Obtenha Ajuda e Suporte",
-      "description": "Entre em contato com a equipe do Undress AI para suporte técnico, consultas de parceria ou feedback.",
-      "keywords": "contate-nos, suporte técnico, atendimento ao cliente"
+      "title": "Contato | Undress AI - Suporte e Ajuda",
+      "description": "Fale com nossa equipe para suporte técnico, parcerias ou feedback. Oferecemos suporte online 24/7 com respostas rápidas.",
+      "keywords": "Contato, Suporte técnico, Atendimento ao cliente, Feedback, Parcerias, Ajuda"
     }
   },
   "navbar": {
     "language": "Idioma",
-    "brand": "IA Despir",
+    "brand": "Remoção de Roupas por IA",
     "features": "Recursos",
     "pricing": "Preços",
-    "faq": "FAQ"
+    "faq": "Perguntas Frequentes"
   },
   "hero": {
-    "title": "Tecnologia IA para Despir",
-    "subtitle": "Tecnologia de IA avançada para processamento rápido de imagens",
+    "title": "Tecnologia de Remoção de Roupas por IA",
+    "subtitle": "Tecnologia avançada de IA para processamento rápido de imagens",
     "cta": "Experimente Agora",
-    "description": "Usando a tecnologia de inteligência artificial mais avançada",
-    "adTitle": "Anúncio",
-    "adDescription": "Seu conteúdo publicitário pode ser colocado aqui",
-    "adContent": "[Área de Conteúdo Publicitário]"
+    "description": "Utilizando a mais avançada tecnologia de IA",
+    "adTitle": "Espaço para Anúncio",
+    "adDescription": "Aqui pode ser exibido seu conteúdo publicitário",
+    "adContent": "[Área de anúncio]"
   },
   "upload": {
-    "title": "Upload de Imagem",
+    "title": "Enviar Imagem",
     "description": "Selecione a imagem que deseja processar",
     "button": "Escolher Arquivo",
     "processing": "Processando...",
-    "success": "Processamento Concluído",
-    "dragText": "Arraste e solte ou",
-    "selectFile": "selecione o arquivo",
-    "supportedFormats": "Suporta formatos JPG, PNG",
-    "reset": "Redefinir",
+    "success": "Processamento concluído",
+    "dragText": "Arraste ou",
+    "selectFile": "Selecione um arquivo",
+    "supportedFormats": "Formatos suportados: JPG, PNG",
+    "reset": "Reiniciar",
     "startProcessing": "Iniciar Processamento",
-    "aiProcessing": "Processamento IA...",
+    "aiProcessing": "Processamento por IA...",
     "fileSize": "MB",
-    "pleaseSelectImage": "Por favor, selecione um arquivo de imagem",
+    "pleaseSelectImage": "Selecione um arquivo de imagem",
     "adTitleCompact": "Anúncio",
-    "adContentCompact": "[Conteúdo do Anúncio]",
+    "adContentCompact": "[Conteúdo do anúncio]",
     "originalImage": "Imagem Original",
-    "processedImage": "Resultado do Processamento",
+    "processedImage": "Resultado Processado",
     "downloadResult": "Baixar Resultado",
-    "processingNote": "Usando tecnologia IA para processar sua imagem...",
-    "processingComplete": "Processamento concluído! Resultado gerado",
-    "previewTitle": "Visualização",
-    "uploadImageFirst": "Por favor, faça upload de uma imagem primeiro",
-    "processingFailed": "Processamento falhou",
-    "networkError": "Erro de rede, tente novamente mais tarde",
+    "processingNote": "Processando sua imagem com tecnologia de IA...",
+    "processingComplete": "Processamento concluído! Resultado gerado.",
+    "previewTitle": "Pré-visualização",
+    "uploadImageFirst": "Envie uma imagem primeiro",
+    "processingFailed": "Falha no processamento",
+    "networkError": "Erro de rede. Tente novamente mais tarde.",
     "unknownError": "Erro desconhecido"
   },
   "faq": {
     "title": "Perguntas Frequentes",
     "items": {
-      "q1": "O que é IA para despir?",
-      "a1": "IA para despir é uma ferramenta que usa inteligência artificial para remover digitalmente roupas de pessoas em imagens ou vídeos.",
-      "q2": "Como usar a IA para despir?",
-      "a2": "Simplesmente faça upload de uma foto e selecione as áreas de roupa que deseja remover. Quanto mais preciso você marcar, melhor será o resultado.",
-      "q3": "Quanto tempo leva o processo de geração?",
-      "a3": "Depende da carga do servidor, então pode variar de um segundo a um minuto.",
-      "q4": "Posso usar a IA para despir gratuitamente?",
-      "a4": "Sim, você pode usar nosso gerador gratuitamente sem limites de solicitação.",
-      "q5": "A IA para despir é segura?",
-      "a5": "A segurança da IA para despir depende das intenções do usuário. Essas ferramentas devem ser usadas com responsabilidade.",
-      "q6": "Vocês armazenam imagens?",
-      "a6": "Todos os arquivos enviados serão automaticamente excluídos após 24 horas.",
-      "q7": "Estes resultados gerados são acessíveis publicamente?",
-      "a7": "Não, seus resultados gerados estão disponíveis apenas para você e não são compartilhados com terceiros."
+      "q1": "O que é remoção de roupas por IA?",
+      "a1": "É uma ferramenta que usa IA para remover digitalmente roupas de imagens ou vídeos. Ela emprega algoritmos de reconstrução de imagens para criar a ilusão de nudez.",
+      "q2": "Como usar a ferramenta?",
+      "a2": "Basta enviar uma foto e selecionar as áreas das roupas a serem removidas. Quanto mais preciso o marcador, melhor o resultado.",
+      "q3": "Quanto tempo leva para gerar?",
+      "a3": "Depende da carga do servidor, variando de 1 segundo a 1 minuto.",
+      "q4": "É gratuito?",
+      "a4": "Sim, nosso gerador é totalmente gratuito, sem limites de uso.",
+      "q5": "É seguro?",
+      "a5": "A segurança depende da intenção do usuário. Use com responsabilidade, evitando fins maliciosos. Sempre obtenha consentimento e limite o uso a fins artísticos ou educacionais.",
+      "q6": "As imagens são armazenadas?",
+      "a6": "Todos os arquivos são excluídos após 24 horas, e os resultados gerados em até 30 dias.",
+      "q7": "Os resultados são públicos?",
+      "a7": "Não, apenas você tem acesso, sem compartilhamento com terceiros."
     }
   },
   "footer": {
@@ -90,8 +90,339 @@
     "rights": "Todos os direitos reservados",
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
-    "about": "Sobre",
+    "about": "Sobre Nós",
     "contact": "Contato",
-    "cookieNotice": "Este site usa cookies de acordo com nossa política de privacidade para proporcionar uma melhor experiência."
+    "cookieNotice": "Este site usa cookies conforme nossa Política de Privacidade para melhorar sua experiência."
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "subtitle": "Conheça nossa tecnologia de IA e missão",
+    "backToHome": "Voltar ao Início",
+    "breadcrumb": {
+      "home": "Início",
+      "about": "Sobre Nós"
+    },
+    "heroTitle": "Pioneiros em Tecnologia de IA Inovadora",
+    "heroDescription": "Desenvolvemos tecnologia avançada de processamento de imagens por IA, oferecendo serviços seguros e eficientes.",
+    "mission": {
+      "title": "Nossa Missão",
+      "description": "Democratizar o poder da IA através de tecnologia de ponta, garantindo que ela sirva à humanidade e melhore vidas."
+    },
+    "technology": {
+      "title": "Vantagens Técnicas",
+      "description": "Usamos algoritmos de aprendizado profundo e processamento de imagens para resultados rápidos e de alta qualidade.",
+      "features": [
+        {
+          "title": "Algoritmos Avançados",
+          "description": "Modelos de IA de última geração para precisão máxima"
+        },
+        {
+          "title": "Processamento Rápido",
+          "description": "Arquitetura otimizada para resultados em segundos"
+        },
+        {
+          "title": "Alta Qualidade",
+          "description": "Imagens processadas com resolução e realismo preservados"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacidade",
+      "description": "Protegemos seus dados com:",
+      "features": [
+        "Exclusão automática de arquivos após 24 horas",
+        "Criptografia de ponta a ponta",
+        "Nenhum compartilhamento de dados",
+        "Conformidade com padrões internacionais"
+      ]
+    },
+    "team": {
+      "title": "Nossa Equipe",
+      "description": "Especialistas em IA, engenheiros e designers focados em inovação tecnológica.",
+      "roles": {
+        "aiExpert": "Especialista em IA",
+        "engineer": "Engenheiro de Software",
+        "designer": "Designer de Produto",
+        "techExpert": "Especialista Técnico"
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "description": "Dúvidas ou sugestões? Fale conosco:",
+      "email": "E-mail",
+      "support": "Suporte Técnico",
+      "phone": "Telefone",
+      "onlineSupport": "Suporte 24/7",
+      "contactAction": "Contatar",
+      "readyTitle": "Pronto para começar?",
+      "readyDescription": "Experimente nossa tecnologia de IA e revolucione seu processamento de imagens.",
+      "tryNow": "Experimente Agora"
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Estamos aqui para ajudar",
+    "backToHome": "Voltar ao Início",
+    "breadcrumb": {
+      "home": "Início",
+      "contact": "Contato"
+    },
+    "heroTitle": "Suporte Quando Você Precisa",
+    "heroDescription": "Nossa equipe está pronta para solucionar dúvidas, ouvir sugestões e oferecer a melhor assistência técnica.",
+    "heroSubtitle": "Suporte Especializado 24/7",
+    "form": {
+      "title": "Enviar Mensagem",
+      "description": "Preencha os campos abaixo para entrarmos em contato.",
+      "name": "Nome",
+      "namePlaceholder": "Seu nome completo",
+      "email": "E-mail",
+      "emailPlaceholder": "Seu e-mail",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Motivo do contato",
+      "message": "Mensagem",
+      "messagePlaceholder": "Descreva sua dúvida ou solicitação...",
+      "submit": "Enviar",
+      "submitting": "Enviando...",
+      "success": "Mensagem enviada! Responderemos em breve.",
+      "error": "Falha no envio. Tente novamente.",
+      "required": "Campo obrigatório",
+      "invalidEmail": "E-mail inválido",
+      "minLength": "Mínimo de {min} caracteres"
+    },
+    "info": {
+      "title": "Informações de Contato",
+      "email": {
+        "title": "E-mail",
+        "address": "undress.online.ai@gmail.com",
+        "description": "Suporte técnico por e-mail"
+      },
+      "response": {
+        "title": "Tempo de Resposta",
+        "time": "Até 24 horas",
+        "description": "Garantimos resposta rápida"
+      },
+      "support": {
+        "title": "Suporte",
+        "availability": "Disponível 24/7",
+        "description": "Assistência técnica a qualquer hora"
+      }
+    },
+    "types": {
+      "title": "Como Podemos Ajudar?",
+      "technical": {
+        "title": "Suporte Técnico",
+        "description": "Problemas técnicos ou bugs"
+      },
+      "feedback": {
+        "title": "Feedback",
+        "description": "Sugestões para melhorias"
+      },
+      "business": {
+        "title": "Parcerias",
+        "description": "Oportunidades comerciais"
+      },
+      "general": {
+        "title": "Consultas Gerais",
+        "description": "Outras dúvidas"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "backToHome": "Voltar ao Início",
+    "lastUpdated": "Última Atualização",
+    "updateDate": "15 de Janeiro de 2024",
+    "breadcrumb": {
+      "home": "Início",
+      "privacy": "Política de Privacidade"
+    },
+    "introduction": {
+      "title": "Introdução",
+      "content": "Esta política descreve como coletamos, usamos e protegemos suas informações ao usar nosso serviço de processamento de imagens por IA. Comprometemo-nos com a segurança dos seus dados."
+    },
+    "dataCollection": {
+      "title": "Coleta de Dados",
+      "description": "Podemos coletar:",
+      "items": {
+        "uploaded": "Imagens enviadas (apenas para processamento)",
+        "technical": "Dados técnicos (IP, navegador, dispositivo)",
+        "usage": "Dados de uso (horários, funcionalidades acessadas)",
+        "device": "Informações do dispositivo (sistema operacional, resolução)"
+      }
+    },
+    "dataUsage": {
+      "title": "Uso dos Dados",
+      "description": "Utilizamos os dados para:",
+      "items": {
+        "processing": "Processar imagens e fornecer serviços de IA",
+        "improvement": "Melhorar a qualidade do serviço",
+        "support": "Oferecer suporte ao cliente",
+        "security": "Prevenir abuso e garantir segurança"
+      }
+    },
+    "dataProtection": {
+      "title": "Proteção de Dados",
+      "description": "Medidas de segurança:",
+      "items": {
+        "encryption": "Criptografia SSL/TLS",
+        "autoDelete": "Exclusão automática após 24 horas",
+        "accessControl": "Controle rígido de acesso",
+        "monitoring": "Auditorias de segurança regulares"
+      }
+    },
+    "dataSharing": {
+      "title": "Compartilhamento de Dados",
+      "description": "Compromisso:",
+      "noSharing": "Não compartilhamos dados pessoais ou imagens com terceiros."
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "description": "Usamos cookies para:",
+      "items": {
+        "essential": "Funcionalidade básica do site",
+        "analytics": "Análise de tráfego",
+        "preferences": "Lembrar suas configurações"
+      }
+    },
+    "userRights": {
+      "title": "Direitos do Usuário",
+      "description": "Você pode:",
+      "items": {
+        "access": "Acessar seus dados coletados",
+        "correction": "Corrigir informações incorretas",
+        "deletion": "Solicitar exclusão de dados",
+        "objection": "Opor-se ao processamento"
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "description": "Dúvidas sobre privacidade? Entre em contato:",
+      "email": "E-mail",
+      "support": "Suporte"
+    },
+    "updates": {
+      "title": "Atualizações",
+      "description": "Esta política pode ser atualizada. Alterações significativas serão notificadas no site."
+    }
+  },
+  "terms": {
+    "title": "Termos de Serviço",
+    "backToHome": "Voltar ao Início",
+    "lastUpdated": "Última Atualização",
+    "updateDate": "15 de Janeiro de 2024",
+    "breadcrumb": {
+      "home": "Início",
+      "terms": "Termos de Serviço"
+    },
+    "acceptance": {
+      "title": "Aceitação dos Termos",
+      "content": "Ao usar o Undress AI, você concorda com estes Termos. Caso discorde, não utilize o serviço."
+    },
+    "serviceDescription": {
+      "title": "Descrição do Serviço",
+      "content": "O Undress AI oferece:",
+      "items": {
+        "processing": "Edição de imagens por IA",
+        "generation": "Geração de conteúdo",
+        "analysis": "Análise de imagens",
+        "api": "Ferramentas para desenvolvedores"
+      }
+    },
+    "userResponsibilities": {
+      "title": "Responsabilidades do Usuário",
+      "description": "Você concorda em:",
+      "items": {
+        "lawful": "Usar o serviço apenas para fins legais",
+        "consent": "Garantir direitos sobre as imagens enviadas",
+        "respect": "Respeitar a privacidade alheia",
+        "noHarm": "Evitar atividades maliciosas",
+        "compliance": "Cumprir leis aplicáveis",
+        "accurate": "Fornecer informações verídicas"
+      }
+    },
+    "prohibitedUse": {
+      "title": "Usos Proibidos",
+      "description": "Não permitimos:",
+      "items": {
+        "illegal": "Atividades ilegais",
+        "harassment": "Assédio ou difamação",
+        "minors": "Conteúdo envolvendo menores",
+        "copyright": "Violação de direitos autorais",
+        "malware": "Disseminação de malware",
+        "spam": "Spam"
+      }
+    },
+    "intellectualProperty": {
+      "title": "Propriedade Intelectual",
+      "description": "Direitos protegidos:",
+      "items": {
+        "ownership": "Undress AI detém todos os direitos sobre o serviço",
+        "license": "Licença de uso limitada e não exclusiva",
+        "userContent": "Você mantém a propriedade do conteúdo enviado",
+        "generated": "Conteúdo gerado por IA segue leis aplicáveis"
+      }
+    },
+    "serviceAvailability": {
+      "title": "Disponibilidade",
+      "description": "Observações:",
+      "items": {
+        "uptime": "Não garantimos disponibilidade 100%",
+        "maintenance": "Manutenções periódicas podem ocorrer",
+        "interruption": "Interrupções técnicas são possíveis",
+        "modification": "Reservamo-nos o direito de modificar o serviço"
+      }
+    },
+    "dataAndPrivacy": {
+      "title": "Dados e Privacidade",
+      "description": "Seus dados são regidos por nossa",
+      "items": {
+        "processing": "Processamento apenas para fornecer o serviço",
+        "retention": "Imagens excluídas após 24 horas",
+        "security": "Medidas de segurança implementadas",
+        "sharing": "Sem compartilhamento com terceiros"
+      },
+      "privacyNote": "Política de Privacidade",
+      "privacyLink": "Política de Privacidade"
+    },
+    "limitation": {
+      "title": "Limitações de Responsabilidade",
+      "description": "Observações legais:",
+      "items": {
+        "asIs": "Serviço fornecido \"como está\", sem garantias",
+        "damages": "Não nos responsabilizamos por danos indiretos",
+        "liability": "Responsabilidade limitada ao valor pago pelo serviço",
+        "force": "Isenção por eventos de força maior"
+      }
+    },
+    "termination": {
+      "title": "Rescisão",
+      "description": "Termos aplicáveis:",
+      "items": {
+        "userTermination": "Você pode parar de usar o serviço a qualquer momento",
+        "ourTermination": "Podemos encerrar acesso por violações",
+        "effect": "Efeito imediato ao término",
+        "survival": "Alguns termos permanecem válidos"
+      }
+    },
+    "governing": {
+      "title": "Lei Aplicável",
+      "description": "Estes Termos são regidos por:",
+      "items": {
+        "jurisdiction": "Leis da República Popular da China",
+        "disputes": "Controvérsias resolvidas via negociação",
+        "court": "Jurisdição exclusiva em caso de litígio",
+        "language": "Versão em chinês prevalece"
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "description": "Dúvidas sobre os Termos? Fale conosco:",
+      "email": "E-mail Jurídico",
+      "support": "Suporte"
+    },
+    "updates": {
+      "title": "Atualizações",
+      "description": "Podemos atualizar estes Termos. Alterações serão notificadas no site."
+    }
   }
-} 
+}

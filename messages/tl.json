@@ -1,37 +1,428 @@
 {
   "metadata": {
-    "title": "Libreng AI Tanggal Damit Online Tool | Tanggalin ang Damit sa Sinuman",
-    "description": "Tanggalin ang damit sa isang click lamang! Makapangyarihan at tunay na AI tool para ipakita ang katawan sa anumang larawan. 100% libre at walang hangganan!"
+    "title": "Libreng AI Pang-alis ng Damit Online Tool | Alisin ang Damit mula sa Sinumang Tao",
+    "description": "Isang pindot lang, tanggal ang damit! Makapangyarihan at makatotohanang AI tool na nagpapakita ng hubad sa anumang larawan. 100% libre at walang limitasyon. Subukan agad ang libreng undress AI web app at makuha agad ang resulta!",
+    "privacy": {
+      "title": "Patakaran sa Privacy | Undress AI - Protektahan ang Iyong Privacy",
+      "description": "Alamin kung paano kinokolekta, ginagamit, at pinoprotektahan ng Undress AI ang iyong personal na impormasyon. Nangangako kaming protektahan ang iyong privacy, lahat ng in-upload na larawan ay awtomatikong binubura makalipas ang 24 oras, at hindi ibinabahagi sa ikatlong partido ang anumang data.",
+      "keywords": "Patakaran sa Privacy, Proteksyon ng Data, AI Pagproseso ng Larawan, Seguridad ng Personal na Impormasyon, GDPR, Pagbura ng Data, Proteksyon ng Privacy"
+    },
+    "about": {
+      "title": "Tungkol sa Amin | Undress AI - Advanced na AI Image Processing Technology",
+      "description": "Alamin ang misyon, teknolohikal na bentahe, at koponan ng Undress AI. Nakatuon kami sa pag-develop ng pinaka-advanced na AI image processing technology para magbigay ng ligtas at episyenteng AI service sa mga user.",
+      "keywords": "AI Pagproseso ng Larawan, Teknolohiyang Artipisyal na Intelihensiya, Deep Learning, Pagkilala ng Larawan, AI Serbisyo, Teknolohikal na Koponan, Inobasyon"
+    },
+    "terms": {
+      "title": "Mga Tuntunin ng Serbisyo | Undress AI - Mga Tuntunin at Kundisyon",
+      "description": "Alamin ang mga tuntunin at kundisyon sa paggamit ng Undress AI. Kabilang dito ang responsibilidad ng user, limitasyon ng serbisyo, at mahahalagang legal na tuntunin.",
+      "keywords": "Mga Tuntunin ng Serbisyo, Mga Tuntunin ng Paggamit, Kasunduan ng User, Legal na Tuntunin, Limitasyon ng Serbisyo, Karapatang-ari, Responsibilidad ng User"
+    },
+    "contact": {
+      "title": "Makipag-ugnayan sa Amin | Undress AI - Kumuha ng Tulong at Suporta",
+      "description": "Makipag-ugnayan sa Undress AI team para sa teknikal na suporta, business inquiry, o feedback. Nagbibigay kami ng 24/7 online support at mabilis na tugon sa iyong pangangailangan.",
+      "keywords": "Makipag-ugnayan, Suporta, Serbisyo sa Customer, Feedback, Business Inquiry, Online Support, Help Center"
+    }
   },
   "navbar": {
     "language": "Wika",
-    "brand": "AI Tanggal Damit",
-    "features": "Mga Feature",
-    "faq": "Mga Tanong"
+    "brand": "AI Undress",
+    "features": "Mga Tampok",
+    "pricing": "Presyo",
+    "faq": "FAQ"
   },
   "hero": {
-    "title": "AI Teknolohiya ng Pagtanggal ng Damit",
-    "subtitle": "Advanced na AI teknolohiya para sa mabilis na pagproseso ng larawan",
-    "cta": "Subukan Ngayon"
+    "title": "AI Undress Technology",
+    "subtitle": "Advanced na AI, mabilis na pagproseso ng larawan",
+    "cta": "Subukan Ngayon",
+    "description": "Gamit ang pinaka-advanced na AI technology",
+    "adTitle": "Ad Space",
+    "adDescription": "Dito maaaring ilagay ang iyong ad content",
+    "adContent": "[Lugar ng Ad Content]"
   },
   "upload": {
     "title": "Mag-upload ng Larawan",
-    "description": "Piliin ang larawan na gusto mong i-proseso",
+    "description": "Piliin ang larawang ipoproseso",
     "button": "Pumili ng File",
-    "processing": "Nagpo-proseso...",
-    "success": "Tapos na ang Pagproseso"
+    "processing": "Pinoproseso...",
+    "success": "Tapos na ang pagproseso",
+    "dragText": "I-drag o",
+    "selectFile": "Pumili ng File",
+    "supportedFormats": "Suportado ang JPG, PNG",
+    "reset": "I-reset",
+    "startProcessing": "Simulan ang Pagproseso",
+    "aiProcessing": "AI Pinoproseso...",
+    "fileSize": "MB",
+    "pleaseSelectImage": "Paki-pili ng larawan",
+    "adTitleCompact": "Ad",
+    "adContentCompact": "[Ad Content]",
+    "originalImage": "Orihinal na Larawan",
+    "processedImage": "Resulta",
+    "downloadResult": "I-download ang Resulta",
+    "processingNote": "Pinoproseso ang iyong larawan gamit ang AI...",
+    "processingComplete": "Tapos na! Nalikha na ang resulta",
+    "previewTitle": "Preview",
+    "uploadImageFirst": "Mag-upload muna ng larawan",
+    "processingFailed": "Nabigong iproseso",
+    "networkError": "Error sa network, subukan muli mamaya",
+    "unknownError": "Hindi kilalang error"
   },
   "faq": {
-    "title": "Mga Madalas na Tanong",
+    "title": "Mga Madalas Itanong",
     "items": {
-      "q1": "Ano ang AI pagtanggal ng damit?",
-      "a1": "Ang AI pagtanggal ng damit ay isang tool na gumagamit ng artificial intelligence para tanggalin ang damit sa mga larawan.",
-      "q2": "Paano gamitin ang AI pagtanggal ng damit?",
-      "a2": "Mag-upload lang ng litrato at piliin ang mga parte ng damit na gusto mong tanggalin."
+      "q1": "Ano ang AI Undress?",
+      "a1": "Ang AI Undress ay isang tool na gumagamit ng artificial intelligence upang digital na alisin ang damit mula sa larawan o video. Gumagamit ito ng mga algorithm ng image inpainting at iba pang teknolohiya upang suriin at manipulahin ang visual data, na lumilikha ng ilusyon ng pagtanggal ng damit.",
+      "q2": "Paano gamitin ang AI Undress?",
+      "a2": "I-upload lang ang larawan, pagkatapos ay piliin ang bahagi ng damit na nais alisin. Mas eksakto ang iyong pagmarka, mas maganda ang resulta.",
+      "q3": "Gaano katagal ang proseso ng paglikha?",
+      "a3": "Depende ito sa server load, kaya maaaring mula isang segundo hanggang isang minuto.",
+      "q4": "Libre ba ang paggamit ng AI Undress?",
+      "a4": "Oo, libre mong magagamit ang aming generator, walang limitasyon sa request.",
+      "q5": "Ligtas ba ang AI Undress?",
+      "a5": "Ang kaligtasan ng AI Undress ay nakadepende sa layunin ng user. Dapat gamitin ang ganitong tool nang responsable at iwasan ang anumang mapanirang layunin. Laging kumuha ng malinaw na pahintulot bago mag-edit ng larawan at gamitin lamang para sa sining, edukasyon, at hindi pang-komersyal na layunin.",
+      "q6": "Nagtatago ba kami ng mga larawan?",
+      "a6": "Lahat ng in-upload na file ay awtomatikong binubura makalipas ang 24 oras, at ang mga nalikhang content ay itinatago nang hindi hihigit sa 30 araw.",
+      "q7": "Pampubliko ba ang mga resulta?",
+      "a7": "Hindi, ang iyong resulta ay tanging ikaw lang ang makakakita at hindi ibinabahagi sa iba."
     }
   },
   "footer": {
     "brand": "Undress",
-    "rights": "Lahat ng karapatan ay nakalaan"
+    "rights": "Lahat ng Karapatan ay Nakalaan",
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin ng Serbisyo",
+    "about": "Tungkol",
+    "contact": "Kontak",
+    "cookieNotice": "Gumagamit ang site na ito ng cookies ayon sa aming patakaran sa privacy upang bigyan ka ng mas magandang karanasan."
+  },
+  "about": {
+    "title": "Tungkol sa Amin",
+    "subtitle": "Alamin ang aming AI technology at misyon",
+    "backToHome": "Bumalik sa Home",
+    "breadcrumb": {
+      "home": "Home",
+      "about": "Tungkol sa Amin"
+    },
+    "heroTitle": "Nangunguna sa Inobasyon ng AI Technology",
+    "heroDescription": "Nakatuon kami sa pag-develop ng pinaka-advanced na AI image processing technology para magbigay ng ligtas at episyenteng serbisyo.",
+    "mission": {
+      "title": "Ang Aming Misyon",
+      "description": "Sa pamamagitan ng makabagong AI, nais naming maranasan ng lahat ang lakas ng artificial intelligence. Naniniwala kami na ang teknolohiya ay dapat maglingkod sa tao at gawing mas maganda ang buhay."
+    },
+    "technology": {
+      "title": "Teknolohikal na Bentahe",
+      "description": "Gamit ang pinakabagong deep learning at image processing, tinitiyak namin ang mataas na kalidad at episyenteng resulta.",
+      "features": [
+        {
+          "title": "Advanced na Algorithm",
+          "description": "Batay sa pinakabagong deep learning model, nagbibigay ng eksaktong image processing"
+        },
+        {
+          "title": "Mabilis na Proseso",
+          "description": "Optimized na algorithm para sa mabilis na pagproseso ng larawan"
+        },
+        {
+          "title": "Mataas na Kalidad",
+          "description": "Tinitiyak na ang resulta ay mataas ang resolusyon at natural ang itsura"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Proteksyon sa Privacy",
+      "description": "Mahalaga sa amin ang privacy ng user, kaya mahigpit ang aming data protection:",
+      "features": [
+        "Lahat ng in-upload na file ay awtomatikong binubura makalipas ang 24 oras",
+        "End-to-end na encrypted ang transmission",
+        "Hindi iniimbak o ibinabahagi ang user data",
+        "Sumusunod sa internasyonal na privacy standards"
+      ]
+    },
+    "team": {
+      "title": "Ang Aming Koponan",
+      "description": "Kami ay binubuo ng AI experts, software engineers, at product designers na nakatuon sa AI image processing.",
+      "roles": {
+        "aiExpert": "AI Expert",
+        "engineer": "Software Engineer",
+        "designer": "Product Designer",
+        "techExpert": "Tech Expert"
+      }
+    },
+    "contact": {
+      "title": "Kontakin Kami",
+      "description": "Kung may tanong o suhestiyon, huwag mag-atubiling makipag-ugnayan:",
+      "email": "Email",
+      "support": "Suporta",
+      "phone": "Hotline",
+      "onlineSupport": "24/7 Online Support",
+      "contactAction": "Kontak",
+      "readyTitle": "Handa ka na ba?",
+      "readyDescription": "Subukan agad ang aming AI technology at maranasan ang kakaibang image processing",
+      "tryNow": "Subukan Ngayon"
+    }
+  },
+  "contact": {
+    "title": "Kontakin Kami",
+    "subtitle": "Handa kaming tumulong anumang oras",
+    "backToHome": "Bumalik sa Home",
+    "breadcrumb": {
+      "home": "Home",
+      "contact": "Kontakin Kami"
+    },
+    "heroTitle": "Laging Nandito para Suportahan Ka",
+    "heroDescription": "Anumang tanong, suhestiyon, o teknikal na pangangailangan, ang aming propesyonal na koponan ay mabilis na tutugon at magbibigay ng pinakamahusay na solusyon.",
+    "heroSubtitle": "24/7 Propesyonal na Suporta",
+    "form": {
+      "title": "Magpadala ng Mensahe",
+      "description": "Punan ang impormasyon sa ibaba at kami ay tutugon sa lalong madaling panahon",
+      "name": "Pangalan",
+      "namePlaceholder": "Ilagay ang iyong pangalan",
+      "email": "Email",
+      "emailPlaceholder": "Ilagay ang iyong email address",
+      "subject": "Paksa",
+      "subjectPlaceholder": "Ilagay ang paksa ng mensahe",
+      "message": "Mensahe",
+      "messagePlaceholder": "I-detalye ang iyong tanong o suhestiyon...",
+      "submit": "Ipadala",
+      "submitting": "Ipinapadala...",
+      "success": "Matagumpay na naipadala ang mensahe! Tutugon kami agad.",
+      "error": "Nabigong magpadala, subukan muli mamaya.",
+      "required": "Kinakailangang punan",
+      "invalidEmail": "Maglagay ng wastong email address",
+      "minLength": "Kailangan ng hindi bababa sa {min} na karakter"
+    },
+    "info": {
+      "title": "Impormasyon sa Pakikipag-ugnayan",
+      "email": {
+        "title": "Email Support",
+        "address": "undress.online.ai@gmail.com",
+        "description": "Mag-email para sa teknikal na suporta"
+      },
+      "response": {
+        "title": "Oras ng Pagtugon",
+        "time": "Sa loob ng 24 oras",
+        "description": "Nangangako kaming tutugon sa loob ng 24 oras"
+      },
+      "support": {
+        "title": "Teknikal na Suporta",
+        "availability": "24/7 Online",
+        "description": "Suporta sa teknikal na serbisyo anumang oras"
+      }
+    },
+    "types": {
+      "title": "Paano Kami Makakatulong",
+      "technical": {
+        "title": "Teknikal na Suporta",
+        "description": "Solusyon sa mga teknikal na isyu sa paggamit"
+      },
+      "feedback": {
+        "title": "Feedback",
+        "description": "Ibahagi ang iyong suhestiyon at ideya"
+      },
+      "business": {
+        "title": "Business Partnership",
+        "description": "Talakayin ang business opportunity at partnership"
+      },
+      "general": {
+        "title": "Pangkalahatang Konsulta",
+        "description": "Iba pang tanong o konsultasyon"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Patakaran sa Privacy",
+    "backToHome": "Bumalik sa Home",
+    "lastUpdated": "Huling Update",
+    "updateDate": "Enero 15, 2024",
+    "breadcrumb": {
+      "home": "Home",
+      "privacy": "Patakaran sa Privacy"
+    },
+    "introduction": {
+      "title": "Panimula",
+      "content": "Inilalarawan ng patakaran sa privacy na ito kung paano namin kinokolekta, ginagamit, at pinoprotektahan ang iyong impormasyon kapag ginagamit mo ang aming AI image processing service. Nangangako kaming protektahan ang iyong privacy at tiyaking ligtas ang iyong personal na impormasyon."
+    },
+    "dataCollection": {
+      "title": "Pagkolekta ng Impormasyon",
+      "description": "Maaaring kolektahin namin ang mga sumusunod na uri ng impormasyon:",
+      "items": {
+        "uploaded": "In-upload na larawan (para lamang sa pagproseso)",
+        "technical": "Teknikal na impormasyon (IP address, uri ng browser, impormasyon ng device)",
+        "usage": "Data ng paggamit (oras ng pag-access, mga ginamit na feature)",
+        "device": "Impormasyon ng device (OS, screen resolution)"
+      }
+    },
+    "dataUsage": {
+      "title": "Paggamit ng Impormasyon",
+      "description": "Ginagamit namin ang nakolektang impormasyon para sa:",
+      "items": {
+        "processing": "Pagproseso ng iyong larawan at pagbibigay ng AI service",
+        "improvement": "Pagpapabuti ng kalidad ng serbisyo at karanasan ng user",
+        "support": "Pagbibigay ng teknikal na suporta at customer service",
+        "security": "Pagpapanatili ng seguridad ng serbisyo at pag-iwas sa abuso"
+      }
+    },
+    "dataProtection": {
+      "title": "Proteksyon ng Data",
+      "description": "Ginagawa namin ang mga sumusunod para protektahan ang iyong data:",
+      "items": {
+        "encryption": "Lahat ng data transmission ay SSL/TLS encrypted",
+        "autoDelete": "In-upload na larawan ay awtomatikong binubura makalipas ang 24 oras",
+        "accessControl": "Mahigpit na access control at permission management",
+        "monitoring": "Regular na security audit at monitoring"
+      }
+    },
+    "dataSharing": {
+      "title": "Pagbabahagi ng Data",
+      "description": "Nangangako kaming protektahan ang iyong privacy:",
+      "noSharing": "Hindi namin ibinabahagi, ibinebenta, o isiniwalat sa iba ang iyong personal na impormasyon at in-upload na larawan."
+    },
+    "cookies": {
+      "title": "Patakaran sa Cookie",
+      "description": "Gumagamit kami ng cookies para mapabuti ang iyong karanasan:",
+      "items": {
+        "essential": "Essential Cookies: Para gumana nang maayos ang site",
+        "analytics": "Analytics Cookies: Para malaman namin kung paano ginagamit ang site",
+        "preferences": "Preference Cookies: Para matandaan ang iyong wika at setting"
+      }
+    },
+    "userRights": {
+      "title": "Karapatan ng User",
+      "description": "Mayroon kang mga sumusunod na karapatan:",
+      "items": {
+        "access": "Karapatang makita ang impormasyong kinolekta tungkol sa iyo",
+        "correction": "Karapatang itama ang maling personal na impormasyon",
+        "deletion": "Karapatang ipabura ang iyong personal na impormasyon",
+        "objection": "Karapatang tumutol sa pagproseso ng iyong personal na impormasyon"
+      }
+    },
+    "contact": {
+      "title": "Kontakin Kami",
+      "description": "Kung may tanong o nais gamitin ang iyong mga karapatan, makipag-ugnayan sa amin:",
+      "email": "Email para sa Privacy",
+      "support": "Teknikal na Suporta"
+    },
+    "updates": {
+      "title": "Update ng Patakaran",
+      "description": "Maaari naming i-update ang patakaran sa privacy paminsan-minsan. Ang anumang mahalagang pagbabago ay ipo-post sa website. Ang patuloy na paggamit ng aming serbisyo ay nangangahulugang sumasang-ayon ka sa update."
+    }
+  },
+  "terms": {
+    "title": "Mga Tuntunin ng Serbisyo",
+    "backToHome": "Bumalik sa Home",
+    "lastUpdated": "Huling Update",
+    "updateDate": "Enero 15, 2024",
+    "breadcrumb": {
+      "home": "Home",
+      "terms": "Mga Tuntunin ng Serbisyo"
+    },
+    "acceptance": {
+      "title": "Pagtanggap ng Tuntunin",
+      "content": "Sa pag-access at paggamit ng Undress AI, sumasang-ayon kang sundin ang mga tuntunin ng serbisyo. Kung hindi ka sang-ayon, huwag gamitin ang aming serbisyo."
+    },
+    "serviceDescription": {
+      "title": "Paglalarawan ng Serbisyo",
+      "content": "Nagbibigay ang Undress AI ng AI-based na image processing service kabilang ang image editing, content generation, at image analysis.",
+      "items": {
+        "processing": "AI image processing at editing service",
+        "generation": "AI-based na content generation",
+        "analysis": "Image analysis at recognition service",
+        "api": "API at developer tools"
+      }
+    },
+    "userResponsibilities": {
+      "title": "Responsibilidad ng User",
+      "description": "Sa paggamit ng aming serbisyo, sumasang-ayon kang:",
+      "items": {
+        "lawful": "Gamitin lamang ang serbisyo para sa legal na layunin",
+        "consent": "Tiyaking may karapatan kang mag-upload at magproseso ng larawan",
+        "respect": "Igalang ang privacy at karapatan ng iba",
+        "noHarm": "Huwag gamitin ang serbisyo para sa mapanirang gawain",
+        "compliance": "Sumunod sa lahat ng naaangkop na batas",
+        "accurate": "Magbigay ng tama at totoong impormasyon"
+      }
+    },
+    "prohibitedUse": {
+      "title": "Ipinagbabawal na Paggamit",
+      "description": "Hindi mo maaaring gamitin ang aming serbisyo para sa:",
+      "items": {
+        "illegal": "Anumang ilegal na aktibidad",
+        "harassment": "Pangha-harass, pagbabanta, o pananakit sa iba",
+        "minors": "Hindi angkop na content na may kaugnayan sa menor de edad",
+        "copyright": "Paglabag sa karapatang-ari ng iba",
+        "malware": "Pagpapalaganap ng malware o virus",
+        "spam": "Pagpapadala ng spam o hindi hinihinging content"
+      }
+    },
+    "intellectualProperty": {
+      "title": "Karapatang-ari",
+      "description": "Ang aming serbisyo at teknolohiya ay protektado ng batas:",
+      "items": {
+        "ownership": "Undress AI ang may-ari ng lahat ng karapatan sa serbisyo",
+        "license": "Binibigyan ka namin ng limitadong, di-eksklusibong lisensya",
+        "userContent": "Mananatili sa iyo ang pagmamay-ari ng in-upload na content ngunit binibigyan kami ng karapatang iproseso ito",
+        "generated": "Ang pagmamay-ari ng AI-generated na content ay alinsunod sa batas"
+      }
+    },
+    "serviceAvailability": {
+      "title": "Availability ng Serbisyo",
+      "description": "Tungkol sa availability ng aming serbisyo:",
+      "items": {
+        "uptime": "Sinisikap naming panatilihing available ang serbisyo ngunit walang garantiya ng 100% uptime",
+        "maintenance": "Maaaring magkaroon ng regular na maintenance at update",
+        "interruption": "Maaaring pansamantalang maantala ang serbisyo dahil sa teknikal na isyu",
+        "modification": "May karapatan kaming baguhin o itigil ang serbisyo"
+      }
+    },
+    "dataAndPrivacy": {
+      "title": "Data at Privacy",
+      "description": "Ang iyong data ay pinoproseso ayon sa aming privacy policy:",
+      "items": {
+        "processing": "Pinoproseso lang namin ang iyong data para sa serbisyo",
+        "retention": "In-upload na larawan ay awtomatikong binubura makalipas ang 24 oras",
+        "security": "Gumagawa kami ng makatuwirang hakbang para protektahan ang iyong data",
+        "sharing": "Hindi namin ibinabahagi ang iyong personal na data sa iba"
+      },
+      "privacyNote": "Para sa detalye ng data processing, tingnan ang aming",
+      "privacyLink": "Patakaran sa Privacy"
+    },
+    "limitation": {
+      "title": "Limitasyon ng Pananagutan",
+      "description": "Hangga't pinapayagan ng batas:",
+      "items": {
+        "asIs": "Ang serbisyo ay ibinibigay 'as is' nang walang anumang garantiya",
+        "damages": "Hindi kami mananagot sa anumang hindi direktang pinsala",
+        "liability": "Ang kabuuang pananagutan namin ay limitado sa halagang binayaran mo sa amin",
+        "force": "Hindi kami mananagot sa mga force majeure na pangyayari"
+      }
+    },
+    "termination": {
+      "title": "Pagwawakas",
+      "description": "Mga tuntunin sa pagwawakas ng serbisyo:",
+      "items": {
+        "userTermination": "Maaari kang tumigil sa paggamit ng serbisyo anumang oras",
+        "ourTermination": "Maaari naming itigil ang iyong access kung nilabag mo ang tuntunin",
+        "effect": "Pagkatapos ng pagwawakas, agad na mawawala ang iyong karapatan sa paggamit",
+        "survival": "May ilang tuntunin na mananatili kahit matapos ang pagwawakas"
+      }
+    },
+    "governing": {
+      "title": "Naaangkop na Batas",
+      "description": "Ang mga tuntunin ay pinamamahalaan ng:",
+      "items": {
+        "jurisdiction": "Ang kasunduang ito ay pinamamahalaan ng batas ng People's Republic of China",
+        "disputes": "Ang anumang hindi pagkakaunawaan ay dapat lutasin sa pamamagitan ng negosasyon",
+        "court": "Kung hindi magkasundo, dadalhin sa korte na may hurisdiksyon",
+        "language": "Ang bersyong Tsino ng kasunduang ito ang siyang tama"
+      }
+    },
+    "contact": {
+      "title": "Kontakin Kami",
+      "description": "Kung may tanong tungkol sa mga tuntunin ng serbisyo, makipag-ugnayan sa amin:",
+      "email": "Legal na Email",
+      "support": "Teknikal na Suporta"
+    },
+    "updates": {
+      "title": "Update ng Tuntunin",
+      "description": "Maaari naming i-update ang mga tuntunin ng serbisyo paminsan-minsan. Ang mahahalagang pagbabago ay ipo-post sa website. Ang patuloy na paggamit ng serbisyo ay nangangahulugang sumasang-ayon ka sa update."
+    }
   }
-} 
+}

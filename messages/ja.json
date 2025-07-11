@@ -1,42 +1,88 @@
 {
   "metadata": {
-    "title": "無料AI脱衣オンラインツール | 誰からでも服を取り除く",
-    "description": "ワンクリックで服を脱がせる！どんな画像でもヌードを表示する強力でリアルなAIツール。100%無料で無制限。今すぐ無料の脱衣AIウェブアプリを試して、瞬間的な結果を得よう！"
+    "title": "無料AI服脱ぎツール | 写真から服を除去",
+    "description": "ワンクリックで服を脱がせます！どんな画像でもヌードを表示できる強力でリアルなAIツール。100%無料で制限なし。今すぐ無料の服脱ぎAIウェブアプリを試して、即座に結果を取得！",
+    "privacy": {
+      "title": "プライバシーポリシー | Undress AI - プライバシー保護",
+      "description": "Undress AIがどのように個人情報を収集、使用、保護するかをご確認ください。私たちはプライバシーを保護し、アップロードされた画像は24時間後に自動削除、第三者とデータを共有しません。",
+      "keywords": "プライバシーポリシー, データ保護, AI画像処理, 個人情報保護, GDPR準拠, データ削除, プライバシー保護"
+    },
+    "about": {
+      "title": "私たちについて | Undress AI - 先進的なAI画像処理技術",
+      "description": "Undress AIの使命、技術的優位性、チームについて。私たちは最先端のAI画像処理技術を開発し、安全で効率的なAIサービスを提供します。",
+      "keywords": "AI画像処理, 人工知能技術, 深層学習, 画像認識, AIサービス, 技術チーム, 革新的技術"
+    },
+    "terms": {
+      "title": "利用規約 | Undress AI - 利用条件",
+      "description": "Undress AIサービス利用の規約と条件をご確認ください。ユーザー責任、サービス制限、知的財産権などの重要な法的条項が含まれます。",
+      "keywords": "利用規約, 使用条件, ユーザー契約, 法的条項, サービス制限, 知的財産権, ユーザー責任"
+    },
+    "contact": {
+      "title": "お問い合わせ | Undress AI - サポート",
+      "description": "技術サポート、協力相談、フィードバックはUndress AIチームまで。24/7オンラインサポートで迅速に対応します。",
+      "keywords": "お問い合わせ, 技術サポート, カスタマーサービス, フィードバック, 協力相談, オンラインサポート, ヘルプセンター"
+    }
   },
   "navbar": {
     "language": "言語",
-    "brand": "AI脱衣",
+    "brand": "AI服脱ぎ",
     "features": "機能",
-    "pricing": "料金",
-    "faq": "FAQ"
+    "pricing": "価格",
+    "faq": "よくある質問"
   },
   "hero": {
-    "title": "AI脱衣技術",
-    "subtitle": "高速画像処理のための先進AI技術",
+    "title": "AI服脱ぎ技術",
+    "subtitle": "先進的なAI技術で画像を迅速処理",
     "cta": "今すぐ試す",
-    "description": "最先端の人工知能技術を使用"
+    "description": "最先端の人工知能技術を使用",
+    "adTitle": "広告スペース",
+    "adDescription": "ここに広告を掲載できます",
+    "adContent": "[広告内容]"
   },
   "upload": {
     "title": "画像をアップロード",
-    "description": "処理したい画像を選択してください",
+    "description": "処理したい画像を選択",
     "button": "ファイルを選択",
     "processing": "処理中...",
     "success": "処理完了",
-    "dragText": "ドラッグ＆ドロップまたは",
+    "dragText": "ドラッグまたは",
     "selectFile": "ファイルを選択",
-    "supportedFormats": "JPG、PNG形式をサポート"
+    "supportedFormats": "JPG, PNG形式対応",
+    "reset": "リセット",
+    "startProcessing": "処理を開始",
+    "aiProcessing": "AI処理中...",
+    "fileSize": "MB",
+    "pleaseSelectImage": "画像ファイルを選択してください",
+    "adTitleCompact": "広告",
+    "adContentCompact": "[広告]",
+    "originalImage": "元の画像",
+    "processedImage": "処理結果",
+    "downloadResult": "結果をダウンロード",
+    "processingNote": "AI技術で画像を処理中...",
+    "processingComplete": "処理完了！結果が生成されました",
+    "previewTitle": "プレビュー",
+    "uploadImageFirst": "まず画像をアップロードしてください",
+    "processingFailed": "処理失敗",
+    "networkError": "ネットワークエラー、後で再試行してください",
+    "unknownError": "不明なエラー"
   },
   "faq": {
     "title": "よくある質問",
     "items": {
-      "q1": "AI脱衣とは何ですか？",
-      "a1": "AI脱衣は、人工知能を使用して画像や動画の人物から衣服をデジタル的に除去するツールです。",
-      "q2": "AI脱衣の使い方は？",
-      "a2": "写真をアップロードして、除去したい衣服の領域を選択するだけです。",
-      "q3": "生成処理にはどのくらい時間がかかりますか？",
-      "a3": "サーバーの負荷によりますが、1秒から1分程度です。",
-      "q4": "AI脱衣を無料で使用できますか？",
-      "a4": "はい、リクエスト制限なしで無料でジェネレーターを使用できます。"
+      "q1": "AI服脱ぎとは？",
+      "a1": "AI服脱ぎは、画像や動画からデジタル的に服を除去する人工知能ツールです。画像修復アルゴリズムなどの技術を使用し、服を脱がせたような効果を生成します。",
+      "q2": "使い方は？",
+      "a2": "写真をアップロードし、除去したい服の部分を選択するだけです。正確にマークするほど良い結果が得られます。",
+      "q3": "処理時間は？",
+      "a3": "サーバー負荷により1秒から1分程度かかります。",
+      "q4": "無料で使えますか？",
+      "a4": "はい、リクエスト制限なしで無料利用可能です。",
+      "q5": "安全ですか？",
+      "a5": "安全性はユーザーの意図に依存します。このようなツールは責任を持って使用し、芸術・教育・非商業目的のみに限定してください。画像処理前には必ず同意を得てください。",
+      "q6": "画像は保存されますか？",
+      "a6": "アップロードファイルは24時間後に自動削除され、生成結果は最大30日間保持されます。",
+      "q7": "生成結果は公開されますか？",
+      "a7": "いいえ、生成結果はあなたのみがアクセスでき、第三者と共有されません。"
     }
   },
   "footer": {
@@ -44,7 +90,339 @@
     "rights": "全著作権所有",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
-    "about": "会社概要",
-    "contact": "お問い合わせ"
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "cookieNotice": "当サイトはプライバシーポリシーに基づきCookieを使用し、より良い体験を提供します。"
+  },
+  "about": {
+    "title": "私たちについて",
+    "subtitle": "AI技術と使命について",
+    "backToHome": "ホームに戻る",
+    "breadcrumb": {
+      "home": "ホーム",
+      "about": "私たちについて"
+    },
+    "heroTitle": "革新的AI技術のパイオニア",
+    "heroDescription": "私たちは最先端のAI画像処理技術を開発し、安全で効率的なAIサービスを提供します。",
+    "mission": {
+      "title": "私たちの使命",
+      "description": "最先端AI技術により、誰もが簡単に人工知能の力を体験できるようにします。技術は人類に奉仕し、生活をより良くするべきです。"
+    },
+    "technology": {
+      "title": "技術的優位性",
+      "description": "最新の深層学習アルゴリズムと画像処理技術を採用し、高品質で効率的な処理を実現。",
+      "features": [
+        {
+          "title": "先進的アルゴリズム",
+          "description": "最新の深層学習モデルに基づく精密な画像処理能力"
+        },
+        {
+          "title": "高速処理",
+          "description": "最適化されたアルゴリズムで秒単位の画像処理"
+        },
+        {
+          "title": "高品質出力",
+          "description": "高解像度で自然な仕上がりを保証"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "プライバシー保護",
+      "description": "ユーザーのプライバシーを最優先にした厳格なデータ保護対策:",
+      "features": [
+        "アップロードファイルは24時間後自動削除",
+        "エンドツーエンド暗号化通信",
+        "ユーザーデータを保存・共有しない",
+        "国際プライバシー保護基準に準拠"
+      ]
+    },
+    "team": {
+      "title": "チーム紹介",
+      "description": "AI研究専門家、ソフトウェアエンジニア、プロダクトデザイナーからなる専門チームで、AI画像処理技術の研究開発に注力しています。",
+      "roles": {
+        "aiExpert": "AI研究専門家",
+        "engineer": "ソフトウェアエンジニア",
+        "designer": "プロダクトデザイナー",
+        "techExpert": "技術専門家"
+      }
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "質問や提案がある場合はお気軽にご連絡ください:",
+      "email": "メール",
+      "support": "技術サポート",
+      "phone": "電話番号",
+      "onlineSupport": "24/7 オンラインサポート",
+      "contactAction": "連絡する",
+      "readyTitle": "準備はできましたか？",
+      "readyDescription": "今すぐAI技術を体験し、革新的な画像処理能力を実感してください",
+      "tryNow": "今すぐ試す"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "いつでもサポートします",
+    "backToHome": "ホームに戻る",
+    "breadcrumb": {
+      "home": "ホーム",
+      "contact": "お問い合わせ"
+    },
+    "heroTitle": "いつでもサポート",
+    "heroDescription": "質問、提案、技術サポートが必要な場合、専門チームが迅速に対応し最適な解決策を提供します。",
+    "heroSubtitle": "24/7 専門サポートチーム",
+    "form": {
+      "title": "メッセージを送信",
+      "description": "以下の情報を入力し、すぐに返信します",
+      "name": "名前",
+      "namePlaceholder": "名前を入力",
+      "email": "メールアドレス",
+      "emailPlaceholder": "メールアドレスを入力",
+      "subject": "件名",
+      "subjectPlaceholder": "件名を入力",
+      "message": "メッセージ内容",
+      "messagePlaceholder": "質問や提案を詳しく記入...",
+      "submit": "送信",
+      "submitting": "送信中...",
+      "success": "送信成功！すぐに返信します。",
+      "error": "送信失敗、後で再試行してください。",
+      "required": "必須項目",
+      "invalidEmail": "有効なメールアドレスを入力",
+      "minLength": "最低{min}文字必要"
+    },
+    "info": {
+      "title": "連絡先情報",
+      "email": {
+        "title": "メール",
+        "address": "undress.online.ai@gmail.com",
+        "description": "技術サポートはメールで"
+      },
+      "response": {
+        "title": "返信時間",
+        "time": "24時間以内",
+        "description": "24時間以内に返信することを約束"
+      },
+      "support": {
+        "title": "技術サポート",
+        "availability": "24/7 対応",
+        "description": "24時間サポートサービス"
+      }
+    },
+    "types": {
+      "title": "サポート内容",
+      "technical": {
+        "title": "技術サポート",
+        "description": "使用中の技術的問題を解決"
+      },
+      "feedback": {
+        "title": "フィードバック",
+        "description": "改善提案を共有"
+      },
+      "business": {
+        "title": "ビジネス協力",
+        "description": "協力機会やビジネスパートナーシップについて"
+      },
+      "general": {
+        "title": "一般問い合わせ",
+        "description": "その他の質問や相談"
+      }
+    }
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "backToHome": "ホームに戻る",
+    "lastUpdated": "最終更新",
+    "updateDate": "2024年1月15日",
+    "breadcrumb": {
+      "home": "ホーム",
+      "privacy": "プライバシーポリシー"
+    },
+    "introduction": {
+      "title": "はじめに",
+      "content": "本プライバシーポリシーは、AI画像処理サービス利用時に提供される情報の収集、使用、保護方法について説明します。私たちはプライバシー保護を重視し、個人情報を安全に処理します。"
+    },
+    "dataCollection": {
+      "title": "情報収集",
+      "description": "以下の情報を収集する場合があります:",
+      "items": {
+        "uploaded": "アップロード画像（処理目的のみ）",
+        "technical": "技術情報（IPアドレス、ブラウザ種類、デバイス情報）",
+        "usage": "使用データ（アクセス時間、使用機能）",
+        "device": "デバイス情報（OS、画面解像度）"
+      }
+    },
+    "dataUsage": {
+      "title": "情報の使用",
+      "description": "収集した情報は以下の目的で使用:",
+      "items": {
+        "processing": "アップロード画像の処理とAIサービス提供",
+        "improvement": "サービス品質とユーザー体験の向上",
+        "support": "技術サポートとカスタマーサービス",
+        "security": "サービスセキュリティ維持と悪用防止"
+      }
+    },
+    "dataProtection": {
+      "title": "データ保護",
+      "description": "以下の対策でデータを保護:",
+      "items": {
+        "encryption": "SSL/TLS暗号化通信",
+        "autoDelete": "アップロード画像は24時間後自動削除",
+        "accessControl": "厳格なアクセス制御",
+        "monitoring": "定期的なセキュリティ監査"
+      }
+    },
+    "dataSharing": {
+      "title": "データ共有",
+      "description": "プライバシー保護の約束:",
+      "noSharing": "個人情報やアップロード画像を第三者と共有・販売・開示しません。"
+    },
+    "cookies": {
+      "title": "Cookieポリシー",
+      "description": "Cookieを使用して体験を向上:",
+      "items": {
+        "essential": "必須Cookie：サイト正常動作のため",
+        "analytics": "分析Cookie：サイト利用状況把握のため",
+        "preferences": "設定Cookie：言語や設定を記憶"
+      }
+    },
+    "userRights": {
+      "title": "ユーザー権利",
+      "description": "以下の権利を有します:",
+      "items": {
+        "access": "アクセス権：収集した情報を閲覧",
+        "correction": "訂正権：不正確な個人情報を修正",
+        "deletion": "削除権：個人情報の削除を要求",
+        "objection": "異議申立て権：個人情報処理に異議"
+      }
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "プライバシーポリシーに関する質問や権利行使は以下へ:",
+      "email": "プライバシーメール",
+      "support": "技術サポート"
+    },
+    "updates": {
+      "title": "ポリシー更新",
+      "description": "本ポリシーは随時更新されます。重要な変更はサイトで通知します。サービス継続利用は更新されたポリシーへの同意を意味します。"
+    }
+  },
+  "terms": {
+    "title": "利用規約",
+    "backToHome": "ホームに戻る",
+    "lastUpdated": "最終更新",
+    "updateDate": "2024年1月15日",
+    "breadcrumb": {
+      "home": "ホーム",
+      "terms": "利用規約"
+    },
+    "acceptance": {
+      "title": "規約の同意",
+      "content": "Undress AIサービスへのアクセスと使用により、本利用規約に同意したものとみなされます。同意できない場合はサービスを利用しないでください。"
+    },
+    "serviceDescription": {
+      "title": "サービス内容",
+      "content": "Undress AIはAI画像処理サービスを提供し、画像編集、コンテンツ生成、画像分析機能などを含みます。",
+      "items": {
+        "processing": "AI画像処理・編集サービス",
+        "generation": "AIコンテンツ生成",
+        "analysis": "画像分析・認識サービス",
+        "api": "APIインターフェースと開発者ツール"
+      }
+    },
+    "userResponsibilities": {
+      "title": "ユーザー責任",
+      "description": "サービス利用時は以下に同意:",
+      "items": {
+        "lawful": "合法目的のみに使用",
+        "consent": "画像のアップロード・処理権限を保有",
+        "respect": "他人のプライバシーと権利を尊重",
+        "noHarm": "有害・悪意ある活動に使用しない",
+        "compliance": "適用される法令を遵守",
+        "accurate": "正確で真実な情報を提供"
+      }
+    },
+    "prohibitedUse": {
+      "title": "禁止行為",
+      "description": "以下の目的で使用禁止:",
+      "items": {
+        "illegal": "違法行為",
+        "harassment": "嫌がらせ、脅迫、他者への危害",
+        "minors": "未成年者の不適切なコンテンツ",
+        "copyright": "知的財産権侵害",
+        "malware": "マルウェアやウイルスの拡散",
+        "spam": "スパムや未承諾コンテンツの送信"
+      }
+    },
+    "intellectualProperty": {
+      "title": "知的財産権",
+      "description": "サービスと関連技術は知的財産法で保護:",
+      "items": {
+        "ownership": "Undress AIがサービスの全権利を所有",
+        "license": "限定的、非独占的な使用許諾を付与",
+        "userContent": "アップロードコンテンツの所有権はユーザーに帰属（処理権限を当社に許諾）",
+        "generated": "AI生成コンテンツの所有権は適用法律に準拠"
+      }
+    },
+    "serviceAvailability": {
+      "title": "サービスの可用性",
+      "description": "サービス可用性について:",
+      "items": {
+        "uptime": "高可用性を努力しますが100%稼働を保証しません",
+        "maintenance": "定期メンテナンスと更新を行う場合あり",
+        "interruption": "技術的問題で一時中断する可能性",
+        "modification": "サービスの変更・終了権利を留保"
+      }
+    },
+    "dataAndPrivacy": {
+      "title": "データとプライバシー",
+      "description": "データ処理はプライバシーポリシーに準拠:",
+      "items": {
+        "processing": "サービス提供目的のみでデータを処理",
+        "retention": "アップロード画像は24時間後自動削除",
+        "security": "合理的な対策でデータを保護",
+        "sharing": "個人データを第三者と共有しない"
+      },
+      "privacyNote": "詳細なデータ処理については",
+      "privacyLink": "プライバシーポリシー"
+    },
+    "limitation": {
+      "title": "責任制限",
+      "description": "法律の許す最大範囲で:",
+      "items": {
+        "asIs": "サービスは「現状有姿」で提供され、明示または黙示の保証なし",
+        "damages": "間接的、特別的、結果的損害について責任を負わない",
+        "liability": "当社の責任総額はお支払い頂いた金額に限定",
+        "force": "不可抗力による損害について責任を負わない"
+      }
+    },
+    "termination": {
+      "title": "契約終了",
+      "description": "サービス終了に関する条項:",
+      "items": {
+        "userTermination": "ユーザーはいつでもサービス利用を停止可能",
+        "ourTermination": "規約違反の場合、アクセス権を終了する場合あり",
+        "effect": "終了後、利用権限は直ちに失効",
+        "survival": "終了後も効力を保持する条項あり"
+      }
+    },
+    "governing": {
+      "title": "準拠法",
+      "description": "本規約は以下の法律に準拠:",
+      "items": {
+        "jurisdiction": "中華人民共和国法律に準拠",
+        "disputes": "紛争は友好的な協議で解決",
+        "court": "協議不調の場合は管轄裁判所に提訴",
+        "language": "中国語版が正文"
+      }
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "利用規約に関する質問は以下へ:",
+      "email": "法務メール",
+      "support": "技術サポート"
+    },
+    "updates": {
+      "title": "規約更新",
+      "description": "本規約は随時更新されます。重要な変更はサイトで通知します。サービス継続利用は更新された規約への同意を意味します。"
+    }
   }
-} 
+}
