@@ -106,7 +106,6 @@ export default async function RootLayout({
         <link rel="preload" href="/images/bgSm.webp" as="image" type="image/webp" />
         <link rel="preload" href="/images/logo.png" as="image" type="image/png" />
 
-        <script data-cfasync="false" type='text/javascript' src='//wreckbargaininghers.com/cd/94/09/cd9409a7bfa198d88390178a92033181.js'></script>
       </head>
       <body className='antialiased'>
         <NextIntlClientProvider messages={messages}>
