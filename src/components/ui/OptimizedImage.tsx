@@ -116,7 +116,7 @@ export default function OptimizedImage({
         blurDataURL={blurDataURL}
         onLoad={handleLoad}
         onError={handleError}
-        className={`transition-opacity duration-300 ${
+        className={`transition-opacity object-contain  duration-300 ${
           isLoading ? 'opacity-0' : 'opacity-100'
         }`}
         style={{

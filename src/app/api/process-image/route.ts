@@ -279,12 +279,11 @@ export async function POST(request: NextRequest) {
 
   let blobImgUpload = await base64ToBlob(image);
 
-  let uploadRes = await client.uploadImage(blobImgUpload, fileName);
+  let uploadRes = await client.uploadImage(blobImgUpload, "demo.png", true);
   console.log('uploadRes', uploadRes)
 
   prompt['216'].inputs.image = uploadRes.name;
-    // prompt['216'].inputs.image = image;
-    // Generate images
+
     const images = await client.getImages(prompt);
 
     // Save images to file
@@ -332,12 +331,12 @@ export async function POST(request: NextRequest) {
 }
 
 
-async function base64ToBlob(base64String: string): Promise<Blob> {
+async function base64ToBlob(base64String: string): Promise<Buffer> {
   const parts = base64String.split(';base64,');
   const contentType = parts[0].split(':')[1];
   const raw = Buffer.from(parts[1], 'base64');
   
-  return new Blob([raw], { type: contentType });
+  return raw;
 }
 
 // 处理OPTIONS请求（CORS预检）
