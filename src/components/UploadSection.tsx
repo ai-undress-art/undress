@@ -85,7 +85,7 @@ export default function UploadSection() {
           }
           return prev + Math.random() * 15
         })
-      }, 200)
+      }, 1000)
 
       // 将文件转换为base64
       const base64Image = await fileToBase64(selectedFile);
